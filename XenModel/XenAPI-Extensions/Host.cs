@@ -183,13 +183,17 @@ namespace XenAPI
             return new DateTime(2030, 1, 1);
         }
 
+        static bool unrestricted = true;
+        
         public static bool RestrictRBAC(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_rbac");
         }
 
         public static bool RestrictDMC(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_dmc");
         }
 
@@ -200,6 +204,7 @@ namespace XenAPI
         /// <returns></returns>
         public static bool RestrictHotfixApply(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_hotfix_apply");
         }
 
@@ -210,66 +215,79 @@ namespace XenAPI
         /// <returns></returns>
         public static bool RestrictBatchHotfixApply(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_batch_hotfix_apply");
         }
 
         public static bool RestrictCheckpoint(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_checkpoint");
         }
 
         public static bool RestrictCifs(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_cifs");
         }
 
         public static bool RestrictVendorDevice(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_pci_device_for_auto_update");
         }
 
         public static bool RestrictWLB(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_wlb");
         }
 
         public static bool RestrictVSwitchController(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_vswitch_controller"); 
         }
    
         public static bool RestrictSriovNetwork(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_network_sriov");
         }
 
         public static bool RestrictPooling(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_pooling");
         }
 
         public static bool RestrictVMSnapshotSchedule(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_vmss");
         }
 
         public static bool RestrictVMAppliances(Host h)
         {
+            if(unrestricted) return false;
             return false;
         }
 
         public static bool RestrictDR(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_dr");
         }
 
         public static bool RestrictCrossPoolMigrate(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_storage_xen_motion");
         }
 
         public static bool RestrictChangedBlockTracking(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_cbt");
         }
 
@@ -287,56 +305,67 @@ namespace XenAPI
 
         public static bool RestrictHA(Host h)
         {
+            if(unrestricted) return false;
             return !BoolKey(h.license_params, "enable_xha");
         }
 
         public static bool RestrictAlerts(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_email_alerting");
         }
 
         public static bool RestrictStorageChoices(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_netapp");
         }
 
         public static bool RestrictPerformanceGraphs(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_historical_performance");
         }
 
         public static bool RestrictCpuMasking(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_cpu_masking");
         }
 
         public static bool RestrictGpu(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_gpu");
         }
 
         public static bool RestrictUsbPassthrough(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_usb_passthrough");
         }
 
         public static bool RestrictVgpu(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_vgpu");
         }
 
         public static bool RestrictManagementOnVLAN(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_management_on_vlan");
         }
 
         public static bool RestrictIntegratedGpuPassthrough(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_integrated_gpu_passthrough");
         }
 
         public static bool RestrictExportResourceData(Host h)
         {
+            if(unrestricted) return false;
             if (Helpers.CreedenceOrGreater(h.Connection))
             {
                 return BoolKeyPreferTrue(h.license_params, "restrict_export_resource_data");
@@ -353,6 +382,7 @@ namespace XenAPI
 
         public static bool RestrictIntraPoolMigrate(Host h)
         {
+            if(unrestricted) return false;
             return BoolKey(h.license_params, "restrict_xen_motion"); 
         }
 
@@ -361,16 +391,19 @@ namespace XenAPI
         /// </summary>
         public static bool RestrictAD(Host h)
         {
+            if(unrestricted) return false;
             return BoolKey(h.license_params, "restrict_ad");
         }
 
         public static bool RestrictReadCaching(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_read_caching");
         }
 
         public static bool RestrictHealthCheck(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_health_check"); 
         }
 
@@ -379,16 +412,19 @@ namespace XenAPI
         /// </summary>
         public static bool RestrictVss(Host h)
         {
+            if(unrestricted) return false;
             return BoolKey(h.license_params, "restrict_vss"); 
         }
 
         public static bool RestrictPoolSize(Host h)
         {
+            if(unrestricted) return false;
             return BoolKey(h.license_params, "restrict_pool_size");
         }
 
         public static bool RestrictPvsCache(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_pvs_proxy");
         }
 
@@ -398,6 +434,7 @@ namespace XenAPI
         /// </summary>
         public static bool RestrictSslLegacySwitch(Host h)
         {
+            if(unrestricted) return false;
             return Helpers.DundeeOrGreater(h)
                     ? BoolKey(h.license_params, "restrict_ssl_legacy_switch")
                     : BoolKeyPreferTrue(h.license_params, "restrict_ssl_legacy_switch");
@@ -405,16 +442,19 @@ namespace XenAPI
 
         public static bool RestrictLivePatching(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_live_patching");
         }
 
         public static bool RestrictIGMPSnooping(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_igmp_snooping");
         }
 
         public static bool RestrictVcpuHotplug(Host h)
         {
+            if(unrestricted) return false;
             if (Helpers.ElyOrGreater(h.Connection))
             {
                 return BoolKeyPreferTrue(h.license_params, "restrict_set_vcpus_number_live");
@@ -435,6 +475,7 @@ namespace XenAPI
         /// </summary>
         public static bool RestrictRpu(Host h)
         {
+            if(unrestricted) return false;
             return h.license_params.ContainsKey("restrict_rpu")
                 ? BoolKey(h.license_params, "restrict_rpu")
                 : h.IsFreeLicenseOrExpired(); // restrict on Free edition or if the license has expired
@@ -442,6 +483,7 @@ namespace XenAPI
 
         public static bool RestrictCorosync(Host h)
         {
+            if(unrestricted) return false;
             return BoolKeyPreferTrue(h.license_params, "restrict_corosync");
         }
         
