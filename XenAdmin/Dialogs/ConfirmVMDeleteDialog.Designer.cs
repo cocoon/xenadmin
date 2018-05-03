@@ -33,7 +33,7 @@ namespace XenAdmin.Dialogs
             this.btnNo = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.AlertLabel = new System.Windows.Forms.Label();
-            this.listView = new XenAdmin.Dialogs.ConfirmVMDeleteDialog.ListViewDeleteDialog();
+            //this.listView = new XenAdmin.Dialogs.ConfirmVMDeleteDialog.ListViewDeleteDialog();
             this.columnHeaderName = new System.Windows.Forms.ColumnHeader();
             this.columnHeaderVM = new System.Windows.Forms.ColumnHeader();
             this.buttonSelectAll = new System.Windows.Forms.Button();
@@ -71,23 +71,22 @@ namespace XenAdmin.Dialogs
             // 
             // listView
             // 
-            resources.ApplyResources(this.listView, "listView");
-            this.listView.CheckBoxes = true;
-            this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeaderName,
-            this.columnHeaderVM});
-            this.listView.FullRowSelect = true;
-            this.listView.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("listView.Groups"))),
-            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("listView.Groups1")))});
-            this.listView.Name = "listView";
-            this.listView.Sorting = System.Windows.Forms.SortOrder.Ascending;
-            this.listView.UseCompatibleStateImageBehavior = false;
-            this.listView.View = System.Windows.Forms.View.Details;
-            this.listView.ItemChecked += new System.Windows.Forms.ItemCheckedEventHandler(this.listView_ItemChecked);
-            this.listView.ColumnWidthChanged += new System.Windows.Forms.ColumnWidthChangedEventHandler(this.listView_ColumnWidthChanged);
-            this.listView.ColumnWidthChanging += new System.Windows.Forms.ColumnWidthChangingEventHandler(this.listView_ColumnWidthChanging);
-            // 
+//            resources.ApplyResources(this.listView, "listView");
+//            this.listView.CheckBoxes = true;
+//            this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+//            this.columnHeaderName,
+//            this.columnHeaderVM});
+//            this.listView.FullRowSelect = true;
+//            this.listView.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
+//            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("listView.Groups"))),
+//            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("listView.Groups1")))});
+//            this.listView.Name = "listView";
+//            this.listView.Sorting = System.Windows.Forms.SortOrder.Ascending;
+//            this.listView.UseCompatibleStateImageBehavior = false;
+//            this.listView.View = System.Windows.Forms.View.Details;
+//            this.listView.ItemChecked += new System.Windows.Forms.ItemCheckedEventHandler(this.listView_ItemChecked);
+//            this.listView.ColumnWidthChanged += new System.Windows.Forms.ColumnWidthChangedEventHandler(this.listView_ColumnWidthChanged);
+//            this.listView.ColumnWidthChanging += new System.Windows.Forms.ColumnWidthChangingEventHandler(this.listView_ColumnWidthChanging);            // 
             // columnHeaderName
             // 
             resources.ApplyResources(this.columnHeaderName, "columnHeaderName");
@@ -124,7 +123,7 @@ namespace XenAdmin.Dialogs
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.buttonSelectAll);
-            this.Controls.Add(this.listView);
+            //this.Controls.Add(this.listView);
             this.Controls.Add(this.AlertLabel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnNo);
@@ -141,7 +140,7 @@ namespace XenAdmin.Dialogs
         private System.Windows.Forms.Button btnNo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label AlertLabel;
-        private ListViewDeleteDialog listView;
+        //private ListViewDeleteDialog listView;
         private System.Windows.Forms.ColumnHeader columnHeaderName;
         private System.Windows.Forms.ColumnHeader columnHeaderVM;
         private System.Windows.Forms.Button buttonSelectAll;

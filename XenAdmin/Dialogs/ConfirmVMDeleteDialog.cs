@@ -56,8 +56,8 @@ namespace XenAdmin.Dialogs
 
             // We have to set the header text again here because they're in base64
             // encoding in the resx, so can't be easily localised: see CA-43371.
-            listView.Groups["listViewGroupAttachedDisks"].Header = Messages.ATTACHED_VIRTUAL_DISKS;
-            listView.Groups["listViewGroupSnapshots"].Header = Messages.SNAPSHOTS;
+            //listView.Groups["listViewGroupAttachedDisks"].Header = Messages.ATTACHED_VIRTUAL_DISKS;
+            //listView.Groups["listViewGroupSnapshots"].Header = Messages.SNAPSHOTS;
 
             List<VM> vmList = new List<VM>(vms);
             if (vmList.Count == 1)
@@ -263,37 +263,41 @@ namespace XenAdmin.Dialogs
             EnableSelectAllClear();
         }
 
-        private class ListViewDeleteDialog:ListView
-        {
-            private bool _b = false;
-            private string _msg = Messages.EMPTY_LIST_DISK_SNAPSHOTS;
-            protected override void WndProc(ref System.Windows.Forms.Message m)
-            {
-                base.WndProc(ref m);
-                if (m.Msg == 20)
-                {
-                    if (Items.Count == 0)
-                    {
-                        _b = true;
-                        using (Graphics g = CreateGraphics())
-                        {
-                            int w = (Width - g.MeasureString(_msg, Font).ToSize().Width) / 2;
-                            g.DrawString(_msg, Font, SystemBrushes.ControlText, w, 30);
-                        }
-                    }
-                    else
-                    {
-                        if (_b)
-                        {
-                            Invalidate();
-                            _b = false;
-                        }
-                    }
-                }
-
-                if (m.Msg == 4127)
-                    Invalidate();
-            }
-        }
+//        private class ListViewDeleteDialog:ListView
+//        {
+//            private bool _b = false;
+//            private string _msg = Messages.EMPTY_LIST_DISK_SNAPSHOTS;
+//            protected override void WndProc(ref System.Windows.Forms.Message m)
+//            {
+//                base.WndProc(ref m);
+//                if (m.Msg == 20)
+//                {
+//                    if (Items.Count == 0)
+//                    {
+//                        _b = true;
+//                        using (Graphics g = CreateGraphics())
+//                        {
+//                            int w = (Width - g.MeasureString(_msg, Font).ToSize().Width) / 2;
+//                            g.DrawString(_msg, Font, SystemBrushes.ControlText, w, 30);
+//                        }
+//                    }
+//                    else
+//                    {
+//                        if (_b)
+//                        {
+//                            Invalidate();
+//                            _b = false;
+//                        }
+//                    }
+//                }
+//
+//                if (m.Msg == 4127)
+//                    Invalidate();
+//
+//
+//            }
+//
+//
+//        }
     }
 }

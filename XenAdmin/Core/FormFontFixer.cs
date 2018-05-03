@@ -70,174 +70,179 @@ using System.Windows.Forms;
 
 namespace XenAdmin.Core
 {
-    public static class FormFontFixer
-    {
-        [AttributeUsage(AttributeTargets.Class)]
-        public class PreserveFonts : Attribute
-        {
-            public bool Preserve;
-            public PreserveFonts(bool preserve)
-            {
-                Preserve = preserve;
-            }
-        }
+	public static class FormFontFixer
+	{
+		[AttributeUsage (AttributeTargets.Class)]
+		public class PreserveFonts : Attribute
+		{
+			public bool Preserve;
 
-        //This list contains the fonts we want to replace.
-        private static readonly List<string> FontReplaceList
-            = new List<string>(new[] {"Microsoft Sans Serif", "Tahoma", "Verdana", "Segoe UI", "Meiryo", "Meiryo UI", "MS UI Gothic", "Arial", "\u5b8b\u4f53"});
+			public PreserveFonts (bool preserve)
+			{
+				Preserve = preserve;
+			}
+		}
 
-        /// <summary>
-        /// May be null, implying that the fonts cannot be fixed.
-        /// </summary>
-        public static Font DefaultFont;
+		//This list contains the fonts we want to replace.
+		private static readonly List<string> FontReplaceList
+            = new List<string> (new[] {
+			"Microsoft Sans Serif",
+			"Tahoma",
+			"Verdana",
+			"Segoe UI",
+			"Meiryo",
+			"Meiryo UI",
+			"MS UI Gothic",
+			"Arial",
+			"\u5b8b\u4f53"
+		});
 
-        static FormFontFixer()
-        {
-            //Basically the font name we want to use should be easy to choose by using the SystemFonts class. However, this class
-            //is hard-coded (!!) and doesn't seem to work right. On XP, it will mostly return "Microsoft Sans Serif" except
-            //for the DialogFont property (=Tahoma) but on Vista, this class will return "Tahoma" instead of "SegoeUI" for this property!
+		/// <summary>
+		/// May be null, implying that the fonts cannot be fixed.
+		/// </summary>
+		public static Font DefaultFont;
 
-            //Therefore we will do the following: If we are running on a OS below XP, we will exit because the only font available
-            //will be MS Sans Serif. On XP, we gonna use "Tahoma", and any other OS we will use the value of the MessageBoxFont
-            //property because this seems to be set correctly on Vista an above.
+		static FormFontFixer ()
+		{
+			//Basically the font name we want to use should be easy to choose by using the SystemFonts class. However, this class
+			//is hard-coded (!!) and doesn't seem to work right. On XP, it will mostly return "Microsoft Sans Serif" except
+			//for the DialogFont property (=Tahoma) but on Vista, this class will return "Tahoma" instead of "SegoeUI" for this property!
 
-            DefaultFont =
-                Environment.OSVersion.Platform == PlatformID.Win32Windows || Environment.OSVersion.Version.Major < 5 ?
-                    null : // 95, 98, and NT can't be fixed.
-                Environment.OSVersion.Version.Major < 6 ?
-                    SystemFonts.DialogFont : // 2K (5.0), XP (5.1), 2K3 and XP Pro (5.2), using Tahoma by default
-                    SystemFonts.MessageBoxFont; // Vista and above, using SegoeUI by default
-        }
+			//Therefore we will do the following: If we are running on a OS below XP, we will exit because the only font available
+			//will be MS Sans Serif. On XP, we gonna use "Tahoma", and any other OS we will use the value of the MessageBoxFont
+			//property because this seems to be set correctly on Vista an above.
 
-        public static void Fix(Form form)
-        {
-            if (DefaultFont == null)
-                return;
+			DefaultFont = null;
+			if (Environment.OSVersion.Platform == PlatformID.Unix) {
+				DefaultFont = SystemFonts.DefaultFont;
+			} else if (Environment.OSVersion.Platform == PlatformID.Win32Windows || Environment.OSVersion.Version.Major < 5) {
+				DefaultFont = null; // 95, 98, and NT can't be fixed.
+			} else if (Environment.OSVersion.Version.Major < 6) {
+				DefaultFont = SystemFonts.DialogFont; // 2K (5.0), XP (5.1), 2K3 and XP Pro (5.2), using Tahoma by default
+			} else {
+				DefaultFont = SystemFonts.MessageBoxFont; // Vista and above, using SegoeUI by default
+			}
+		}
 
-            RegisterAndReplace(form);
-        }
+		public static void Fix (Form form)
+		{
+			if (DefaultFont == null)
+				return;
 
-        private static void RegisterAndReplace(Control c)
-        {
-            if (ShouldPreserveFonts(c))
-                return;
+			RegisterAndReplace (form);
+		}
 
-            if (c is ToolStrip)
-            {
-                ToolStrip t = (ToolStrip)c;
-                Register(t);
-                Replace(t);
-                foreach (ToolStripItem d in t.Items)
-                    Replace(d);
-            }
-            else
-            {
-                Register(c);
-                Replace(c);
-                foreach (Control d in c.Controls)
-                    RegisterAndReplace(d);
-            }
-        }
+		private static void RegisterAndReplace (Control c)
+		{
+			if (ShouldPreserveFonts (c))
+				return;
 
-        private static bool ShouldPreserveFonts(Control c)
-        {
-            Type t = c.GetType();
-            object [] arr = t.GetCustomAttributes(typeof(PreserveFonts), true);
-            return arr.Length > 0 && ((PreserveFonts)arr[0]).Preserve;
-        }
+			if (c is ToolStrip) {
+				ToolStrip t = (ToolStrip)c;
+				Register (t);
+				Replace (t);
+				foreach (ToolStripItem d in t.Items)
+					Replace (d);
+			} else {
+				Register (c);
+				Replace (c);
+				foreach (Control d in c.Controls)
+					RegisterAndReplace (d);
+			}
+		}
 
-        private static void Deregister(Control c)
-        {
-            c.ControlAdded -= c_ControlAdded;
-            c.ControlRemoved -= c_ControlRemoved;
+		private static bool ShouldPreserveFonts (Control c)
+		{
+			Type t = c.GetType ();
+			object[] arr = t.GetCustomAttributes (typeof(PreserveFonts), true);
+			return arr.Length > 0 && ((PreserveFonts)arr [0]).Preserve;
+		}
 
-            foreach (Control d in c.Controls)
-                Deregister(d);
-        }
+		private static void Deregister (Control c)
+		{
+			c.ControlAdded -= c_ControlAdded;
+			c.ControlRemoved -= c_ControlRemoved;
 
-        private static void Deregister(ToolStrip c)
-        {
-            c.ItemAdded -= c_ItemAdded;
-        }
+			foreach (Control d in c.Controls)
+				Deregister (d);
+		}
 
-        private static void Register(Control c)
-        {
-            if (!IsLeaf(c))
-            {
-                c.ControlAdded -= c_ControlAdded;
-                c.ControlAdded += c_ControlAdded;
+		private static void Deregister (ToolStrip c)
+		{
+			c.ItemAdded -= c_ItemAdded;
+		}
 
-                c.ControlRemoved -= c_ControlRemoved;
-                c.ControlRemoved += c_ControlRemoved;
-            }
-        }
+		private static void Register (Control c)
+		{
+			if (!IsLeaf (c)) {
+				c.ControlAdded -= c_ControlAdded;
+				c.ControlAdded += c_ControlAdded;
 
-        private static void Register(ToolStrip c)
-        {
-            c.ItemAdded -= c_ItemAdded;
-            c.ItemAdded += c_ItemAdded;
-        }
+				c.ControlRemoved -= c_ControlRemoved;
+				c.ControlRemoved += c_ControlRemoved;
+			}
+		}
 
-        static void c_ControlAdded(object sender, ControlEventArgs e)
-        {
-            RegisterAndReplace(e.Control);
-        }
+		private static void Register (ToolStrip c)
+		{
+			c.ItemAdded -= c_ItemAdded;
+			c.ItemAdded += c_ItemAdded;
+		}
 
-        static void c_ControlRemoved(object sender, ControlEventArgs e)
-        {
-            Deregister(e.Control);
-        }
+		static void c_ControlAdded (object sender, ControlEventArgs e)
+		{
+			RegisterAndReplace (e.Control);
+		}
 
-        static void c_ItemAdded(object sender, ToolStripItemEventArgs e)
-        {
-            Replace(e.Item);
-        }
+		static void c_ControlRemoved (object sender, ControlEventArgs e)
+		{
+			Deregister (e.Control);
+		}
 
-        private static bool IsLeaf(Control c)
-        {
-            return c is Button || c is Label || c is TextBox || c is ComboBox || c is ListBox;
-        }
+		static void c_ItemAdded (object sender, ToolStripItemEventArgs e)
+		{
+			Replace (e.Item);
+		}
 
-        private static void Replace(Control c)
-        {
-            c.Font = ReplacedFont(c.Font);
-        }
+		private static bool IsLeaf (Control c)
+		{
+			return c is Button || c is Label || c is TextBox || c is ComboBox || c is ListBox;
+		}
 
-        private static void Replace(ToolStripItem c)
-        {
-            c.Font = ReplacedFont(c.Font);
-        }
+		private static void Replace (Control c)
+		{
+			c.Font = ReplacedFont (c.Font);
+		}
 
-        private static Font ReplacedFont(Font f)
-        {
-            //only replace fonts that use one the "system fonts" we have declared
-            if (FontReplaceList.IndexOf(f.Name) > -1)
-            {
-                //Now check the size, when the size is 9 or below it's the default font size and we do not keep the size since
-                //SegoeUI has a complete different spacing (and thus size) than MS SansS or Tahoma.
+		private static void Replace (ToolStripItem c)
+		{
+			c.Font = ReplacedFont (c.Font);
+		}
 
-                //Also check if there are any styles applied on the font (e.g. Italic) which we need to apply to the new
-                //font as well.
+		private static Font ReplacedFont (Font f)
+		{
+			//only replace fonts that use one the "system fonts" we have declared
+			if (FontReplaceList.IndexOf (f.Name) > -1) {
+				//Now check the size, when the size is 9 or below it's the default font size and we do not keep the size since
+				//SegoeUI has a complete different spacing (and thus size) than MS SansS or Tahoma.
 
-                bool UseDefaultSize = f.Size >= 8 && f.Size <= 9;
-                bool UseDefaultStyle = !f.Italic && !f.Strikeout && !f.Underline && !f.Bold;
+				//Also check if there are any styles applied on the font (e.g. Italic) which we need to apply to the new
+				//font as well.
 
-                //if everything is set to defaults, we can use our prepared font right away
-                if (UseDefaultSize && UseDefaultStyle)
-                {
-                    return DefaultFont;
-                }
-                else
-                {
-                    //There are non default properties set so
-                    //there is some work we need to do...
-                    return new Font(DefaultFont.FontFamily, UseDefaultSize ? DefaultFont.SizeInPoints : f.SizeInPoints, f.Style);
-                }
-            }
-            else
-            {
-                return f;
-            }
-        }
-    }
+				bool UseDefaultSize = f.Size >= 8 && f.Size <= 9;
+				bool UseDefaultStyle = !f.Italic && !f.Strikeout && !f.Underline && !f.Bold;
+
+				//if everything is set to defaults, we can use our prepared font right away
+				if (UseDefaultSize && UseDefaultStyle) {
+					return DefaultFont;
+				} else {
+					//There are non default properties set so
+					//there is some work we need to do...
+					return new Font (DefaultFont.FontFamily, UseDefaultSize ? DefaultFont.SizeInPoints : f.SizeInPoints, f.Style);
+				}
+			} else {
+				return f;
+			}
+		}
+	}
 }

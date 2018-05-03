@@ -104,7 +104,7 @@ namespace XenAdmin
         public static Color HeaderGradientStartColor = Color.FromArgb(57, 109, 140);
         public static Color HeaderGradientEndColor = Color.FromArgb(63, 139, 137);
         public static Color HeaderGradientForeColor = Color.White;
-        public static Font HeaderGradientFont = new Font(DefaultFont.FontFamily, 11.25f);
+		public static Font HeaderGradientFont = DefaultFont; //new Font(DefaultFont.FontFamily, 11.25f);
         public static Font HeaderGradientFontSmall = DefaultFont;
         public static Font TabbedDialogHeaderFont = HeaderGradientFont;
 
@@ -159,8 +159,8 @@ namespace XenAdmin
 
         public static bool IsThemed = false;
 
-        [DllImport("uxtheme", ExactSpelling = true)]
-        public extern static int IsAppThemed();
+        //[DllImport("uxtheme", ExactSpelling = true)]
+        //public extern static int IsAppThemed();
 
         static Program()
         {
@@ -174,7 +174,7 @@ namespace XenAdmin
             log4net.Config.XmlConfigurator.ConfigureAndWatch(new FileInfo(Assembly.GetCallingAssembly().Location + ".config"));
             log = log4net.LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
-            IsThemed = IsAppThemed() > 0 ? true : false;
+            //IsThemed = IsAppThemed() > 0 ? true : false;
             SetDefaultFonts();
         }
 
@@ -358,7 +358,7 @@ namespace XenAdmin
 
             try
             {
-                ConnectPipe();
+                //ConnectPipe();
             }
             catch (System.ComponentModel.Win32Exception exn)
             {

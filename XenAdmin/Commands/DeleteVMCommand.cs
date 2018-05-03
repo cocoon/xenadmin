@@ -76,31 +76,31 @@ namespace XenAdmin.Commands
 
         protected sealed override void ExecuteCore(SelectedItemCollection selection)
         {
-            ConfirmVMDeleteDialog dialog = new ConfirmVMDeleteDialog(selection.AsXenObjects<VM>());
+            //ConfirmVMDeleteDialog dialog = new ConfirmVMDeleteDialog(selection.AsXenObjects<VM>());
 
-            if (MainWindowCommandInterface.RunInAutomatedTestMode || dialog.ShowDialog(Parent) == DialogResult.Yes)
-            {
-                CommandErrorDialog errorDialog = null;
-                Dictionary<SelectedItem, string> cantExecuteReasons = GetCantExecuteReasons();
-
-                if (cantExecuteReasons.Count > 0)
-                {
-                    errorDialog = new CommandErrorDialog(ErrorDialogTitle, ErrorDialogText, GetCantExecuteReasons());
-                }
-
-                List<AsyncAction> actions = new List<AsyncAction>();
-                foreach (VM vm in selection.AsXenObjects<VM>(CanExecute))
-                {
-                    var snapshotsToDelete = dialog.DeleteSnapshots.FindAll(x => x.Connection.Resolve(x.snapshot_of) == vm);
-                    actions.Add(GetAction(vm, dialog.DeleteDisks, snapshotsToDelete));
-                }
-                RunMultipleActions(actions, Messages.ACTION_VMS_DESTROYING_TITLE, Messages.ACTION_VM_DESTROYING, Messages.ACTION_VM_DESTROYED, true);
-
-                if (errorDialog != null)
-                {
-                    errorDialog.ShowDialog(Parent);
-                }
-            }
+            //if (MainWindowCommandInterface.RunInAutomatedTestMode || dialog.ShowDialog(Parent) == DialogResult.Yes)
+//            {
+//                CommandErrorDialog errorDialog = null;
+//                Dictionary<SelectedItem, string> cantExecuteReasons = GetCantExecuteReasons();
+//
+//                if (cantExecuteReasons.Count > 0)
+//                {
+//                    errorDialog = new CommandErrorDialog(ErrorDialogTitle, ErrorDialogText, GetCantExecuteReasons());
+//                }
+//
+//                List<AsyncAction> actions = new List<AsyncAction>();
+//                foreach (VM vm in selection.AsXenObjects<VM>(CanExecute))
+//                {
+//                    var snapshotsToDelete = dialog.DeleteSnapshots.FindAll(x => x.Connection.Resolve(x.snapshot_of) == vm);
+//                    actions.Add(GetAction(vm, dialog.DeleteDisks, snapshotsToDelete));
+//                }
+//                RunMultipleActions(actions, Messages.ACTION_VMS_DESTROYING_TITLE, Messages.ACTION_VM_DESTROYING, Messages.ACTION_VM_DESTROYED, true);
+//
+//                if (errorDialog != null)
+//                {
+//                    errorDialog.ShowDialog(Parent);
+//                }
+//            }
         }
 
         protected virtual bool CanExecute(VM vm)

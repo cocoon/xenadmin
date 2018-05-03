@@ -142,7 +142,7 @@ namespace XenAdmin.TabPages
             // zoomButton
             // 
             resources.ApplyResources(this.zoomButton, "zoomButton");
-            this.zoomButton.Image = global::XenAdmin.Properties.Resources.expanded_triangle;
+            //this.zoomButton.Image = global::XenAdmin.Properties.Resources.expanded_triangle;
             this.zoomButton.Name = "zoomButton";
             this.zoomButton.UseVisualStyleBackColor = true;
             this.zoomButton.Click += new System.EventHandler(this.zoomButton_Click);
@@ -163,7 +163,7 @@ namespace XenAdmin.TabPages
             // 
             // graphActionsButton
             // 
-            this.graphActionsButton.Image = global::XenAdmin.Properties.Resources.expanded_triangle;
+            //this.graphActionsButton.Image = global::XenAdmin.Properties.Resources.expanded_triangle;
             resources.ApplyResources(this.graphActionsButton, "graphActionsButton");
             this.graphActionsButton.Name = "graphActionsButton";
             this.graphActionsButton.UseVisualStyleBackColor = true;
