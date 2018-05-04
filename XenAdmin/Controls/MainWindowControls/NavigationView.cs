@@ -227,7 +227,7 @@ namespace XenAdmin.Controls.MainWindowControls
         private void treeViewUpdateManager_Update(object sender, EventArgs e)
         {
             Program.AssertOffEventThread();
-            RefreshTreeView();
+            //RefreshTreeView();
         }
 
 

@@ -97,21 +97,30 @@ namespace XenAdmin.Core
         public static void QuickDraw(Graphics gTarget, Bitmap buffer, Point source, Rectangle dest)
         {
             IntPtr pTarget = gTarget.GetHdc();
-            IntPtr pSource = CreateCompatibleDC(pTarget);
-            IntPtr pNew = buffer.GetHbitmap();
-            SelectObject(pSource, pNew);
-            BitBlt(pTarget, dest.X, dest.Y, dest.Width, dest.Height, pSource, source.X, source.Y, TernaryRasterOperations.SRCCOPY);
-            DeleteObject(pNew);
-            DeleteDC(pSource);
-            gTarget.ReleaseHdc(pTarget);
+            // TODO: CrossPlatform: remove try/catch and get it better working
+			try{
+				IntPtr pSource = CreateCompatibleDC(pTarget);
+            	IntPtr pNew = buffer.GetHbitmap();
+            	SelectObject(pSource, pNew);
+            	BitBlt(pTarget, dest.X, dest.Y, dest.Width, dest.Height, pSource, source.X, source.Y, TernaryRasterOperations.SRCCOPY);
+            	DeleteObject(pNew);
+            	DeleteDC(pSource);
+			} catch {
+			} finally{
+				gTarget.ReleaseHdc (pTarget);
+			}
+
         }
 
         [DllImport("gdi32.dll", SetLastError = true)]
         public static extern bool BitBlt(IntPtr hObject, int nXDest, int nYDest, int nWidth,
            int nHeight, IntPtr hObjSource, int nXSrc, int nYSrc, TernaryRasterOperations dwRop);
 
-        [DllImport("gdi32.dll", ExactSpelling = true, SetLastError = true)]
-        public static extern IntPtr CreateCompatibleDC(IntPtr hdc);
+        // TODO: CrossPlatform: Sometimes the EntryPoint of CreateCompatibleDC is not found
+        //[DllImport("gdi32.dll", ExactSpelling = true, SetLastError = true)]
+        //public static extern IntPtr CreateCompatibleDC(IntPtr hdc);
+		[DllImport ("gdi32.dll", EntryPoint="CreateCompatibleDC", CallingConvention=CallingConvention.StdCall, ExactSpelling = true, SetLastError = true)]
+		internal static extern IntPtr CreateCompatibleDC (IntPtr hdc);
 
         [DllImport("gdi32.dll", ExactSpelling = true, SetLastError = true)]
         public static extern bool DeleteDC(IntPtr hdc);

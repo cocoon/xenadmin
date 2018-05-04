@@ -592,7 +592,8 @@ namespace XenAdmin
             {
                 // Sleep a short time before closing the splash
                 Thread.Sleep(500);
-                Program.Invoke(Program.MainWindow, Program.CloseSplash);
+                // TODO: CrossPlatform
+                //Program.Invoke(Program.MainWindow, Program.CloseSplash);
             });
 
             if (!Program.RunInAutomatedTestMode && !Helpers.CommonCriteriaCertificationRelease)

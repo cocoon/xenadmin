@@ -1080,8 +1080,9 @@ namespace XenAdmin.Controls
             Win32.ScrollInfo si = new Win32.ScrollInfo();
             si.cbSize = (uint)Marshal.SizeOf(si);
             si.fMask = (int)Win32.ScrollInfoMask.SIF_POS;
-            if (!Win32.GetScrollInfo(Handle, (int)fnBar, ref si))
-                return 0;
+            // TODO: CrossPlatform
+			//if (!Win32.GetScrollInfo(Handle, (int)fnBar, ref si))
+            //    return 0;
 
             return si.nPos;
         }

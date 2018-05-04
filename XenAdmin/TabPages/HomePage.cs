@@ -60,7 +60,8 @@ namespace XenAdmin.TabPages
             try
             {
                 var location = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), InvisibleMessages.HOMEPAGE_FILENAME);
-                webBrowser.Navigate(location);
+                // TODO: CrossPlatform: Change WebBrowser
+                //webBrowser.Navigate(location);
             }
             catch (Exception ex)
             {

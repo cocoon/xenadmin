@@ -59,16 +59,22 @@ namespace XenAdmin.Core
         ///      - WIN32 resources (accelerator tables, bitmap resources, dialog box templates, font resources, menu resources, raw data resources, string table entries, message table entries, cursors/icons) 
         /// - Other USER objects (windows, menus) 
         /// 
-        [DllImport("User32")]
+        // TODO: CrossPlatform
+		[DllImport("User32", EntryPoint="GetGuiResources", CallingConvention=CallingConvention.StdCall, ExactSpelling = true, SetLastError = true)]
         extern public static int GetGuiResources(IntPtr hProcess, int uiFlags);
+
 
         public static int GetGuiResourcesGDICount(IntPtr processHandle)
         {
+        	// TODO: CrossPlatform
+			return 0;
             return GetGuiResources(processHandle, 0);
         }
 
         public static int GetGuiResourcesUserCount(IntPtr processHandle)
         {
+        	// TODO: CrossPlatform
+			return 0;
             return GetGuiResources(processHandle, 1);
         }
 

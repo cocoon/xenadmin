@@ -29,19 +29,22 @@ namespace XenAdmin.TabPages
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
-            this.webBrowser = new XenAdmin.Core.WebBrowser2();
+            // TODO: CrossPlatform: Change WebBrowser
+            //this.webBrowser = new XenAdmin.Core.WebBrowser2();
             this.SuspendLayout();
             // 
             // webBrowser
             // 
-            resources.ApplyResources(this.webBrowser, "webBrowser");
-            this.webBrowser.Name = "webBrowser";
-            this.webBrowser.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.webBrowser_Navigating);
+            // TODO: CrossPlatform: Change WebBrowser
+            //resources.ApplyResources(this.webBrowser, "webBrowser");
+            //this.webBrowser.Name = "webBrowser";
+            //this.webBrowser.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.webBrowser_Navigating);
             // 
             // HomePage
             // 
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.webBrowser);
+            // TODO: CrossPlatform: Change WebBrowser
+            //this.Controls.Add(this.webBrowser);
             resources.ApplyResources(this, "$this");
             this.Name = "HomePage";
             this.ResumeLayout(false);
@@ -50,7 +53,8 @@ namespace XenAdmin.TabPages
 
         #endregion
 
-        private Core.WebBrowser2 webBrowser;
+        // TODO: CrossPlatform: Change WebBrowser
+        //private Core.WebBrowser2 webBrowser;
 
     }
 }
