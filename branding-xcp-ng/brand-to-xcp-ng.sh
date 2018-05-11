@@ -30,6 +30,21 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF 
 # SUCH DAMAGE.
 
+# check if BUILD_NUMBER was defined
+if [ -z ${BUILD_NUMBER+x} ]; then
+  read -p "BUILD_NUMBER not set, define now: " BUILD_NUMBER
+  if [ -z ${BUILD_NUMBER+x} ]; then
+    echo "BUILD_NUMBER was still not defined, exit."
+    exit 1
+  fi
+fi
+
+# check if BUILD_NUMBER is a number
+re='^[0-9]+$'
+if ! [[ $BUILD_NUMBER =~ $re ]] ; then
+   echo "error: BUILD_NUMBER is not a number" >&2; exit 1
+fi
+
 set -ex
 
 SET_ENV_FILE="/cygdrive/c/env.sh"
