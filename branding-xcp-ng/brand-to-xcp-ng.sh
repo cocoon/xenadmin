@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Copyright (c) Citrix Systems, Inc. 
 # All rights reserved.
