@@ -61,7 +61,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://docs.citrix.com/en-us/citrix-hypervisor/whats-new/removed-features.html.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/XCP-ng-8.1-Release-Notes.
         /// </summary>
         public static string DEPRECATION_URL {
             get {
@@ -70,7 +70,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://cis.citrix.com/legal/.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string HEALTH_CHECK_PRIVACY_STATEMENT_URL {
             get {
@@ -79,7 +79,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://docs.citrix.com/en-us/xencenter/.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string HELP_URL {
             get {
@@ -97,7 +97,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://www.citrix.com/products/citrix-hypervisor.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string HOMEPAGE {
             get {
@@ -133,7 +133,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://store.citrix.com/XSInProduct.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string LICENSE_EXPIRY_WEBPAGE {
             get {
@@ -142,7 +142,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://www.citrix.com/downloads/licensing/license-server.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string LICENSE_SERVER_DOWNLOAD_LINK {
             get {
@@ -160,7 +160,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [XenCenter].log.
+        ///   Looks up a localized string similar to XCP-ng Center.log.
         /// </summary>
         public static string LOG_FILENAME {
             get {
@@ -178,7 +178,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://www.citrix.com/downloads/citrix-hypervisor.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string OUT_OF_DATE_WEBSITE {
             get {
@@ -187,7 +187,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://www.citrix.com/buy/partnerlocator.html.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string PARTNEROFFERS_URL {
             get {
@@ -196,7 +196,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/xenserver/xencenter-samples.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string PLUGINS_URL {
             get {
@@ -205,7 +205,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://citrix.com/English/aboutCitrix/legal/privacyStatement.asp?ntref=hp_nav_US.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string PRIVACY {
             get {
@@ -214,7 +214,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://docs.citrix.com/en-us/citrix-hypervisor/system-requirements/guest-os-support.html.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string PV_GUESTS_CHECK_URL {
             get {
@@ -223,7 +223,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://support.citrix.com/.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string SUPPORT_URL {
             get {
@@ -232,7 +232,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://www.citrix.com/products/citrix-hypervisor/get-started.html.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string UPSELL_LEARNMOREURL_TRIAL {
             get {
@@ -241,7 +241,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://store.citrix.com/XSInProduct.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string UPSELL_SA {
             get {
@@ -268,7 +268,7 @@ namespace XenAdmin {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://www.citrix.com/TryXenDesktop.
+        ///   Looks up a localized string similar to https://github.com/xcp-ng/xcp/wiki/.
         /// </summary>
         public static string XENDESKTOP_URL {
             get {

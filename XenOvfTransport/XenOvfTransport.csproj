@@ -36,10 +36,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DiscUtils, Version=0.8.0.0, Culture=neutral, PublicKeyToken=683ddba221ac0742, processorArchitecture=MSIL">
+    <Reference Include="DiscUtils">
       <HintPath>..\packages\DiscUtils.dll</HintPath>
     </Reference>
-    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=683ddba221ac0742, processorArchitecture=MSIL">
+    <Reference Include="log4net">
       <HintPath>..\packages\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -109,7 +109,7 @@
   -->
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties Reset="1" AssemblyVersion="1" AssemblyFileVersion="1" StartDate="20090814" />
+      <UserProperties StartDate="20090814" AssemblyFileVersion="1" AssemblyVersion="1" Reset="1" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

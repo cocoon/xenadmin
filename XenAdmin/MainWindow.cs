@@ -570,7 +570,7 @@ namespace XenAdmin
             try
             {
                 Settings.RestoreSession();
-                HealthCheck.SendProxySettingsToHealthCheck();
+                //HealthCheck.SendProxySettingsToHealthCheck();
             }
             catch (ConfigurationErrorsException ex)
             {
@@ -626,9 +626,9 @@ namespace XenAdmin
             if (!Program.RunInAutomatedTestMode)
             {
                 // start healthCheckResult thread
-                healthCheckResultTimer.Interval = 1000 * 60 * 60; // 1 hour
-                healthCheckResultTimer.Tick += HealthCheckResultTimer_Tick;
-                healthCheckResultTimer.Start();
+                //healthCheckResultTimer.Interval = 1000 * 60 * 60; // 1 hour
+                //healthCheckResultTimer.Tick += HealthCheckResultTimer_Tick;
+                //healthCheckResultTimer.Start();
             }
 
             ProcessCommand(CommandLineArgType, CommandLineParam);
@@ -641,7 +641,7 @@ namespace XenAdmin
 
         private void HealthCheckResultTimer_Tick(object sender, EventArgs e)
         {
-            HealthCheck.CheckForAnalysisResults();
+            //HealthCheck.CheckForAnalysisResults();
         }
 
         private void LoadTasksAsMeddlingActions(IXenConnection connection)
@@ -991,40 +991,41 @@ namespace XenAdmin
             if(licenseTimer != null)
                 licenseTimer.CheckActiveServerLicense(connection, false);
 
-            if (Properties.Settings.Default.ShowHealthCheckEnrollmentReminder)
-                ThreadPool.QueueUserWorkItem(CheckHealthCheckEnrollment, connection);
-            ThreadPool.QueueUserWorkItem(HealthCheck.CheckForAnalysisResults, connection);
-            ThreadPool.QueueUserWorkItem(InformHealthCheckEnrollment, connection);
+            //if (Properties.Settings.Default.ShowHealthCheckEnrollmentReminder)
+                //ThreadPool.QueueUserWorkItem(CheckHealthCheckEnrollment, connection);
+            //ThreadPool.QueueUserWorkItem(HealthCheck.CheckForAnalysisResults, connection);
+            //ThreadPool.QueueUserWorkItem(InformHealthCheckEnrollment, connection);
 
             Updates.RefreshUpdateAlerts(Updates.UpdateType.ServerPatches | Updates.UpdateType.ServerVersion);
             Updates.CheckHotfixEligibility(connection);
 
-            HealthCheck.SendMetadataToHealthCheck();
+            //HealthCheck.SendMetadataToHealthCheck();
             RequestRefreshTreeView();
         }
 
         private void CheckHealthCheckEnrollment(object connection)
         {
-            if (HealthCheckOverviewLauncher != null && !HiddenFeatures.HealthCheckHidden)
-                HealthCheckOverviewLauncher.CheckHealthCheckEnrollment((IXenConnection) connection);
+            //if (HealthCheckOverviewLauncher != null && !HiddenFeatures.HealthCheckHidden)
+                //HealthCheckOverviewLauncher.CheckHealthCheckEnrollment((IXenConnection) connection);
         }
 
         private void InformHealthCheckEnrollment(object connection)
         {
-            Pool pool = Helpers.GetPoolOfOne((IXenConnection)connection);
-            if (pool == null)
-                return;
-            var newHealthCheckSSettings = pool.HealthCheckSettings();
-            new TransferHealthCheckSettingsAction(pool, newHealthCheckSSettings,
-                newHealthCheckSSettings.GetSecretInfo(pool.Connection, HealthCheckSettings.UPLOAD_CREDENTIAL_USER_SECRET),
-                newHealthCheckSSettings.GetSecretInfo(pool.Connection, HealthCheckSettings.UPLOAD_CREDENTIAL_PASSWORD_SECRET), true).RunAsync();
+            //Pool pool = Helpers.GetPoolOfOne((IXenConnection)connection);
+            //if (pool == null)
+                //return;
+            //var newHealthCheckSSettings = pool.HealthCheckSettings();
+            //new TransferHealthCheckSettingsAction(pool, newHealthCheckSSettings,
+                //newHealthCheckSSettings.GetSecretInfo(pool.Connection, HealthCheckSettings.UPLOAD_CREDENTIAL_USER_SECRET),
+                //newHealthCheckSSettings.GetSecretInfo(pool.Connection, HealthCheckSettings.UPLOAD_CREDENTIAL_PASSWORD_SECRET), true).RunAsync();
         }
 
         private static bool SameProductBrand(Host host)
         {
-            var brand = host.ProductBrand();
-            return brand == BrandManager.PRODUCT_BRAND || brand == BrandManager.LegacyProduct ||
-                   BrandManager.PRODUCT_BRAND == "[XenServer product]";
+            //var brand = host.ProductBrand();
+            //return brand == BrandManager.PRODUCT_BRAND || brand == BrandManager.LegacyProduct || 
+                   //BrandManager.PRODUCT_BRAND == "[XenServer product]";
+                   return true;
         }
 
         /// <summary>

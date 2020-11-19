@@ -60,7 +60,7 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("20.04.00.1")]
-[assembly: AssemblyFileVersion("20.04.00.1")]
-[assembly: XenCenterLib.XSVersion("20.04.00")]
+[assembly: AssemblyVersion("20.11.00.1")]
+[assembly: AssemblyFileVersion("20.11.00.1")]
+[assembly: XenCenterLib.XSVersion("20.11.00")]
 [assembly: InternalsVisibleTo("XenAdminTests")]

@@ -69,8 +69,8 @@ namespace XenAdmin.Core
         public const string PRODUCT_BRAND = "XCP-ng";
         public const string COMPANY_NAME_SHORT = "XCP-ng";
         public const string COMPANY_AND_PRODUCT_BRAND = "XCP-ng";
-        public const string PRODUCT_VERSION_TEXT = "20.04.00";
-        public const string XENCENTER_VERSION = "20.04.00";
+        public const string PRODUCT_VERSION_TEXT = "20.11.00";
+        public const string XENCENTER_VERSION = "20.11.00";
         public const string COMPANY_NAME_LEGAL = "XCP New Generation";
         public const string BRAND_CONSOLE = "XCP-ng Center";
 
