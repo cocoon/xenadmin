@@ -520,7 +520,7 @@
     <value>获取空间要求</value>
   </data>
   <data name="ACTION_GET_HEALTH_CHECK_RESULT" xml:space="preserve">
-    <value>从 [Citrix] Insight Services 获取运行状况检查分析结果</value>
+    <value>从 XCP-ng Insight Services 获取运行状况检查分析结果</value>
   </data>
   <data name="ACTION_GET_HEALTH_CHECK_RESULT_FAILED" xml:space="preserve">
     <value>获取分析结果失败</value>
@@ -553,10 +553,10 @@
     <value>正在将 {0} 上的高可用性重启优先级设置为 {1}</value>
   </data>
   <data name="ACTION_HEALTHCHECK_AUTHENTICATION" xml:space="preserve">
-    <value>在 [Citrix] Insight Services 中进行身份验证</value>
+    <value>在 XCP-ng Insight Services 中进行身份验证</value>
   </data>
   <data name="ACTION_HEALTHCHECK_AUTHENTICATION_PROGRESS" xml:space="preserve">
-    <value>正在 [Citrix] Insight Services 中进行身份验证</value>
+    <value>正在 XCP-ng Insight Services 中进行身份验证</value>
   </data>
   <data name="ACTION_HOSTS_REBOOTED" xml:space="preserve">
     <value>服务器已重新启动</value>
@@ -1003,16 +1003,16 @@
     <value>上载错误。此修补程序已上载，但在主机上找不到。</value>
   </data>
   <data name="ACTION_UPLOAD_SERVER_STATUS_REPORT" xml:space="preserve">
-    <value>将服务器状态报告上载到 [Citrix] Insight Services</value>
+    <value>将服务器状态报告上载到 XCP-ng Insight Services</value>
   </data>
   <data name="ACTION_UPLOAD_SERVER_STATUS_REPORT_FAILED" xml:space="preserve">
     <value>上载状态报告失败。</value>
   </data>
   <data name="ACTION_UPLOAD_SERVER_STATUS_REPORT_PERCENTAGE" xml:space="preserve">
-    <value>正在将报告上载到 [Citrix] Insight Services) (第 {0} 个，共 {1} 个)</value>
+    <value>正在将报告上载到 XCP-ng Insight Services) (第 {0} 个，共 {1} 个)</value>
   </data>
   <data name="ACTION_UPLOAD_SERVER_STATUS_REPORT_PROGRESS" xml:space="preserve">
-    <value>正在将报告上载到 [Citrix] Insight Services</value>
+    <value>正在将报告上载到 XCP-ng Insight Services</value>
   </data>
   <data name="ACTION_USB_PASSTHROUGH_DISABLED" xml:space="preserve">
     <value>已禁用 USB 直通功能</value>
@@ -1333,7 +1333,7 @@
     <value>激活(&amp;C)</value>
   </data>
   <data name="ACTIVATION_FAILED_MESSAGE" xml:space="preserve">
-    <value>[XenCenter] 无法与激活服务器联系。
+    <value>XCP-ng Center 无法与激活服务器联系。
 
 如果您当前未连接到 Internet，我们可以将激活请求
 保存为一个文件，供您以后上载。
@@ -1395,7 +1395,7 @@
     <value>地址</value>
   </data>
   <data name="ADDSERVER_PASS_NEW" xml:space="preserve">
-    <value>[XenCenter] 无法再使用现有凭据向此服务器进行身份验证。请输入新凭据以继续操作。</value>
+    <value>XCP-ng Center 无法再使用现有凭据向此服务器进行身份验证。请输入新凭据以继续操作。</value>
   </data>
   <data name="ADD_CUSTOM_FIELD" xml:space="preserve">
     <value>添加自定义字段“{0}”</value>
@@ -1463,7 +1463,7 @@
   <data name="ADD_HOST_TO_POOL_CPU_MASKING_MESSAGE" xml:space="preserve">
     <value>正在尝试将服务器“{0}”添加到使用较旧 CPU 的池。
 
-[XenServer] 可以通过重新启动服务器并将其 CPU 降至池中现有服务器的级别来继续进行操作。这样将关闭服务器上运行的所有 VM。此功能适用于“[XenServer] 硬件兼容性列表”中列出的 CPU 组合。
+XCP-ng 可以通过重新启动服务器并将其 CPU 降至池中现有服务器的级别来继续进行操作。这样将关闭服务器上运行的所有 VM。此功能适用于“XCP-ng 硬件兼容性列表”中列出的 CPU 组合。
 
 是否要执行此操作?</value>
   </data>
@@ -1472,7 +1472,7 @@
 
 {0}
 
-[XenServer] 可以通过重新启动服务器并将其 CPU 降至池中现有服务器的级别来继续进行操作。这样将关闭服务器上运行的所有 VM。此功能适用于“[XenServer] 硬件兼容性列表”中列出的 CPU 组合。
+XCP-ng 可以通过重新启动服务器并将其 CPU 降至池中现有服务器的级别来继续进行操作。这样将关闭服务器上运行的所有 VM。此功能适用于“XCP-ng 硬件兼容性列表”中列出的 CPU 组合。
 
 是否要执行此操作?</value>
   </data>
@@ -1667,7 +1667,7 @@
 是否要继续?</value>
   </data>
   <data name="AD_MASTER_UNAVAILABLE_BLURB" xml:space="preserve">
-    <value>[XenCenter] 正在建立当前的外部身份验证配置，请稍候。</value>
+    <value>XCP-ng Center 正在建立当前的外部身份验证配置，请稍候。</value>
   </data>
   <data name="AD_NOT_CONFIGURED_BLURB" xml:space="preserve">
     <value>池“{0}”当前未配置 AD。要启用 AD 身份验证，请单击“加入域”。</value>
@@ -1781,7 +1781,7 @@
     <value>控制域上的文件系统已满</value>
   </data>
   <data name="ALERT_ALARM_FILESYSTEM_DESCRIPTION" xml:space="preserve">
-    <value>{0} 上控制域的磁盘使用量已达到 {1}。如果此磁盘满载，[XenServer] 的性能将受到严重影响。应删除日志文件或其他不重要的(用户创建的)文件。</value>
+    <value>{0} 上控制域的磁盘使用量已达到 {1}。如果此磁盘满载，XCP-ng 的性能将受到严重影响。应删除日志文件或其他不重要的(用户创建的)文件。</value>
   </data>
   <data name="ALERT_ALARM_LOG_FILESYSTEM" xml:space="preserve">
     <value>日志分区上的文件系统已满载</value>
@@ -1869,7 +1869,7 @@
     <value>{0} 现已可用</value>
   </data>
   <data name="ALERT_NEW_VERSION_DETAILS" xml:space="preserve">
-    <value>{0} 现在可用。可从 [Citrix] 网站下载新版本。</value>
+    <value>{0} 现在可用。可从 XCP-ng 网站下载新版本。</value>
   </data>
   <data name="ALERT_NEW_VERSION_DOWNLOAD" xml:space="preserve">
     <value>转至 Web 页面</value>
@@ -1913,7 +1913,7 @@
   <data name="ALREADY_ATTACHED_ELSEWHERE" xml:space="preserve">
     <value>SR“{0}”当前已连接到其他位置。是否要将其连接到“{1}”? 
 
-警告: 必须确保 SR 当前未由任何未连接到 [XenCenter] 的服务器使用。否则可能会导致数据丢失。</value>
+警告: 必须确保 SR 当前未由任何未连接到 XCP-ng Center 的服务器使用。否则可能会导致数据丢失。</value>
   </data>
   <data name="ALREADY_CONNECTED" xml:space="preserve">
     <value>已经连接到服务器“{0}”。</value>
@@ -2048,7 +2048,7 @@
 
 - 确保自动更新在池中的所有主机上都不受限制。
 
-- 取消选中上一页上的更新应用程序复选框。[XenCenter] 会将选定的服务器升级到新版本，但不应用任何更新。</value>
+- 取消选中上一页上的更新应用程序复选框。XCP-ng Center 会将选定的服务器升级到新版本，但不应用任何更新。</value>
   </data>
   <data name="AUTOSTART" xml:space="preserve">
     <value>在服务器启动时自动启动</value>
@@ -2183,9 +2183,9 @@
   <data name="BOND_CREATE_WILL_DISTURB_PRIMARY" xml:space="preserve">
     <value>创建此绑定会自动将其中一个所选绑定成员上的管理接口移动到绑定本身:
 
-- [XenCenter] 与池之间的连接将暂时中断
+- XCP-ng Center 与池之间的连接将暂时中断
 
-- 如果您的网络配置不正确，[XenCenter] 可能会永久断开与池之间的连接，或者池成员可能无法相互通信。</value>
+- 如果您的网络配置不正确，XCP-ng Center 可能会永久断开与池之间的连接，或者池成员可能无法相互通信。</value>
   </data>
   <data name="BOND_CREATE_WILL_DISTURB_SECONDARY" xml:space="preserve">
     <value>创建此绑定将中断通过绑定成员上的辅助接口进行的通信，而接口将移动到绑定本身。</value>
@@ -2205,20 +2205,20 @@
 
 删除此绑定会自动将绑定上的管理接口和辅助接口转移到绑定的第一个从属成员: 
 
-- [XenCenter] 与池之间的连接将暂时中断
+- XCP-ng Center 与池之间的连接将暂时中断
 
 - 通过辅助接口进行的通信将中断
 
-- 如果您的网络配置不正确，[XenCenter] 可能会永久断开与池之间的连接，或者池成员可能无法相互通信。</value>
+- 如果您的网络配置不正确，XCP-ng Center 可能会永久断开与池之间的连接，或者池成员可能无法相互通信。</value>
   </data>
   <data name="BOND_DELETE_WILL_DISTURB_PRIMARY" xml:space="preserve">
     <value>{0}
 
 删除此绑定会自动将绑定上的管理接口转移到绑定的第一个从属成员: 
 
-- [XenCenter] 与池之间的连接将暂时中断
+- XCP-ng Center 与池之间的连接将暂时中断
 
-- 如果您的网络配置不正确，[XenCenter] 可能会永久断开与池之间的连接，或者池成员可能无法相互通信。</value>
+- 如果您的网络配置不正确，XCP-ng Center 可能会永久断开与池之间的连接，或者池成员可能无法相互通信。</value>
   </data>
   <data name="BOND_DELETE_WILL_DISTURB_SECONDARY" xml:space="preserve">
     <value>{0}
@@ -2226,10 +2226,10 @@
 删除此绑定将中断通过绑定上的辅助接口进行的通信，而接口将移动到绑定的第一个从属成员。</value>
   </data>
   <data name="BOND_GONE" xml:space="preserve">
-    <value>在 [XenCenter] 的缓存中找不到绑定。</value>
+    <value>在 XCP-ng Center 的缓存中找不到绑定。</value>
   </data>
   <data name="BOND_MASTER_GONE" xml:space="preserve">
-    <value>在 [XenCenter] 的缓存中找不到绑定主对象。</value>
+    <value>在 XCP-ng Center 的缓存中找不到绑定主对象。</value>
   </data>
   <data name="BOOTORDER" xml:space="preserve">
     <value>启动顺序: {0}</value>
@@ -2250,19 +2250,19 @@
     <value>升级后存在损坏的 SR。要解决该问题，应重新连接 SR。</value>
   </data>
   <data name="BROKEN_TOOLS_PROMPT" xml:space="preserve">
-    <value>Tools ISO 位于损坏的 SR 上，[XenCenter] 将尝试修复该问题，然后再继续操作。是否要继续?</value>
+    <value>Tools ISO 位于损坏的 SR 上，XCP-ng Center 将尝试修复该问题，然后再继续操作。是否要继续?</value>
   </data>
   <data name="BUGTOOL_CLIENT_ACTION_LOGS_META" xml:space="preserve">
-    <value>正在编译 [XenCenter] 日志和元数据</value>
+    <value>正在编译 XCP-ng Center 日志和元数据</value>
   </data>
   <data name="BUGTOOL_CLIENT_ACTION_META" xml:space="preserve">
-    <value>正在编译 [XenCenter] 元数据</value>
+    <value>正在编译 XCP-ng Center 元数据</value>
   </data>
   <data name="BUGTOOL_CLIENT_LOGS_META" xml:space="preserve">
-    <value>[XenCenter] 日志和元数据</value>
+    <value>XCP-ng Center 日志和元数据</value>
   </data>
   <data name="BUGTOOL_CLIENT_META" xml:space="preserve">
-    <value>[XenCenter] 元数据</value>
+    <value>XCP-ng Center 元数据</value>
   </data>
   <data name="BUGTOOL_FILE_PREFIX" xml:space="preserve">
     <value>status-report-</value>
@@ -2378,7 +2378,7 @@
     <value>必须先在 VM“{0}”上安装 I/O 驱动程序，才能为该 VM 激活此虚拟磁盘。</value>
   </data>
   <data name="CANNOT_ACTIVATE_VD_VM_NEEDS_TOOLS" xml:space="preserve">
-    <value>必须先在 VM“{0}”上安装 [Citrix VM Tools]，才能为该 VM 激活此虚拟磁盘。</value>
+    <value>必须先在 VM“{0}”上安装 XCP-ng VM Tools，才能为该 VM 激活此虚拟磁盘。</value>
   </data>
   <data name="CANNOT_CHANGE_IP_CLUSTERING_ENABLED" xml:space="preserve">
     <value>仅当主机处于维护模式时才能更改此接口，因为在 {0} 上启用了群集。</value>
@@ -2414,7 +2414,7 @@
     <value>必须先在 VM“{0}”上安装 I/O 驱动程序，才能为该 VM 停用此虚拟磁盘。</value>
   </data>
   <data name="CANNOT_DEACTIVATE_VDI_NEEDS_TOOLS" xml:space="preserve">
-    <value>必须先在 VM“{0}”上安装 [Citrix VM Tools]，才能为该 VM 停用此虚拟磁盘。</value>
+    <value>必须先在 VM“{0}”上安装 XCP-ng VM Tools，才能为该 VM 停用此虚拟磁盘。</value>
   </data>
   <data name="CANNOT_DEACTIVATE_VDI_VM_NOT_RUNNING" xml:space="preserve">
     <value>无法在 VM“{0}”上停用此虚拟磁盘，因为该 VM 未运行。</value>
@@ -2430,7 +2430,7 @@
 {1}</value>
   </data>
   <data name="CANNOT_DELETE_DEFAULT_TEMPLATE" xml:space="preserve">
-    <value>不能删除 [XenServer] 模板。</value>
+    <value>不能删除 XCP-ng 模板。</value>
   </data>
   <data name="CANNOT_DELETE_DR_VD" xml:space="preserve">
     <value>此虚拟磁盘供 DR 使用。要将其删除，请对 DR 进行配置，使其不将数据保存到此存储库中。</value>
@@ -2454,7 +2454,7 @@
     <value>此快照当前正在使用，无法删除。</value>
   </data>
   <data name="CANNOT_DELETE_TOOLS_SR" xml:space="preserve">
-    <value>不支持删除 [Citrix VM Tools] ISO 存储。</value>
+    <value>不支持删除 XCP-ng VM Tools ISO 存储。</value>
   </data>
   <data name="CANNOT_DELETE_VDI_ACTIVE_ON" xml:space="preserve">
     <value>该虚拟磁盘在 VM“{0}”上处于活动状态。请先将该虚拟磁盘停用，然后再删除。</value>
@@ -2478,7 +2478,7 @@
     <value>找不到 XML 节点 {0}。</value>
   </data>
   <data name="CANNOT_FIND_SR_WIZARD_TYPE" xml:space="preserve">
-    <value>无法使用 [XenCenter] 配置类型为“{0}”的 SR。</value>
+    <value>无法使用 XCP-ng Center 配置类型为“{0}”的 SR。</value>
   </data>
   <data name="CANNOT_MIGRATE_VDI_NON_RUNNING_VM" xml:space="preserve">
     <value>不能移动此虚拟磁盘，因为此虚拟磁盘连接到未运行的 VM。</value>
@@ -2590,10 +2590,10 @@
     <value>更改...</value>
   </data>
   <data name="CHANGED_MASTER_PASSWORD" xml:space="preserve">
-    <value>已更改 [XenCenter] 主密码</value>
+    <value>已更改 XCP-ng Center 主密码</value>
   </data>
   <data name="CHANGED_MASTER_PASSWORD_LONG" xml:space="preserve">
-    <value>已更改用于会话还原的 [XenCenter] 主密码</value>
+    <value>已更改用于会话还原的 XCP-ng Center 主密码</value>
   </data>
   <data name="CHANGED_SERVER_CD" xml:space="preserve">
     <value>服务器 CD 已更改</value>
@@ -2605,7 +2605,7 @@
     <value>更改策略“{0}”状态</value>
   </data>
   <data name="CHANGE_SERVER_CD" xml:space="preserve">
-    <value>插入 [XenServer] CD</value>
+    <value>插入 XCP-ng CD</value>
   </data>
   <data name="CHANGE_SERVER_PASSWORD" xml:space="preserve">
     <value>更改服务器密码...</value>
@@ -2718,7 +2718,7 @@
     <value>正在检查升级修补程序状态</value>
   </data>
   <data name="CHECKING_XENCENTER_VERSION" xml:space="preserve">
-    <value>正在检查 [XenCenter] 版本</value>
+    <value>正在检查 XCP-ng Center 版本</value>
   </data>
   <data name="CHECK_WLB_ENABLED" xml:space="preserve">
     <value>无法为池“{0}”启用 WLB</value>
@@ -2775,7 +2775,7 @@
     <value>折叠子项(&amp;C)</value>
   </data>
   <data name="COMMON_CRITERIA_TEXT" xml:space="preserve">
-    <value>只能与 [XenServer] 的 Common Criteria 版本结合使用</value>
+    <value>只能与 XCP-ng 的 Common Criteria 版本结合使用</value>
   </data>
   <data name="COMPLETED" xml:space="preserve">
     <value>已完成</value>
@@ -2939,10 +2939,10 @@
     <value>是，销毁(&amp;Y)</value>
   </data>
   <data name="CONFIRM_DISABLE_CBT_VM" xml:space="preserve">
-    <value>此操作将在选定 VM 的磁盘上禁用更改块跟踪。如果要使用任何第三方解决方案备份该 VM，这些磁盘将受到影响。请注意，无法再次从 [XenCenter] 启用更改块跟踪。是否要继续?</value>
+    <value>此操作将在选定 VM 的磁盘上禁用更改块跟踪。如果要使用任何第三方解决方案备份该 VM，这些磁盘将受到影响。请注意，无法再次从 XCP-ng Center 启用更改块跟踪。是否要继续?</value>
   </data>
   <data name="CONFIRM_DISABLE_CBT_VMS" xml:space="preserve">
-    <value>此操作将在选定 VM 的磁盘上禁用更改块跟踪。如果要使用任何第三方解决方案备份这些 VM，这些磁盘将受到影响。请注意，无法再次从 [XenCenter] 启用更改块跟踪。是否要继续?</value>
+    <value>此操作将在选定 VM 的磁盘上禁用更改块跟踪。如果要使用任何第三方解决方案备份这些 VM，这些磁盘将受到影响。请注意，无法再次从 XCP-ng Center 启用更改块跟踪。是否要继续?</value>
   </data>
   <data name="CONFIRM_DISABLE_CBT_VMS_TITLE" xml:space="preserve">
     <value>在选定 VM 上禁用更改块跟踪</value>
@@ -3056,10 +3056,10 @@
     <value>重新启动 VM</value>
   </data>
   <data name="CONFIRM_RESTART_TOOLSTACK_MANY_SERVERS" xml:space="preserve">
-    <value>是否确实要重新启动选定服务器上的 Toolstack? 请注意，[XenCenter] 将暂时断开与选定服务器的连接。</value>
+    <value>是否确实要重新启动选定服务器上的 Toolstack? 请注意，XCP-ng Center 将暂时断开与选定服务器的连接。</value>
   </data>
   <data name="CONFIRM_RESTART_TOOLSTACK_ONE_SERVER" xml:space="preserve">
-    <value>是否确实要重新启动“{0}”上的 Toolstack? 请注意，[XenCenter] 将暂时断开与该服务器的连接。</value>
+    <value>是否确实要重新启动“{0}”上的 Toolstack? 请注意，XCP-ng Center 将暂时断开与该服务器的连接。</value>
   </data>
   <data name="CONFIRM_RESTART_TOOLSTACK_TITLE" xml:space="preserve">
     <value>重新启动 Toolstack</value>
@@ -3441,7 +3441,7 @@
     <value>网络连接</value>
   </data>
   <data name="CONVERSION_NETWORK_PAGE_TITLE" xml:space="preserve">
-    <value>(可选)选择 [XenServer] 网络以连接 VM</value>
+    <value>(可选)选择 XCP-ng 网络以连接 VM</value>
   </data>
   <data name="CONVERSION_RBAC_RESTRICTION" xml:space="preserve">
     <value>用户 {0} 的权限不足，无法运行 Conversion Manager。请使用具有以下角色之一的帐户登录:
@@ -3539,10 +3539,10 @@
     <value>无法检索 Conversion Manager 虚拟设备版本。请查看日志了解详细信息。</value>
   </data>
   <data name="CONVERSION_VERSION_INCOMPATIBILITY" xml:space="preserve">
-    <value>[XenCenter] 与此版本的 Conversion Manager 虚拟设备不兼容。</value>
+    <value>XCP-ng Center 与此版本的 Conversion Manager 虚拟设备不兼容。</value>
   </data>
   <data name="CONVERSION_VERSION_INCOMPATIBILITY_INFO" xml:space="preserve">
-    <value>您正在使用的 Conversion Manager 虚拟设备的版本早于 {0}。可以使用旧版 Conversion Manager 控制台来设置和控制转换。但是，强烈建议您导入并配置与您的 [XenServer] 版本匹配的 Conversion Manager 虚拟设备。</value>
+    <value>您正在使用的 Conversion Manager 虚拟设备的版本早于 {0}。可以使用旧版 Conversion Manager 控制台来设置和控制转换。但是，强烈建议您导入并配置与您的 XCP-ng 版本匹配的 Conversion Manager 虚拟设备。</value>
   </data>
   <data name="CONVERSION_VM_PAGE_TEXT" xml:space="preserve">
     <value>虚拟机</value>
@@ -3813,7 +3813,7 @@
     <value>将 VM 迁移到 {0}</value>
   </data>
   <data name="CPM_WIZARD_VM_MISSING_ERROR" xml:space="preserve">
-    <value>选定的 VM 在 [XenCenter] 的缓存中不再可用。请验证您的选择是否有效，然后重新启动向导。</value>
+    <value>选定的 VM 在 XCP-ng Center 的缓存中不再可用。请验证您的选择是否有效，然后重新启动向导。</value>
   </data>
   <data name="CPM_WIZARD_VM_SELECTION_INTRODUCTION" xml:space="preserve">
     <value>虚拟网络接口(&amp;V):</value>
@@ -4165,7 +4165,7 @@
     <value>按电源状态搜索 VM</value>
   </data>
   <data name="DEFAULT_SEARCH_VMS_WO_XS_TOOLS" xml:space="preserve">
-    <value>未安装 [Citrix VM Tools] 的 VM</value>
+    <value>未安装 XCP-ng VM Tools 的 VM</value>
   </data>
   <data name="DEFAULT_VDI_NAME" xml:space="preserve">
     <value>新虚拟磁盘</value>
@@ -4578,10 +4578,10 @@
     <value>由于服务器上存在许可证限制，因此，动态内存控制(DMC)不可用。</value>
   </data>
   <data name="DMC_UNAVAILABLE_NOTOOLS" xml:space="preserve">
-    <value>无法设置内存范围，因为未在此 VM 上安装 [Citrix VM Tools]。</value>
+    <value>无法设置内存范围，因为未在此 VM 上安装 XCP-ng VM Tools。</value>
   </data>
   <data name="DMC_UNAVAILABLE_NOTOOLS_PLURAL" xml:space="preserve">
-    <value>无法设置内存范围，因为未在这些 VM 上安装 [Citrix VM Tools]。</value>
+    <value>无法设置内存范围，因为未在这些 VM 上安装 XCP-ng VM Tools。</value>
   </data>
   <data name="DMC_UNAVAILABLE_NOTSUPPORTED" xml:space="preserve">
     <value>无法设置内存范围，因为该 VM 上的操作系统不支持内存范围。</value>
@@ -4596,10 +4596,10 @@
     <value>无法设置内存范围，因为未在这些 VM 上安装 I/O 驱动程序。</value>
   </data>
   <data name="DMC_UNAVAILABLE_OLDTOOLS" xml:space="preserve">
-    <value>无法设置内存范围，因为此 VM 上安装的 [Citrix VM Tools] 已过时。</value>
+    <value>无法设置内存范围，因为此 VM 上安装的 XCP-ng VM Tools 已过时。</value>
   </data>
   <data name="DMC_UNAVAILABLE_OLDTOOLS_PLURAL" xml:space="preserve">
-    <value>无法设置内存范围，因为这些 VM 上安装的 [Citrix VM Tools] 已过时。</value>
+    <value>无法设置内存范围，因为这些 VM 上安装的 XCP-ng VM Tools 已过时。</value>
   </data>
   <data name="DMC_UNAVAILABLE_TEMPLATE" xml:space="preserve">
     <value>无法为该模板设置内存范围。</value>
@@ -4719,7 +4719,7 @@
     <value>下载...</value>
   </data>
   <data name="DOWNLOAD_LATEST_XS_BODY" xml:space="preserve">
-    <value>{0} 现在可用。请在 [Citrix] 网站下载最新版本。</value>
+    <value>{0} 现在可用。请在 XCP-ng 网站下载最新版本。</value>
   </data>
   <data name="DO_NOT_SHOW_THIS_MESSAGE" xml:space="preserve">
     <value>不再显示此消息(&amp;D)</value>
@@ -5008,7 +5008,7 @@
     <value>已完成针对池“{0}”的故障恢复。</value>
   </data>
   <data name="DR_WIZARD_RECOVERPAGE_COMPLETE_FAILOVER" xml:space="preserve">
-    <value>[XenServer] 灾难恢复已完成。</value>
+    <value>XCP-ng 灾难恢复已完成。</value>
   </data>
   <data name="DR_WIZARD_RECOVERPAGE_CONTINUE_DRYRUN" xml:space="preserve">
     <value>单击“下一步”删除已故障转移的 vApp 和 VM，并查看摘要报告。</value>
@@ -5026,7 +5026,7 @@
     <value>正在进行故障恢复。此过程需要一段时间。</value>
   </data>
   <data name="DR_WIZARD_RECOVERPAGE_IN_PROGRESS_FAILOVER" xml:space="preserve">
-    <value>正在进行 [XenServer] 灾难恢复。此过程需要一段时间。</value>
+    <value>正在进行 XCP-ng 灾难恢复。此过程需要一段时间。</value>
   </data>
   <data name="DR_WIZARD_RECOVERPAGE_OVERALL_PROGRESS" xml:space="preserve">
     <value>总体进度: 已完成 {0} 项任务(共 {1} 项)</value>
@@ -5059,7 +5059,7 @@
     <value>针对池“{0}”的故障恢复进度</value>
   </data>
   <data name="DR_WIZARD_RECOVERPAGE_TITLE_FAILOVER" xml:space="preserve">
-    <value>[XenServer] 灾难恢复进度</value>
+    <value>XCP-ng 灾难恢复进度</value>
   </data>
   <data name="DR_WIZARD_REPORTPAGE_TEXT" xml:space="preserve">
     <value>摘要</value>
@@ -5311,7 +5311,7 @@
     <value>用户名和密码不匹配。</value>
   </data>
   <data name="ERROR_CONNECTING_BLURB" xml:space="preserve">
-    <value>[XenCenter] 在连接到此服务器时遇到问题。</value>
+    <value>XCP-ng Center 在连接到此服务器时遇到问题。</value>
   </data>
   <data name="ERROR_DEACTIVATING_MULTIPLE_VDIS_MESSAGE" xml:space="preserve">
     <value>无法停用以下虚拟磁盘:</value>
@@ -5485,7 +5485,7 @@
     <value>无法在“{0}”对代理服务器进行身份验证。</value>
   </data>
   <data name="ERROR_PUTTY_LAUNCHING" xml:space="preserve">
-    <value>[XenCenter] 在启动 PuTTY 时遇到问题。</value>
+    <value>XCP-ng Center 在启动 PuTTY 时遇到问题。</value>
   </data>
   <data name="ERROR_SECURE_CHANNEL_FAILURE" xml:space="preserve">
     <value>无法创建 SSL/TLS 安全通道。</value>
@@ -5524,7 +5524,7 @@
     <value>{0} 安装管理代理</value>
   </data>
   <data name="EVACUATE_HOST_INSTALL_TOOLS_PROMPT" xml:space="preserve">
-    <value>{0} 安装 [Citrix VM Tools]</value>
+    <value>{0} 安装 XCP-ng VM Tools</value>
   </data>
   <data name="EVACUATE_HOST_LOCAL_CD" xml:space="preserve">
     <value>此 VM 使用本地 CD。</value>
@@ -6193,7 +6193,7 @@
     <value>性能图表</value>
   </data>
   <data name="GRAPH_NEEDS_TOOLS" xml:space="preserve">
-    <value>需要安装 [Citrix VM Tools]，才能查看此 VM 的内存数据</value>
+    <value>需要安装 XCP-ng VM Tools，才能查看此 VM 的内存数据</value>
   </data>
   <data name="GREATER_THAN" xml:space="preserve">
     <value>&gt; {0}</value>
@@ -6205,7 +6205,7 @@
     <value>组角色</value>
   </data>
   <data name="GUEFI_BOOT_MODES_EXPERIMENTAL_WARNING" xml:space="preserve">
-    <value>来宾 UEFI 引导和来宾 UEFI 安全引导属于实验性功能。可以在生产环境中的主机上创建启用了 UEFI 的 VM。但是，启用了 UEFI 的 VM 不得用于生产目的。将主机升级到更新版本的 [XenServer] 时，可能必须重新创建这些 VM。</value>
+    <value>来宾 UEFI 引导和来宾 UEFI 安全引导属于实验性功能。可以在生产环境中的主机上创建启用了 UEFI 的 VM。但是，启用了 UEFI 的 VM 不得用于生产目的。将主机升级到更新版本的 XCP-ng 时，可能必须重新创建这些 VM。</value>
   </data>
   <data name="GUEFI_BOOT_MODES_UNSUPPORTED_WARNING" xml:space="preserve">
     <value>选定模板不支持 UEFI 和 UEFI 安全启动模式。</value>
@@ -6214,7 +6214,7 @@
     <value>UEFI 引导(&amp;U) (实验)</value>
   </data>
   <data name="GUEFI_BOOT_MODE_EXPERIMENTAL_WARNING" xml:space="preserve">
-    <value>来宾 UEFI 引导是一项实验性功能。可以在生产环境中的主机上创建启用了 UEFI 的 VM。但是，启用了 UEFI 的 VM 不得用于生产目的。将主机升级到更新版本的 [XenServer] 时，可能必须重新创建这些 VM。</value>
+    <value>来宾 UEFI 引导是一项实验性功能。可以在生产环境中的主机上创建启用了 UEFI 的 VM。但是，启用了 UEFI 的 VM 不得用于生产目的。将主机升级到更新版本的 XCP-ng 时，可能必须重新创建这些 VM。</value>
   </data>
   <data name="GUEFI_BOOT_MODE_LABEL" xml:space="preserve">
     <value>UEFI 引导(&amp;U)</value>
@@ -6223,7 +6223,7 @@
     <value>选定模板不支持 UEFI 启动模式。</value>
   </data>
   <data name="GUEFI_SECUREBOOT_MODE_EXPERIMENTAL_WARNING" xml:space="preserve">
-    <value>来宾 UEFI 安全引导是一项实验性功能。可以在生产环境中的主机上创建配置为使用 UEFI 安全引导模式的 VM。但是，这些 VM 不得用于生产目的。将主机升级到更新版本的 [XenServer] 时，可能必须重新创建这些 VM。</value>
+    <value>来宾 UEFI 安全引导是一项实验性功能。可以在生产环境中的主机上创建配置为使用 UEFI 安全引导模式的 VM。但是，这些 VM 不得用于生产目的。将主机升级到更新版本的 XCP-ng 时，可能必须重新创建这些 VM。</value>
   </data>
   <data name="GUEFI_SECUREBOOT_MODE_UNSUPPORTED_WARNING" xml:space="preserve">
     <value>选定模板不支持 UEFI 安全启动模式。</value>
@@ -6235,9 +6235,9 @@
     <value>UEFI 安全引导(&amp;S)</value>
   </data>
   <data name="GUI_OUT_OF_DATE" xml:space="preserve">
-    <value>此版本的 [XenCenter] 已过时，无法连接到 {0}。
+    <value>此版本的 XCP-ng Center 已过时，无法连接到 {0}。
 
-可以从以下位置获取兼容的 [XenCenter] 版本:</value>
+可以从以下位置获取兼容的 XCP-ng Center 版本:</value>
   </data>
   <data name="HA" xml:space="preserve">
     <value>高可用性</value>
@@ -6338,7 +6338,7 @@
     <value>是否确实要为池“{0}”禁用高可用性?</value>
   </data>
   <data name="HA_EDIT_DIALOG_BLURB" xml:space="preserve">
-    <value>[XenServer] 高可用性(HA)允许在基础硬件出现故障或单个服务器丢失时自动重新启动虚拟机。“{0}”已启用高可用性。</value>
+    <value>XCP-ng 高可用性(HA)允许在基础硬件出现故障或单个服务器丢失时自动重新启动虚拟机。“{0}”已启用高可用性。</value>
   </data>
   <data name="HA_EDIT_NOW" xml:space="preserve">
     <value>立即更改这些高可用性设置...</value>
@@ -6528,10 +6528,10 @@
     <value>检查配置并激活高可用性</value>
   </data>
   <data name="HEALTHCHECK_AUTHENTICATION_RUBRIC_EXISTING_TOKEN" xml:space="preserve">
-    <value>需要在 [Citrix] Insight Services 中进行身份验证才能启用此功能。[XenCenter] 检测到之前已成功为其他已连接的池之一进行身份验证。可以选择重复使用或再次进行身份验证。</value>
+    <value>需要在 XCP-ng Insight Services 中进行身份验证才能启用此功能。XCP-ng Center 检测到之前已成功为其他已连接的池之一进行身份验证。可以选择重复使用或再次进行身份验证。</value>
   </data>
   <data name="HEALTHCHECK_AUTHENTICATION_RUBRIC_NO_TOKEN" xml:space="preserve">
-    <value>需要在 [Citrix] Insight Services 中进行身份验证才能启用此功能。请通过提供 MyCitrix 凭据进行注册(请参阅 {0})。这些凭据只能用于获取上载令牌，不存储在此计算机或您的服务器上。</value>
+    <value>需要在 XCP-ng Insight Services 中进行身份验证才能启用此功能。请通过提供 MyCitrix 凭据进行注册(请参阅 {0})。这些凭据只能用于获取上载令牌，不存储在此计算机或您的服务器上。</value>
   </data>
   <data name="HEALTHCHECK_ENROLLMENT_CONFIRMATION_BUTTON_LABEL" xml:space="preserve">
     <value>好的，启用运行状况检查</value>
@@ -6570,7 +6570,7 @@
     <value>运行状况检查</value>
   </data>
   <data name="HEALTH_CHECK_AUTHENTICATION_FAILED" xml:space="preserve">
-    <value>在 [Citrix] Insight Services 中进行身份验证失败。有关详细信息，请参阅应用程序日志文件。</value>
+    <value>在 XCP-ng Insight Services 中进行身份验证失败。有关详细信息，请参阅应用程序日志文件。</value>
   </data>
   <data name="HEALTH_CHECK_AUTHENTICATION_INVALID_CREDENTIALS" xml:space="preserve">
     <value>无效用户名或密码。请重试。</value>
@@ -6582,7 +6582,7 @@
     <value>http://www.citrix.com.cn/about/legal/privacy.html</value>
   </data>
   <data name="HEALTH_CHECK_PRIVACY_POLICY" xml:space="preserve">
-    <value>根据 [Citrix] Insight Services 策略(网址为 {0})和 [Citrix] 隐私策略(网址为 {1})的规定，运行状况检查上载到 [Citrix] Insight Services 的信息将用于故障排除和诊断支持目的，以及改进我们的产品质量、可靠性和性能。</value>
+    <value>根据 XCP-ng Insight Services 策略(网址为 {0})和 XCP-ng 隐私策略(网址为 {1})的规定，运行状况检查上载到 XCP-ng Insight Services 的信息将用于故障排除和诊断支持目的，以及改进我们的产品质量、可靠性和性能。</value>
   </data>
   <data name="HEALTH_CHECK_USER_HAS_NO_PERMISSION_TO_CONNECT" xml:space="preserve">
     <value>此用户无权访问此服务器。</value>
@@ -6703,7 +6703,7 @@
     <value>服务器常规属性</value>
   </data>
   <data name="HOST_GONE" xml:space="preserve">
-    <value>在 [XenCenter] 的缓存中找不到主机。</value>
+    <value>在 XCP-ng Center 的缓存中找不到主机。</value>
   </data>
   <data name="HOST_INTERNAL_MANAGEMENT_NETWORK" xml:space="preserve">
     <value>主机内部管理网络</value>
@@ -6721,7 +6721,7 @@
     <value>本地和远程({0})</value>
   </data>
   <data name="HOST_MEMORY_POST_UPGRADE_DEFAULT_WARNING_LONG" xml:space="preserve">
-    <value>如果要升级到 [XenServer] {1} 及更高版本，则将增加 {0} 上的控制域内存。 
+    <value>如果要升级到 XCP-ng {1} 及更高版本，则将增加 {0} 上的控制域内存。 
 
 这可能会导致在 RPU 期间无法将 VM 迁移到此服务器，或者在升级后无法容纳当前位于此服务器上的所有 VM。</value>
   </data>
@@ -6737,7 +6737,7 @@
     <value>{0}: 由于控制域内存增加，此服务器可能在升级后无法容纳其所有 VM。</value>
   </data>
   <data name="HOST_MEMORY_POST_UPGRADE_VERSION_WARNING_LONG" xml:space="preserve">
-    <value>{0} 上的控制域内存将在升级到 [XenServer] {1} 时增加。
+    <value>{0} 上的控制域内存将在升级到 XCP-ng {1} 时增加。
 
 这可能会导致在 RPU 期间无法将 VM 迁移到此服务器，或在升级后无法容纳当前位于此服务器上的所有 VM。</value>
   </data>
@@ -7118,7 +7118,7 @@
     <value>查找要导入的文件</value>
   </data>
   <data name="IMPORT_TEMPLATE_ALREADY_EXISTS" xml:space="preserve">
-    <value>您正在尝试导入的 [XenServer] 模板已存在于所选池中。</value>
+    <value>您正在尝试导入的 XCP-ng 模板已存在于所选池中。</value>
   </data>
   <data name="IMPORT_TEMPLATE_CONFIGURE_STORAGE" xml:space="preserve">
     <value>配置新模板的存储</value>
@@ -7235,7 +7235,7 @@
     <value>为导入的虚拟机选择存储库。</value>
   </data>
   <data name="INCOMPATIBLE_PRODUCTS" xml:space="preserve">
-    <value>此服务器版本与 [XenCenter] 不兼容。</value>
+    <value>此服务器版本与 XCP-ng Center 不兼容。</value>
   </data>
   <data name="INCOMPATIBLE_PROTOCOL_VERSION" xml:space="preserve">
     <value>协议版本不兼容</value>
@@ -7262,7 +7262,7 @@
     <value>磁盘和内存快照需要安装 I/O 驱动程序</value>
   </data>
   <data name="INFO_DISKMEMORY_MODE_NO_TOOLS" xml:space="preserve">
-    <value>磁盘和内存快照需要安装 [Citrix VM Tools]</value>
+    <value>磁盘和内存快照需要安装 XCP-ng VM Tools</value>
   </data>
   <data name="INFO_DISKMEMORY_MODE_POWER_STATE" xml:space="preserve">
     <value>磁盘和内存快照需要 VM 处于运行状态</value>
@@ -7277,7 +7277,7 @@
     <value>静止快照需要安装管理代理</value>
   </data>
   <data name="INFO_QUIESCE_MODE_NO_TOOLS" xml:space="preserve">
-    <value>静止快照需要安装 [Citrix VM Tools]</value>
+    <value>静止快照需要安装 XCP-ng VM Tools</value>
   </data>
   <data name="INFO_QUIESCE_MODE_POWER_STATE" xml:space="preserve">
     <value>静止快照需要 VM 处于运行状态</value>
@@ -7301,22 +7301,22 @@
     <value>在所选 VM 上找不到 CD 驱动器。</value>
   </data>
   <data name="INSTALLTOOLS_COULDNOTFIND_WIN" xml:space="preserve">
-    <value>找不到 [Citrix VM Tools] 安装光盘。</value>
+    <value>找不到 XCP-ng VM Tools 安装光盘。</value>
   </data>
   <data name="INSTALLTOOLS_DONE" xml:space="preserve">
-    <value>已启动 [Citrix VM Tools] 安装。</value>
+    <value>已启动 XCP-ng VM Tools 安装。</value>
   </data>
   <data name="INSTALLTOOLS_EXIST" xml:space="preserve">
-    <value>已在此 VM 上安装 [Citrix VM Tools]。</value>
+    <value>已在此 VM 上安装 XCP-ng VM Tools。</value>
   </data>
   <data name="INSTALLTOOLS_READ_MORE" xml:space="preserve">
-    <value>阅读有关安装 [Citrix VM Tools] 的更多信息</value>
+    <value>阅读有关安装 XCP-ng VM Tools 的更多信息</value>
   </data>
   <data name="INSTALLTOOLS_STARTING" xml:space="preserve">
-    <value>正在启动 [Citrix VM Tools] 安装。</value>
+    <value>正在启动 XCP-ng VM Tools 安装。</value>
   </data>
   <data name="INSTALLTOOLS_TITLE" xml:space="preserve">
-    <value>正在 VM“{0}”上安装 [Citrix VM Tools]</value>
+    <value>正在 VM“{0}”上安装 XCP-ng VM Tools</value>
   </data>
   <data name="INSTALL_FILES_CANNOT_BE_FOUND" xml:space="preserve">
     <value>{0}: 在指定的网络位置找不到安装文件</value>
@@ -7346,10 +7346,10 @@
     <value>正在服务器 {0} 上安装证书...</value>
   </data>
   <data name="INSTALL_XENSERVER_TOOLS" xml:space="preserve">
-    <value>安装 [Citrix VM Tools]</value>
+    <value>安装 XCP-ng VM Tools</value>
   </data>
   <data name="INSTALL_XENSERVER_TOOLS_BUTTON" xml:space="preserve">
-    <value>安装 [Citrix VM Tools](&amp;I)</value>
+    <value>安装 XCP-ng VM Tools(&amp;I)</value>
   </data>
   <data name="INSTANT_VM_CREATE_DESC_COMPLETED" xml:space="preserve">
     <value>已创建 VM“{0}”</value>
@@ -7518,49 +7518,49 @@ SR UUID: {1}</value>
     <value>已激活</value>
   </data>
   <data name="LICENSE_EDITION_DESKTOP" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops(&amp;A)</value>
+    <value>XCP-ng Virtual Apps and Desktops(&amp;A)</value>
   </data>
   <data name="LICENSE_EDITION_DESKTOP_CLOUD" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops [Citrix] Cloud(&amp;C)</value>
+    <value>XCP-ng Virtual Apps and Desktops XCP-ng Cloud(&amp;C)</value>
   </data>
   <data name="LICENSE_EDITION_DESKTOP_CLOUD_LEGACY" xml:space="preserve">
-    <value>XenApp/XenDesktop [Citrix] Cloud(&amp;C)</value>
+    <value>XenApp/XenDesktop XCP-ng Cloud(&amp;C)</value>
   </data>
   <data name="LICENSE_EDITION_DESKTOP_LEGACY" xml:space="preserve">
     <value>XenApp/XenDesktop(&amp;D)</value>
   </data>
   <data name="LICENSE_EDITION_DESKTOP_PLUS" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops Premium(&amp;P)</value>
+    <value>XCP-ng Virtual Apps and Desktops Premium(&amp;P)</value>
   </data>
   <data name="LICENSE_EDITION_DESKTOP_PLUS_LEGACY" xml:space="preserve">
     <value>XenApp/XenDesktop Platinum(&amp;P)</value>
   </data>
   <data name="LICENSE_EDITION_ENTERPRISE_PERSOCKET" xml:space="preserve">
-    <value>[XenServer product] Premium Per-Socket (需要 {0})(&amp;R)</value>
+    <value>XCP-ng Premium Per-Socket (需要 {0})(&amp;R)</value>
   </data>
   <data name="LICENSE_EDITION_ENTERPRISE_PERSOCKET_LEGACY" xml:space="preserve">
     <value>{1} Enterprise Per-Socket (需要 {0})(&amp;N)</value>
   </data>
   <data name="LICENSE_EDITION_ENTERPRISE_PERUSER" xml:space="preserve">
-    <value>[XenServer product] Premium Per-User(&amp;E)</value>
+    <value>XCP-ng Premium Per-User(&amp;E)</value>
   </data>
   <data name="LICENSE_EDITION_ENTERPRISE_PERUSER_LEGACY" xml:space="preserve">
     <value>{0} Enterprise Per-User(&amp;E)</value>
   </data>
   <data name="LICENSE_EDITION_PERSOCKET" xml:space="preserve">
-    <value>[XenServer product] Per-Socket (需要 {0})(&amp;S)</value>
+    <value>XCP-ng Per-Socket (需要 {0})(&amp;S)</value>
   </data>
   <data name="LICENSE_EDITION_PERSOCKET_LEGACY" xml:space="preserve">
     <value>{1} Per-Socket (需要 {0})(&amp;S)</value>
   </data>
   <data name="LICENSE_EDITION_STANDARD_PERSOCKET" xml:space="preserve">
-    <value>[XenServer product] Standard Per-Socket (需要 {0})(&amp;S)</value>
+    <value>XCP-ng Standard Per-Socket (需要 {0})(&amp;S)</value>
   </data>
   <data name="LICENSE_EDITION_STANDARD_PERSOCKET_LEGACY" xml:space="preserve">
     <value>{1} Standard Per-Socket (需要 {0})(&amp;S)</value>
   </data>
   <data name="LICENSE_EDITION_XENDESKTOP" xml:space="preserve">
-    <value>[XenServer product] for [Citrix] Virtual Desktops(&amp;D)</value>
+    <value>XCP-ng for XCP-ng Virtual Desktops(&amp;D)</value>
   </data>
   <data name="LICENSE_EDITION_XENDESKTOP_LEGACY" xml:space="preserve">
     <value>{0} for XenDesktop(&amp;X)</value>
@@ -7596,7 +7596,7 @@ SR UUID: {1}</value>
     <value>1 分钟后过期</value>
   </data>
   <data name="LICENSE_EXPIRY_PURCHACE" xml:space="preserve">
-    <value>在线 [XenServer]</value>
+    <value>在线 XCP-ng</value>
     <comment>this text could be improved</comment>
   </data>
   <data name="LICENSE_FIELD_DISABLED" xml:space="preserve">
@@ -7642,7 +7642,7 @@ SR UUID: {1}</value>
     <value>高可用性处于启用状态时无法更改主机的许可证</value>
   </data>
   <data name="LICENSE_NO_MULTISELECT_ACTIVATE" xml:space="preserve">
-    <value>激活 [XenServer] Express 时，必须一次选择一个服务器。</value>
+    <value>激活 XCP-ng Express 时，必须一次选择一个服务器。</value>
   </data>
   <data name="LICENSE_NO_MULTISELECT_LICENSE" xml:space="preserve">
     <value>许可使用早于 {0} 的服务器时，必须一次选择一台服务器。</value>
@@ -7673,15 +7673,15 @@ SR UUID: {1}</value>
   </data>
   <data name="LICENSE_SUPPORT_AND_DESKTOP_CLOUD_FEATURES_ENABLED" xml:space="preserve">
     <value>有资格获得支持 
-[Citrix] Virtual Apps and Desktops [Citrix] Cloud 功能已启用</value>
+XCP-ng Virtual Apps and Desktops XCP-ng Cloud 功能已启用</value>
   </data>
   <data name="LICENSE_SUPPORT_AND_DESKTOP_FEATURES_ENABLED" xml:space="preserve">
     <value>有资格获得支持 
-[Citrix] Virtual Apps and Desktops 功能已启用</value>
+XCP-ng Virtual Apps and Desktops 功能已启用</value>
   </data>
   <data name="LICENSE_SUPPORT_AND_DESKTOP_PLUS_FEATURES_ENABLED" xml:space="preserve">
     <value>有资格获得支持 
-[Citrix] Virtual Apps and Desktops Premium 功能已启用</value>
+XCP-ng Virtual Apps and Desktops Premium 功能已启用</value>
   </data>
   <data name="LICENSE_SUPPORT_AND_ENTERPRISE_FEATURES_ENABLED" xml:space="preserve">
     <value>有资格获得支持 
@@ -7696,7 +7696,7 @@ Premium 功能已启用</value>
 仅限 Standard 功能</value>
   </data>
   <data name="LICENSE_TOO_MANY_SERVERS_SELECTED_CAPTION" xml:space="preserve">
-    <value>激活密钥一次只能应用到一款 [XenServer] Express 产品。</value>
+    <value>激活密钥一次只能应用到一款 XCP-ng Express 产品。</value>
   </data>
   <data name="LICENSE_UNLICENSED" xml:space="preserve">
     <value>未获许可</value>
@@ -7723,10 +7723,10 @@ Premium 功能已启用</value>
     <value>您的许可证已过期</value>
   </data>
   <data name="LICENSING_DIALOG_EXPIRED_TEXT" xml:space="preserve">
-    <value>一个或多个托管服务器已过期。请分配 [XenServer] 许可证，或激活 [XenServer] Express 产品。</value>
+    <value>一个或多个托管服务器已过期。请分配 XCP-ng 许可证，或激活 XCP-ng Express 产品。</value>
   </data>
   <data name="LICENSING_DIALOG_EXPIRING_SOON_TEXT" xml:space="preserve">
-    <value>一个或多个托管服务器即将到期。请分配 [XenServer] 许可证，或激活 [XenServer] Express 产品。</value>
+    <value>一个或多个托管服务器即将到期。请分配 XCP-ng 许可证，或激活 XCP-ng Express 产品。</value>
   </data>
   <data name="LINK_STATUS" xml:space="preserve">
     <value>链接状态</value>
@@ -7947,10 +7947,10 @@ SCSI ID: {2}
     <value>编辑标记(&amp;G)...</value>
   </data>
   <data name="MAINWINDOW_EXPIRE_MESSAGE" xml:space="preserve">
-    <value>“{0}”上的 [XenServer] 许可证将于 {1}内过期。</value>
+    <value>“{0}”上的 XCP-ng 许可证将于 {1}内过期。</value>
   </data>
   <data name="MAINWINDOW_EXPIRE_MESSAGE_TOO_LATE" xml:space="preserve">
-    <value>“{0}”上的 [XenServer] 许可证已过期。</value>
+    <value>“{0}”上的 XCP-ng 许可证已过期。</value>
   </data>
   <data name="MAINWINDOW_EXPORT_POOL_RESOURCE_DATA" xml:space="preserve">
     <value>导出资源数据(&amp;X)...</value>
@@ -7989,7 +7989,7 @@ SCSI ID: {2}
     <value>高可用性(&amp;H)</value>
   </data>
   <data name="MAINWINDOW_INSTALL_TOOLS" xml:space="preserve">
-    <value>安装 [Citrix VM Tools](&amp;A)...</value>
+    <value>安装 XCP-ng VM Tools(&amp;A)...</value>
   </data>
   <data name="MAINWINDOW_INSTANT_VM_FROM_TEMPLATE" xml:space="preserve">
     <value>快速创建(&amp;Q)</value>
@@ -8055,7 +8055,7 @@ SCSI ID: {2}
     <value>在恢复模式下启动(&amp;V)</value>
   </data>
   <data name="MAINWINDOW_REMOVE_HOST" xml:space="preserve">
-    <value>从 [XenCenter] 中删除(&amp;V)</value>
+    <value>从 XCP-ng Center 中删除(&amp;V)</value>
   </data>
   <data name="MAINWINDOW_REMOVE_HOST_CRASHDUMPS" xml:space="preserve">
     <value>删除故障转储文件(&amp;F)</value>
@@ -8202,7 +8202,7 @@ SCSI ID: {2}
     <value>内存(&amp;M):</value>
   </data>
   <data name="MEMORY_XEN" xml:space="preserve">
-    <value>[XenServer]</value>
+    <value>XCP-ng</value>
   </data>
   <data name="MEM_NOT_WHEN_SUSPENDED" xml:space="preserve">
     <value>VM 挂起时无法更改内存</value>
@@ -8411,7 +8411,7 @@ SCSI ID: {2}
 {1}</value>
   </data>
   <data name="MESSAGEBOX_PROGRAM_UNEXPECTED_TITLE" xml:space="preserve">
-    <value>[XenCenter] - 错误</value>
+    <value>XCP-ng Center - 错误</value>
   </data>
   <data name="MESSAGEBOX_RECONNECT_FAIL" xml:space="preserve">
     <value>无法重新连接 {0}。服务器不可用。</value>
@@ -8532,7 +8532,7 @@ SCSI ID: {2}
     <value>支持多路径</value>
   </data>
   <data name="MULTIPATH_FAILED" xml:space="preserve">
-    <value>至少一个存储的一个或多个路径失败。有关配置存储多路径的信息，请参阅《[XenServer product] 管理员指南》。</value>
+    <value>至少一个存储的一个或多个路径失败。有关配置存储多路径的信息，请参阅《XCP-ng 管理员指南》。</value>
   </data>
   <data name="MULTIPATH_NOT_ACTIVE" xml:space="preserve">
     <value>非活动</value>
@@ -8620,12 +8620,12 @@ SCSI ID: {2}
     <value>配置 IP 地址 - {0}</value>
   </data>
   <data name="NETWORKING_PROPERTIES_WARNING_CHANGING_MANAGEMENT_HOST" xml:space="preserve">
-    <value>正在重新配置主管理接口。如果新设置不正确，[XenCenter] 可能会与服务器永久断开连接。
+    <value>正在重新配置主管理接口。如果新设置不正确，XCP-ng Center 可能会与服务器永久断开连接。
 
 只有在确认这些设置正确后才能继续操作。</value>
   </data>
   <data name="NETWORKING_PROPERTIES_WARNING_CHANGING_MANAGEMENT_POOL" xml:space="preserve">
-    <value>正在重新配置主管理接口。如果新设置不正确，[XenCenter] 可能会与服务器永久断开连接，或者池成员可能无法互相联系。
+    <value>正在重新配置主管理接口。如果新设置不正确，XCP-ng Center 可能会与服务器永久断开连接，或者池成员可能无法互相联系。
 
 只有在确认这些设置正确后才能继续操作。</value>
   </data>
@@ -8759,7 +8759,7 @@ SCSI ID: {2}
     <value>需要先关闭并重新启动 VM 才能访问新磁盘。</value>
   </data>
   <data name="NEWER_GUI_AVAILABLE" xml:space="preserve">
-    <value>有更新版本的 [XenCenter] 可用。请与支持代表联系。</value>
+    <value>有更新版本的 XCP-ng Center 可用。请与支持代表联系。</value>
   </data>
   <data name="NEWNETWORKWIZARD_TITLE" xml:space="preserve">
     <value>新建网络 - {0}</value>
@@ -8904,7 +8904,7 @@ SCSI ID: {2}
     <value>StorageLink 技术</value>
   </data>
   <data name="NEWSR_EQUAL_LOGIC_BLURB" xml:space="preserve">
-    <value>Dell EqualLogic 是一种可扩展的高性能网络连接存储形式，支持在不停机的情况下增加容量。可以使用 Dell EqualLogic 共享存储来支持 [XenServer] 功能，例如实时迁移和高可用性。</value>
+    <value>Dell EqualLogic 是一种可扩展的高性能网络连接存储形式，支持在不停机的情况下增加容量。可以使用 Dell EqualLogic 共享存储来支持 XCP-ng 功能，例如实时迁移和高可用性。</value>
   </data>
   <data name="NEWSR_EQUAL_LOGIC_DESCRIPTION" xml:space="preserve">
     <value>Dell EqualLogic SR [{0} ({1})]</value>
@@ -8952,7 +8952,7 @@ SCSI ID: {2}
     <value>该 LUN 已在服务器 {1} 中作为 SR {0} 使用。</value>
   </data>
   <data name="NEWSR_LVMOFCOE_BLURB" xml:space="preserve">
-    <value>[XenServer] 主机在这种情况下使用支持 FCoE 的受支持融合网络适配器(CNA)来支持基于软件的以太网光纤通道。
+    <value>XCP-ng 主机在这种情况下使用支持 FCoE 的受支持融合网络适配器(CNA)来支持基于软件的以太网光纤通道。
 
 要将 LUN 显示给主机，必须手动完成所需要的所有配置，其中包括配置 FCoE 架构以及将 LUN 分配给 CNA 的公共全球通用名称(PWWN)。 
 
@@ -8965,9 +8965,9 @@ SCSI ID: {2}
     <value>软件 FCoE</value>
   </data>
   <data name="NEWSR_LVMOHBA_BLURB" xml:space="preserve">
-    <value>[XenServer] 主机通过主机总线适配器(HBA)支持光纤通道(FC)、以太网光纤通道(FCoE)和共享串联 SCSI (SAS)存储局域网。
+    <value>XCP-ng 主机通过主机总线适配器(HBA)支持光纤通道(FC)、以太网光纤通道(FCoE)和共享串联 SCSI (SAS)存储局域网。
 
-要将 LUN 显示给主机，必须手动完成所需要的所有配置，其中包括 [XenServer] 主机中的存储设备、网络设备和 HBA。
+要将 LUN 显示给主机，必须手动完成所需要的所有配置，其中包括 XCP-ng 主机中的存储设备、网络设备和 HBA。
 
 完成所有配置后，HBA 将一个由 LUN 支持的 SCSI 设备显示给主机。然后可以使用该 SCSI 设备访问 LUN，就像本地连接了 SCSI 设备一样。</value>
   </data>
@@ -9011,7 +9011,7 @@ SCSI ID: {2}
     <value>iSCSI</value>
   </data>
   <data name="NEWSR_MULTI_POOL_WARNING" xml:space="preserve">
-    <value>警告: 必须确保以下 SR 当前未由任何未连接到 [XenCenter] 的服务器使用。否则可能会导致数据丢失。
+    <value>警告: 必须确保以下 SR 当前未由任何未连接到 XCP-ng Center 的服务器使用。否则可能会导致数据丢失。
 
 SR:  {0}
 
@@ -9331,13 +9331,13 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>{0} {1}</value>
   </data>
   <data name="NEWVMWIZARD_STORAGEPAGE_XC_SELECTION" xml:space="preserve">
-    <value>[XenCenter] 为您选择了不同的 SR。</value>
+    <value>XCP-ng Center 为您选择了不同的 SR。</value>
   </data>
   <data name="NEWVMWIZARD_TEMPLATEPAGE_CENTOS" xml:space="preserve">
     <value>CentOS</value>
   </data>
   <data name="NEWVMWIZARD_TEMPLATEPAGE_CITRIX" xml:space="preserve">
-    <value>[Citrix]</value>
+    <value>XCP-ng</value>
   </data>
   <data name="NEWVMWIZARD_TEMPLATEPAGE_COREOS" xml:space="preserve">
     <value>CoreOS</value>
@@ -9400,10 +9400,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>分配虚拟 GPU</value>
   </data>
   <data name="NEWVMWIZARD_XENAPP_XENDESKTOP_INFO_MESSAGE_POOL" xml:space="preserve">
-    <value>仅许可此池使用 [Citrix] Virtual Apps and Desktops 工作负载</value>
+    <value>仅许可此池使用 XCP-ng Virtual Apps and Desktops 工作负载</value>
   </data>
   <data name="NEWVMWIZARD_XENAPP_XENDESKTOP_INFO_MESSAGE_SERVER" xml:space="preserve">
-    <value>仅许可此服务器使用 [Citrix] Virtual Apps and Desktops 工作负载</value>
+    <value>仅许可此服务器使用 XCP-ng Virtual Apps and Desktops 工作负载</value>
   </data>
   <data name="NEWVM_DEFAULTNAME" xml:space="preserve">
     <value>{0} ({1})</value>
@@ -9424,7 +9424,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>新建虚拟网络接口 - {0}</value>
   </data>
   <data name="NEW_DVD_DRIVES_REQUIRED" xml:space="preserve">
-    <value>在要安装 [Citrix VM Tools] 的 VM 中，至少有一个 VM 没有 DVD 驱动器。是否要为需要 DVD 驱动器的每个 VM 创建新 DVD 驱动器?</value>
+    <value>在要安装 XCP-ng VM Tools 的 VM 中，至少有一个 VM 没有 DVD 驱动器。是否要为需要 DVD 驱动器的每个 VM 创建新 DVD 驱动器?</value>
   </data>
   <data name="NEW_DVD_DRIVE_CREATE_TITLE" xml:space="preserve">
     <value>正在 VM {0} 上创建新 DVD 驱动器</value>
@@ -9440,10 +9440,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
   </data>
   <data name="NEW_DVD_DRIVE_REBOOT_TOOLS" xml:space="preserve">
     <value>必须关闭并重新启动 VM，才能完成安装新 DVD 驱动器。
-重新启动 VM 后，请再次单击“安装 [Citrix VM Tools]”菜单项。</value>
+重新启动 VM 后，请再次单击“安装 XCP-ng VM Tools”菜单项。</value>
   </data>
   <data name="NEW_DVD_DRIVE_REQUIRED" xml:space="preserve">
-    <value>要安装 [Citrix VM Tools] 的 VM 没有 DVD 驱动器，是否要创建?</value>
+    <value>要安装 XCP-ng VM Tools 的 VM 没有 DVD 驱动器，是否要创建?</value>
   </data>
   <data name="NEW_FOLDER" xml:space="preserve">
     <value>新建文件夹(&amp;N)...</value>
@@ -9475,7 +9475,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
   <data name="NEW_POOL_CPU_MASKING_MESSAGE" xml:space="preserve">
     <value>正在尝试将服务器“{0}”添加到主服务器使用较旧 CPU 的池中。
 
-[XenServer] 可以通过重新启动服务器并将其 CPU 降至主服务器的级别来继续进行操作。这样将关闭服务器上运行的所有 VM。此功能适用于“[XenServer] 硬件兼容性列表”中列出的 CPU 组合。
+XCP-ng 可以通过重新启动服务器并将其 CPU 降至主服务器的级别来继续进行操作。这样将关闭服务器上运行的所有 VM。此功能适用于“XCP-ng 硬件兼容性列表”中列出的 CPU 组合。
 
 是否要执行此操作?</value>
   </data>
@@ -9484,7 +9484,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
 
 {0}
 
-[XenServer] 可以通过重新启动服务器并将其 CPU 降至主服务器的级别来继续进行操作。这样将关闭服务器上运行的所有 VM。此功能适用于“[XenServer] 硬件兼容性列表”中列出的 CPU 组合。
+XCP-ng 可以通过重新启动服务器并将其 CPU 降至主服务器的级别来继续进行操作。这样将关闭服务器上运行的所有 VM。此功能适用于“XCP-ng 硬件兼容性列表”中列出的 CPU 组合。
 
 是否要执行此操作?</value>
   </data>
@@ -9588,7 +9588,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>YinheKylin</value>
   </data>
   <data name="NEW_XENCENTER_REQUIRED_INFO" xml:space="preserve">
-    <value>需要新 [XenCenter] 版本</value>
+    <value>需要新 XCP-ng Center 版本</value>
   </data>
   <data name="NFS_ISO_ALREADY_ATTACHED" xml:space="preserve">
     <value>此 NFS ISO 存储已连接到“{0}”</value>
@@ -9729,7 +9729,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>可用空间: {0}</value>
   </data>
   <data name="NOT_ENOUGH_SPACE_MESSAGE_CLEANUP" xml:space="preserve">
-    <value>[XenCenter] 可以通过删除其余的更新文件释放 {0}。是否要继续清理?</value>
+    <value>XCP-ng Center 可以通过删除其余的更新文件释放 {0}。是否要继续清理?</value>
   </data>
   <data name="NOT_ENOUGH_SPACE_MESSAGE_INSTALL" xml:space="preserve">
     <value>“{0}”上的空间不足，无法安装更新“{1}”。</value>
@@ -9749,9 +9749,9 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
   <data name="NOT_SAFE_TO_UPGRADE_DEFAULT_WARNING_LONG" xml:space="preserve">
     <value>本地磁盘上的 VM 将阻止磁盘重新分区。
 
-新磁盘分区方案在包括更大的 dom0 和备份分区以及用于日志记录、交换和 UEFI 的专用分区的 [XenServer] {0} 及更高版本中可用。
+新磁盘分区方案在包括更大的 dom0 和备份分区以及用于日志记录、交换和 UEFI 的专用分区的 XCP-ng {0} 及更高版本中可用。
 
-但是，本地存储上存在 VM，因此将保留当前的分区方案。要在升级到 [XenServer] {0} 或更高版本时从重新分区中获益，必须先移动本地存储中的 VM。</value>
+但是，本地存储上存在 VM，因此将保留当前的分区方案。要在升级到 XCP-ng {0} 或更高版本时从重新分区中获益，必须先移动本地存储中的 VM。</value>
   </data>
   <data name="NOT_SAFE_TO_UPGRADE_DEFAULT_WARNING_SHORT" xml:space="preserve">
     <value>{0}: 本地磁盘上的 VM 将阻止磁盘重新分区。</value>
@@ -9759,7 +9759,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
   <data name="NOT_SAFE_TO_UPGRADE_NOT_ENOUGH_SPACE_LONG" xml:space="preserve">
     <value>本地存储的磁盘大小阻止重新分区。
 
-新磁盘分区方案在包括更大的 dom0 和备份分区以及用于日志记录、交换和 UEFI 的专用分区的 [XenServer] {0} 及更高版本中可用。
+新磁盘分区方案在包括更大的 dom0 和备份分区以及用于日志记录、交换和 UEFI 的专用分区的 XCP-ng {0} 及更高版本中可用。
 
 但是，由于空间不足，无法执行重新分区，因此将保留当前的分区方案。</value>
   </data>
@@ -10114,7 +10114,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>选择现有更新进行安装，或上载新更新</value>
   </data>
   <data name="PATCHINGWIZARD_SELECTPATCHPAGE_UPDATESEXT" xml:space="preserve">
-    <value>[XenServer] 更新和补充包(*.{0}, *.iso,*.zip)|*.{0};*.iso;*.zip</value>
+    <value>XCP-ng 更新和补充包(*.{0}, *.iso,*.zip)|*.{0};*.iso;*.zip</value>
   </data>
   <data name="PATCHINGWIZARD_SELECTSERVERPAGE_APPLY_UPDATES" xml:space="preserve">
     <value>同时对新版本应用所有已发布的更新(&amp;U)</value>
@@ -10123,13 +10123,13 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>同时对新版本应用所有已发布的更新(仅在获得自动更新许可的池中应用)(&amp;U)</value>
   </data>
   <data name="PATCHINGWIZARD_SELECTSERVERPAGE_AUTOMATED_UPDATES_NOT_SUPPORTED_HOST_VERSION" xml:space="preserve">
-    <value>自动更新功能在此 [XenServer] 版本上不受支持</value>
+    <value>自动更新功能在此 XCP-ng 版本上不受支持</value>
   </data>
   <data name="PATCHINGWIZARD_SELECTSERVERPAGE_AUTOMATED_UPDATES_NOT_SUPPORTED_PARTIALLY_UPGRADED" xml:space="preserve">
-    <value>自动更新功能在部分升级的 [XenServer] 池中不受支持</value>
+    <value>自动更新功能在部分升级的 XCP-ng 池中不受支持</value>
   </data>
   <data name="PATCHINGWIZARD_SELECTSERVERPAGE_CANNOT_INSTALL_SUPP_PACKS" xml:space="preserve">
-    <value>无法在此版本的 [XenServer] 上安装补充包</value>
+    <value>无法在此版本的 XCP-ng 上安装补充包</value>
   </data>
   <data name="PATCHINGWIZARD_SELECTSERVERPAGE_CANNOT_INSTALL_UPDATE_MASTER_POST_7_0" xml:space="preserve">
     <value>无法在此主机上安装更新，因为主机正在运行的版本高于 {0}</value>
@@ -10141,7 +10141,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>池中的一个或多个服务器未获许可，无法应用自动更新</value>
   </data>
   <data name="PATCHINGWIZARD_SELECTSERVERPAGE_NEW_VERSION_UPGRADE_SLAVES_FIRST" xml:space="preserve">
-    <value>必须先升级池中的一个或多个服务器，[XenCenter] 才能应用选定的新版本。</value>
+    <value>必须先升级池中的一个或多个服务器，XCP-ng Center 才能应用选定的新版本。</value>
   </data>
   <data name="PATCHINGWIZARD_SELECTSERVERPAGE_PATCH_ALREADY_APPLIED" xml:space="preserve">
     <value>已应用更新</value>
@@ -10202,7 +10202,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>更新 {0} 的安装已成功完成。</value>
   </data>
   <data name="PATCHINGWIZARD_SINGLEUPDATE_TITLE" xml:space="preserve">
-    <value>[XenCenter] 现在正在您的系统中安装更新 {0}。</value>
+    <value>XCP-ng Center 现在正在您的系统中安装更新 {0}。</value>
   </data>
   <data name="PATCHINGWIZARD_SINGLEUPDATE_WARNING_MANY" xml:space="preserve">
     <value>更新 {0} 的安装已完成，但在某些选定的服务器上出现警告。</value>
@@ -10237,7 +10237,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>更新 {0} 的上载已成功完成。</value>
   </data>
   <data name="PATCHINGWIZARD_SINGLEUPLOAD_TITLE" xml:space="preserve">
-    <value>[XenCenter] 现在正在执行将您的更新上载到上一步骤中指定的服务器所需的操作。请等待完成这些操作，然后单击“下一步”继续进行安装。</value>
+    <value>XCP-ng Center 现在正在执行将您的更新上载到上一步骤中指定的服务器所需的操作。请等待完成这些操作，然后单击“下一步”继续进行安装。</value>
   </data>
   <data name="PATCHINGWIZARD_SINGLEUPLOAD_WARNING_MANY" xml:space="preserve">
     <value>更新 {0} 的上载已完成，但在某些选定的服务器上出现警告。</value>
@@ -10252,10 +10252,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>正在将所选文件上载到您的服务器</value>
   </data>
   <data name="PATCHINGWIZARD_UPLOAD_AND_INSTALL_TITLE_AUTOMATED_MODE" xml:space="preserve">
-    <value>[XenCenter] 现在正在您的系统中安装更新。</value>
+    <value>XCP-ng Center 现在正在您的系统中安装更新。</value>
   </data>
   <data name="PATCHINGWIZARD_UPLOAD_AND_INSTALL_TITLE_NEW_VERSION_AUTOMATED_MODE" xml:space="preserve">
-    <value>[XenCenter] 现在正在您的系统中安装新版本。</value>
+    <value>XCP-ng Center 现在正在您的系统中安装新版本。</value>
   </data>
   <data name="PATCHING_EJECT_CDS" xml:space="preserve">
     <value>从 VM 中弹出任何虚拟 CD</value>
@@ -10314,7 +10314,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>安装大小: {0}</value>
   </data>
   <data name="PATCH_NEEDS_NEW_XENCENTER" xml:space="preserve">
-    <value>此版本需要 [XenCenter] {0} 或更高版本</value>
+    <value>此版本需要 XCP-ng Center {0} 或更高版本</value>
   </data>
   <data name="PATCH_NOT_FOUND" xml:space="preserve">
     <value>未找到</value>
@@ -10426,10 +10426,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>服务器“{0}”无法撤离，因为其他服务器上没有足够的可用内存以迁移此服务器中的所有 VM。请暂停或关闭某些 VM，然后按“重试”以恢复该过程。</value>
   </data>
   <data name="PLAN_ACTION_STATUS_INSTALLING_XENSERVER" xml:space="preserve">
-    <value>正在“{0}”上安装 [XenServer]...</value>
+    <value>正在“{0}”上安装 XCP-ng...</value>
   </data>
   <data name="PLAN_ACTION_STATUS_INSTALLING_XENSERVER_VERSION" xml:space="preserve">
-    <value>正在“{1}”上安装 [XenServer]...</value>
+    <value>正在“{1}”上安装 XCP-ng...</value>
   </data>
   <data name="PLAN_ACTION_STATUS_RECONNECTING_STORAGE" xml:space="preserve">
     <value>正在重新连接存储...</value>
@@ -10446,7 +10446,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>插件</value>
   </data>
   <data name="PLUGINS_DESC" xml:space="preserve">
-    <value>调整 [XenCenter] 的插件的设置</value>
+    <value>调整 XCP-ng Center 的插件的设置</value>
   </data>
   <data name="PLUGINS_MENU_ITEMS_ONLY_ONE_CHILD_ALLOWED" xml:space="preserve">
     <value>菜单项功能必须只有一个命令 XML 节点作为子项</value>
@@ -10566,7 +10566,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>池常规属性</value>
   </data>
   <data name="POOL_GONE" xml:space="preserve">
-    <value>在 [XenCenter] 的缓存中找不到池。</value>
+    <value>在 XCP-ng Center 的缓存中找不到池。</value>
   </data>
   <data name="POOL_HAS_MIXED_LICENSES" xml:space="preserve">
     <value>此池中包含的主机具有不同类型的许可证。</value>
@@ -10599,7 +10599,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>池主服务器</value>
   </data>
   <data name="POOL_MASTER_GONE" xml:space="preserve">
-    <value>在 [XenCenter] 的缓存中找不到池主服务器。</value>
+    <value>在 XCP-ng Center 的缓存中找不到池主服务器。</value>
   </data>
   <data name="POOL_NAME_EMPTY" xml:space="preserve">
     <value>池名称不能为空</value>
@@ -10614,10 +10614,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>选择要导入该 VM 的池或独立服务器。主服务器设置将从模板获得。\n\n如果该值与所选资源池中的服务器不对应，则所有资源安排决策都将忽略该值。</value>
   </data>
   <data name="POOL_UPDATE_GONE" xml:space="preserve">
-    <value>在 [XenCenter] 的缓存中找不到池更新。</value>
+    <value>在 XCP-ng Center 的缓存中找不到池更新。</value>
   </data>
   <data name="POOL_VERSIONS_LINK_TEXT" xml:space="preserve">
-    <value>池已部分升级到 [XenServer] {0}</value>
+    <value>池已部分升级到 XCP-ng {0}</value>
   </data>
   <data name="POOL_VERSIONS_LINK_TEXT_SHORT" xml:space="preserve">
     <value>已部分升级</value>
@@ -10724,13 +10724,13 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>VM“{0}”</value>
   </data>
   <data name="PROBLEM_XENCENTER_VERSION_TITLE" xml:space="preserve">
-    <value>[XenCenter] 版本</value>
+    <value>XCP-ng Center 版本</value>
   </data>
   <data name="PROCEED" xml:space="preserve">
     <value>继续(&amp;P)</value>
   </data>
   <data name="PROMPT_XS_CD" xml:space="preserve">
-    <value>请将 [XenServer] CD 插入服务器“{0}”上的物理驱动器中。
+    <value>请将 XCP-ng CD 插入服务器“{0}”上的物理驱动器中。
 按“确定”继续执行向导，然后返回到服务器，并按屏幕说明操作。</value>
   </data>
   <data name="PROPERTIES_DIALOG_TITLE" xml:space="preserve">
@@ -10800,13 +10800,13 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>PVS 加速器</value>
   </data>
   <data name="PV_DRIVERS_NOT_INSTALLED" xml:space="preserve">
-    <value>未安装 [Citrix VM Tools]</value>
+    <value>未安装 XCP-ng VM Tools</value>
   </data>
   <data name="PV_DRIVERS_OUT_OF_DATE" xml:space="preserve">
-    <value>[Citrix VM Tools] 已过期(已安装版本 {0})</value>
+    <value>XCP-ng VM Tools 已过期(已安装版本 {0})</value>
   </data>
   <data name="PV_DRIVERS_OUT_OF_DATE_UNKNOWN_VERSION" xml:space="preserve">
-    <value>[Citrix VM Tools] 已过期</value>
+    <value>XCP-ng VM Tools 已过期</value>
   </data>
   <data name="PV_GUESTS_CHECK_DESCRIPTION" xml:space="preserve">
     <value>来宾兼容性检查</value>
@@ -11189,7 +11189,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>还原消除的更新</value>
   </data>
   <data name="RESTORE_FROM_BACKUP_FINALIZE" xml:space="preserve">
-    <value>备份文件已加载到服务器“{0}”中。有关如何完成还原过程的说明，请参阅《[XenServer product] 管理员指南》。</value>
+    <value>备份文件已加载到服务器“{0}”中。有关如何完成还原过程的说明，请参阅《XCP-ng 管理员指南》。</value>
   </data>
   <data name="RESTORE_HOST" xml:space="preserve">
     <value>从备份还原...</value>
@@ -11325,13 +11325,13 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
 请检查服务器的启动顺序，然后再次重新启动。</value>
   </data>
   <data name="ROLLING_UPGRADE_REBOOT_MESSAGE" xml:space="preserve">
-    <value>要在 {0} 上安装 [XenServer] 升级，请执行以下步骤:
+    <value>要在 {0} 上安装 XCP-ng 升级，请执行以下步骤:
     
-1. 将 [XenServer] 安装 CD-ROM 插入到服务器的 CD/DVD 驱动器中或设置 PXE 网络引导顺序。
+1. 将 XCP-ng 安装 CD-ROM 插入到服务器的 CD/DVD 驱动器中或设置 PXE 网络引导顺序。
 2. 单击下面的“立即重新启动”按钮以重新启动服务器并开始安装。
 3. 转至服务器的控制台并按照屏幕上的说明进行操作以安装升级。
 
-要跳过此服务器并继续在池中的下一个服务器上进行安装，请单击“跳过此服务器”。请注意，不支持在安装了不同 [XenServer] 版本的服务器上运行池，因此，过后应尽快升级此滚动池升级过程中未升级的任何服务器。
+要跳过此服务器并继续在池中的下一个服务器上进行安装，请单击“跳过此服务器”。请注意，不支持在安装了不同 XCP-ng 版本的服务器上运行池，因此，过后应尽快升级此滚动池升级过程中未升级的任何服务器。
 
 必须先升级主服务器，因此，如果跳过此主服务器，则将取消此池的滚动池升级过程。
 </value>
@@ -11343,10 +11343,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>滚动池升级过程已成功完成。</value>
   </data>
   <data name="ROLLING_UPGRADE_TIMEOUT" xml:space="preserve">
-    <value>仍在等待“{0}”上的 [XenServer] 完成安装。请检查服务器控制台中是否存在错误。如果安装仍在运行，请继续等待...</value>
+    <value>仍在等待“{0}”上的 XCP-ng 完成安装。请检查服务器控制台中是否存在错误。如果安装仍在运行，请继续等待...</value>
   </data>
   <data name="ROLLING_UPGRADE_TIMEOUT_VERSION" xml:space="preserve">
-    <value>仍在等待“{1}”上的 [XenServer] {0} 完成安装。请检查服务器控制台中是否存在错误。如果安装仍在运行，请继续等待...</value>
+    <value>仍在等待“{1}”上的 XCP-ng {0} 完成安装。请检查服务器控制台中是否存在错误。如果安装仍在运行，请继续等待...</value>
   </data>
   <data name="ROLLING_UPGRADE_TITLE_MODE" xml:space="preserve">
     <value>升级模式</value>
@@ -11576,7 +11576,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>服务器、VM、自定义模板和远程 SR</value>
   </data>
   <data name="SERVER_API_INCOMPATIBLE" xml:space="preserve">
-    <value>此服务器正在使用与 [XenCenter] 不兼容的 API。</value>
+    <value>此服务器正在使用与 XCP-ng Center 不兼容的 API。</value>
   </data>
   <data name="SERVER_COLON" xml:space="preserve">
     <value>服务器:</value>
@@ -11588,7 +11588,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>服务器(&amp;S):</value>
   </data>
   <data name="SERVER_OUT_OF_DATE" xml:space="preserve">
-    <value>[XenServer] 已过时</value>
+    <value>XCP-ng 已过时</value>
   </data>
   <data name="SERVER_OUT_OF_DATE_DETAIL" xml:space="preserve">
     <value>服务器“{0}”已过期，不能再与之连接。</value>
@@ -11618,10 +11618,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>池主服务器上的当前时间为: {0}</value>
   </data>
   <data name="SERVER_TOO_OLD" xml:space="preserve">
-    <value>本版本的 [XenCenter] 支持 [XenServer] {0} 及更高版本。</value>
+    <value>本版本的 XCP-ng Center 支持 XCP-ng {0} 及更高版本。</value>
   </data>
   <data name="SERVER_TOO_OLD_SOLUTION" xml:space="preserve">
-    <value>使用早期版本的 [XenCenter] 管理此服务器。</value>
+    <value>使用早期版本的 XCP-ng Center 管理此服务器。</value>
   </data>
   <data name="SERVER_X" xml:space="preserve">
     <value>服务器“{0}”</value>
@@ -11796,7 +11796,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
 是否连接池主服务器“{1}”?</value>
   </data>
   <data name="SLAVE_TOO_OLD" xml:space="preserve">
-    <value>此池包含的服务器低于 [XenServer] {0}。请使用早期版本的 [XenCenter] 来管理此池。</value>
+    <value>此池包含的服务器低于 XCP-ng {0}。请使用早期版本的 XCP-ng Center 来管理此池。</value>
   </data>
   <data name="SMALLER_THAN" xml:space="preserve">
     <value>小于</value>
@@ -11894,10 +11894,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>使用正确的用户名和密码重试。</value>
   </data>
   <data name="SOLUTION_CHECK_PROXY" xml:space="preserve">
-    <value>检查“{0}”上的代理服务器是否已正确配置以及 [XenCenter] 的连接设置是否正确，然后重试。</value>
+    <value>检查“{0}”上的代理服务器是否已正确配置以及 XCP-ng Center 的连接设置是否正确，然后重试。</value>
   </data>
   <data name="SOLUTION_CHECK_XENSERVER" xml:space="preserve">
-    <value>检查确认已在“{0}”上正确配置 [XenServer]，然后重试。</value>
+    <value>检查确认已在“{0}”上正确配置 XCP-ng，然后重试。</value>
   </data>
   <data name="SOLUTION_CHECK_XENSERVER_WITH_PROXY" xml:space="preserve">
     <value>检查代理设置以及服务器在“{0}”上是否正确配置，然后重试。</value>
@@ -11915,7 +11915,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value/>
   </data>
   <data name="SOME_ERRORS_ENCOUNTERED" xml:space="preserve">
-    <value>遇到一些错误。有关详细信息，请参阅 [XenCenter] 日志。</value>
+    <value>遇到一些错误。有关详细信息，请参阅 XCP-ng Center 日志。</value>
   </data>
   <data name="SPACED_HYPHEN" xml:space="preserve">
     <value> - </value>
@@ -11936,7 +11936,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>仍创建 SR-IOV(&amp;S)</value>
   </data>
   <data name="SRIOV_NETWORK_CREATE_WARNING" xml:space="preserve">
-    <value>创建此 SR-IOV 网络会暂时干扰 [XenCenter] 与池的连接。
+    <value>创建此 SR-IOV 网络会暂时干扰 XCP-ng Center 与池的连接。
 
 可能需要重新启动您的服务器以启用 SR-IOV 网络。</value>
   </data>
@@ -11980,10 +11980,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>该 SR 上当前正在执行某项操作。</value>
   </data>
   <data name="SR_CANNOT_BE_DESTROYED_WITH_XC" xml:space="preserve">
-    <value>通过 [XenCenter] 无法销毁此 SR。</value>
+    <value>通过 XCP-ng Center 无法销毁此 SR。</value>
   </data>
   <data name="SR_CANNOT_BE_FORGOTTEN_WITH_XC" xml:space="preserve">
-    <value>通过 [XenCenter] 无法忘记此 SR。</value>
+    <value>通过 XCP-ng Center 无法忘记此 SR。</value>
   </data>
   <data name="SR_CANNOT_BE_SEEN" xml:space="preserve">
     <value>从 {0} 无法看到该存储库</value>
@@ -12139,7 +12139,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>已排队</value>
   </data>
   <data name="STATUS_REPORT_ENTER_CREDENTIALS_MESSAGE" xml:space="preserve">
-    <value>输入您的 MyCitrix 凭据(请参阅 {0})。这些凭据将仅用于在 [Citrix] Insight Services 中进行一次身份验证，不会存储在此计算机或您的服务器上。</value>
+    <value>输入您的 MyCitrix 凭据(请参阅 {0})。这些凭据将仅用于在 XCP-ng Insight Services 中进行一次身份验证，不会存储在此计算机或您的服务器上。</value>
   </data>
   <data name="STATUS_REPORT_ZIP_FAILED" xml:space="preserve">
     <value>打包服务器状态报告时出错。可能只能获取部分报告</value>
@@ -12240,7 +12240,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
   <data name="SUPP_PACK_INSTALL_FAILED" xml:space="preserve">
     <value>无法在“{1}”上安装补充包“{0}”。
 
-有关如何在服务器上手动安装补充包的说明，请参阅《[XenServer product] 管理员指南》。</value>
+有关如何在服务器上手动安装补充包的说明，请参阅《XCP-ng 管理员指南》。</value>
   </data>
   <data name="SUPP_PACK_MISSING_ON" xml:space="preserve">
     <value>{0} (未在 {1} 上安装)</value>
@@ -12327,13 +12327,13 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>操作系统: {0}</value>
   </data>
   <data name="TEMPLATE_INFO_TOOLSNOTPRESENT" xml:space="preserve">
-    <value>[Citrix VM Tools]: 不存在</value>
+    <value>XCP-ng VM Tools: 不存在</value>
   </data>
   <data name="TEMPLATE_INFO_TOOLSOLD" xml:space="preserve">
-    <value>[Citrix VM Tools]: 已过期(已安装版本 {0}.{1})</value>
+    <value>XCP-ng VM Tools: 已过期(已安装版本 {0}.{1})</value>
   </data>
   <data name="TEMPLATE_INFO_TOOLSUPTODATE" xml:space="preserve">
-    <value>[Citrix VM Tools]: 最新</value>
+    <value>XCP-ng VM Tools: 最新</value>
   </data>
   <data name="TEMPLATE_INFO_VCPUS" xml:space="preserve">
     <value>vCPU 数: {0}</value>
@@ -12432,7 +12432,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>VM 运行时无法激活或停用系统磁盘</value>
   </data>
   <data name="TOOLTIP_DEACTIVATE_VDI_NEED_TOOLS" xml:space="preserve">
-    <value>不能从正在运行的未安装 [Citrix VM Tools] 的 VM 激活或停用磁盘</value>
+    <value>不能从正在运行的未安装 XCP-ng VM Tools 的 VM 激活或停用磁盘</value>
   </data>
   <data name="TOOLTIP_DEACTIVATE_VIF_SUSPENDED" xml:space="preserve">
     <value>VM 挂起时无法停用网络</value>
@@ -12447,7 +12447,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>VM 运行时无法删除系统磁盘</value>
   </data>
   <data name="TOOLTIP_DELETE_VDI_NEED_TOOLS" xml:space="preserve">
-    <value>不能从正在运行的未安装 [Citrix VM Tools] 的 VM 中删除磁盘</value>
+    <value>不能从正在运行的未安装 XCP-ng VM Tools 的 VM 中删除磁盘</value>
   </data>
   <data name="TOOLTIP_DETACH_SUSPENDED" xml:space="preserve">
     <value>VM 挂起时无法删除磁盘</value>
@@ -12459,13 +12459,13 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>必须先停用磁盘，才能进行分离。</value>
   </data>
   <data name="TOOLTIP_DETACH_VDI_NEED_TOOLS" xml:space="preserve">
-    <value>不能从正在运行的未安装 [Citrix VM Tools] 的 VM 中删除磁盘</value>
+    <value>不能从正在运行的未安装 XCP-ng VM Tools 的 VM 中删除磁盘</value>
   </data>
   <data name="TOOLTIP_EDIT_NETWORK_IO_DRIVERS" xml:space="preserve">
     <value>必须安装 I/O 驱动程序才能编辑正在运行的 VM 上的网络</value>
   </data>
   <data name="TOOLTIP_EDIT_NETWORK_TOOLS" xml:space="preserve">
-    <value>必须安装 [Citrix VM Tools] 才能编辑正在运行的 VM 上的网络</value>
+    <value>必须安装 XCP-ng VM Tools 才能编辑正在运行的 VM 上的网络</value>
   </data>
   <data name="TOOLTIP_MAX_NETWORKS_FROM_DEFAULT_TEMPLATE" xml:space="preserve">
     <value>创建 VM 时，默认模板最多支持 {0} 个网络</value>
@@ -12474,7 +12474,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>已达到该模板的最大网络数。</value>
   </data>
   <data name="TOOLTIP_NICS_PER_BOND_LIMIT" xml:space="preserve">
-    <value>[XenServer] 仅支持每个绑定使用 {0} 个 NIC。</value>
+    <value>XCP-ng 仅支持每个绑定使用 {0} 个 NIC。</value>
   </data>
   <data name="TOOLTIP_REMOVE_NETWORK_IO_DRIVERS" xml:space="preserve">
     <value>必须安装 I/O 驱动程序才能删除正在运行的 VM 上的网络</value>
@@ -12483,7 +12483,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>无法从挂起的 VM 中删除网络</value>
   </data>
   <data name="TOOLTIP_REMOVE_NETWORK_TOOLS" xml:space="preserve">
-    <value>必须安装 [Citrix VM Tools] 才能删除正在运行的 VM 上的网络</value>
+    <value>必须安装 XCP-ng VM Tools 才能删除正在运行的 VM 上的网络</value>
   </data>
   <data name="TOOLTIP_REMOVE_PIF" xml:space="preserve">
     <value>无法删除该网络，因为它是物理设备</value>
@@ -12549,7 +12549,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>UEFI 安全引导</value>
   </data>
   <data name="UNABLE_TO_IMPORT_SEARCH" xml:space="preserve">
-    <value>[XenCenter] 无法从文件“{0}”中导入保存的搜索。
+    <value>XCP-ng Center 无法从文件“{0}”中导入保存的搜索。
 
 请确认该文件属于有效的 {1} 导出。</value>
   </data>
@@ -12557,7 +12557,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>不可用</value>
   </data>
   <data name="UNCOMPRESS_APPLIANCE_DESCRIPTION" xml:space="preserve">
-    <value>[XenCenter] 将文件解压到“{0}”。 解压后，将删除原始文件“{1}”。是否继续?</value>
+    <value>XCP-ng Center 将文件解压到“{0}”。 解压后，将删除原始文件“{1}”。是否继续?</value>
   </data>
   <data name="UNINSTALL" xml:space="preserve">
     <value>删除</value>
@@ -12602,7 +12602,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>更新</value>
   </data>
   <data name="UPDATES_DESC" xml:space="preserve">
-    <value>自动检查 [XenServer] 或 [XenCenter] 更新</value>
+    <value>自动检查 XCP-ng 或 XCP-ng Center 更新</value>
   </data>
   <data name="UPDATES_DIALOG_ACTION_REQUIRED" xml:space="preserve">
     <value>要使更新在应用后生效，需要执行以下操作:
@@ -12654,7 +12654,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>下载并安装</value>
   </data>
   <data name="UPDATES_DOWNLOAD_REQUIRED_XENCENTER" xml:space="preserve">
-    <value>下载 [XenCenter]</value>
+    <value>下载 XCP-ng Center</value>
   </data>
   <data name="UPDATES_WIZARD" xml:space="preserve">
     <value>安装更新</value>
@@ -12776,10 +12776,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>{0}: 已跳过检查，因为池已部分升级。</value>
   </data>
   <data name="UPDATES_WIZARD_NEWER_XENCENTER_REQUIRED" xml:space="preserve">
-    <value>需要 [XenCenter] {0} 或更高版本。</value>
+    <value>需要 XCP-ng Center {0} 或更高版本。</value>
   </data>
   <data name="UPDATES_WIZARD_NEWER_XENCENTER_WARNING" xml:space="preserve">
-    <value>请务必先升级 [XenCenter]，然后再升级 [XenServer]。</value>
+    <value>请务必先升级 XCP-ng Center，然后再升级 XCP-ng。</value>
   </data>
   <data name="UPDATES_WIZARD_NO_ACTION" xml:space="preserve">
     <value>该更新无需更多操作。</value>
@@ -12797,10 +12797,10 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>{0}: 不需要重新启动此服务器，因为使用的是实时修补。</value>
   </data>
   <data name="UPDATES_WIZARD_NO_TOOLS" xml:space="preserve">
-    <value>{0}: VM {1} 未安装 [Citrix VM Tools]。</value>
+    <value>{0}: VM {1} 未安装 XCP-ng VM Tools。</value>
   </data>
   <data name="UPDATES_WIZARD_OUT_OF_DATE_TOOLS" xml:space="preserve">
-    <value>{0}: 安装最新版本的 [Citrix VM Tools] 之前不能暂停 VM {1}。</value>
+    <value>{0}: 安装最新版本的 XCP-ng VM Tools 之前不能暂停 VM {1}。</value>
   </data>
   <data name="UPDATES_WIZARD_PATCH_ALREADY_APPLIED" xml:space="preserve">
     <value>{0}: 更新已应用到该服务器。将跳过该服务器。</value>
@@ -13033,13 +13033,13 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>正在将更新“{0}”上载到“{1}”(第 {2} 个，共 {3} 个)...</value>
   </data>
   <data name="UPSELL_BLURB_AD" xml:space="preserve">
-    <value>升级您的服务器许可证以启用 Active Directory。Active Directory 允许您通过添加命名用户帐户来配置 [XenServer] 访问控制功能。</value>
+    <value>升级您的服务器许可证以启用 Active Directory。Active Directory 允许您通过添加命名用户帐户来配置 XCP-ng 访问控制功能。</value>
   </data>
   <data name="UPSELL_BLURB_ALERTS" xml:space="preserve">
     <value>升级您的服务器许可证以启用警报和报告功能。基于电子邮件的性能和错误警报将在错误情况或性能问题对关键服务产生影响之前，抢先将这些情况或问题通知给管理员。</value>
   </data>
   <data name="UPSELL_BLURB_CONVERSION" xml:space="preserve">
-    <value>升级您的服务器许可证以启用 Conversion Manager。此功能通过将 VMware 虚拟机成批移动到 [XenServer] 环境，帮助您将工作负载从 VMware 迁移到 [XenServer]。</value>
+    <value>升级您的服务器许可证以启用 Conversion Manager。此功能通过将 VMware 虚拟机成批移动到 XCP-ng 环境，帮助您将工作负载从 VMware 迁移到 XCP-ng。</value>
   </data>
   <data name="UPSELL_BLURB_CPM" xml:space="preserve">
     <value>升级您的服务器许可证以启用 VM 实时迁移。通过此功能，您能够在同一池中的服务器之间或跨池迁移共享存储或本地存储上正在运行的 VM，而不会导致 VM 停机。 </value>
@@ -13063,18 +13063,18 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>升级您的服务器许可证以启用高可用性。通过高可用性，虚拟机可以在基础硬件出现故障或单个 VM 出现故障时自动重新启动。如果服务器出现故障，VM 将智能地在资源池中的其他虚拟化服务器上重新启动。</value>
   </data>
   <data name="UPSELL_BLURB_MIGRATE_VDI" xml:space="preserve">
-    <value>升级您的 [XenServer] 许可证以启用 VDI 实时迁移。此功能允许您在同一池中的两个 SR 之间迁移多个正在运行的 VDI，而不会造成 VM 停机。 </value>
+    <value>升级您的 XCP-ng 许可证以启用 VDI 实时迁移。此功能允许您在同一池中的两个 SR 之间迁移多个正在运行的 VDI，而不会造成 VM 停机。 </value>
   </data>
   <data name="UPSELL_BLURB_PERFORMANCE" xml:space="preserve">
     <value>升级您的服务器许可证以启用性能报告功能。性能报告提供关于整体环境性能趋势的指导，并使您能够在业务需求发生变化时对生产能力做出准确规划。</value>
   </data>
   <data name="UPSELL_BLURB_RBAC" xml:space="preserve">
-    <value>升级您的服务器许可证以启用基于角色的访问控制。通过 RBAC 功能，可以控制对 [XenServer] 资源池中重要组件的访问，并具有完全的审核日志记录功能，能够与当前 Active Directory 设置实现无缝集成。</value>
+    <value>升级您的服务器许可证以启用基于角色的访问控制。通过 RBAC 功能，可以控制对 XCP-ng 资源池中重要组件的访问，并具有完全的审核日志记录功能，能够与当前 Active Directory 设置实现无缝集成。</value>
   </data>
   <data name="UPSELL_BLURB_TRIAL" xml:space="preserve">
     <value>
 
-要启动 [XenServer] 试用版，请单击下面的按钮。</value>
+要启动 XCP-ng 试用版，请单击下面的按钮。</value>
   </data>
   <data name="UPSELL_BLURB_VMSS" xml:space="preserve">
     <value>升级您的服务器许可证以启用 VM 计划快照功能。通过 VM 计划快照功能，可以为您的关键 VM 创建自动快照。</value>
@@ -13125,7 +13125,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>USB</value>
   </data>
   <data name="USER_AUTHORIZATION_FAILED" xml:space="preserve">
-    <value>[XenCenter] 无法以 {0} 身份为操作授权。有关详细信息，请参阅应用程序日志文件。</value>
+    <value>XCP-ng Center 无法以 {0} 身份为操作授权。有关详细信息，请参阅应用程序日志文件。</value>
   </data>
   <data name="USER_NOT_AUTHORIZED" xml:space="preserve">
     <value>您所输入的用户无权完成该操作</value>
@@ -13288,7 +13288,7 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>版本</value>
   </data>
   <data name="VERSION_NUMBER" xml:space="preserve">
-    <value>[XenCenter] {0} (build {1}.{2}) {3} 位</value>
+    <value>XCP-ng Center {0} (build {1}.{2}) {3} 位</value>
   </data>
   <data name="VGPU_DESCRIPTION" xml:space="preserve">
     <value>{0} 虚拟 GPU (每个 GPU {1} 个)</value>
@@ -14516,59 +14516,59 @@ VM 克隆使用文件管理器的快照和克隆功能来实现高性能，并�
     <value>您正在尝试执行的操作需要当前角色授予更多权限。</value>
   </data>
   <data name="XENCENTER" xml:space="preserve">
-    <value>[XenCenter]</value>
+    <value>XCP-ng Center</value>
   </data>
   <data name="XENCENTER_CONFIG_FILTER" xml:space="preserve">
-    <value>[XenCenter] 设置|*.config</value>
+    <value>XCP-ng Center 设置|*.config</value>
   </data>
   <data name="XENCENTER_NEWER_AVAILABLE" xml:space="preserve">
-    <value>更新的 [XenCenter] 可用</value>
+    <value>更新的 XCP-ng Center 可用</value>
   </data>
   <data name="XENCENTER_VERSION_CHECK_DESCRIPTION" xml:space="preserve">
-    <value>[XenCenter] 版本检查</value>
+    <value>XCP-ng Center 版本检查</value>
   </data>
   <data name="XENSEARCH_SAVED_SEARCH" xml:space="preserve">
     <value>保存的搜索(*.{0})|*.{0}</value>
   </data>
   <data name="XENSERVER" xml:space="preserve">
-    <value>[XenServer]</value>
+    <value>XCP-ng</value>
   </data>
   <data name="XENSERVER_6_5" xml:space="preserve">
-    <value>[XenServer] {0}</value>
+    <value>XCP-ng {0}</value>
   </data>
   <data name="XENSERVER_8_1" xml:space="preserve">
-    <value>[XenServer] {0}</value>
+    <value>XCP-ng {0}</value>
   </data>
   <data name="XENSERVER_8_2" xml:space="preserve">
-    <value>[XenServer] {0}</value>
+    <value>XCP-ng {0}</value>
   </data>
   <data name="XENSERVER_TEMPLATES" xml:space="preserve">
-    <value>[XenServer] 模板</value>
+    <value>XCP-ng 模板</value>
   </data>
   <data name="XENSERVER_UPGRADE_REQUIRED" xml:space="preserve">
     <value>需要升级许可证</value>
   </data>
   <data name="XSUPDATE" xml:space="preserve">
-    <value>[XenServer] 更新文件({0})|{0}|所有文件({1})|{1}</value>
+    <value>XCP-ng 更新文件({0})|{0}|所有文件({1})|{1}</value>
   </data>
   <data name="XS_BACKUP_FILES" xml:space="preserve">
-    <value>[XenServer] 备份文件</value>
+    <value>XCP-ng 备份文件</value>
   </data>
   <data name="XS_LICENSE_FILES" xml:space="preserve">
-    <value>[XenServer] 许可证文件</value>
+    <value>XCP-ng 许可证文件</value>
   </data>
   <data name="XS_TOOLS_MESSAGE_MORE_THAN_ONE_VM" xml:space="preserve">
-    <value>[Citrix VM Tools] DVD 现在将插入每个选定 VM 的 DVD 驱动器中。驱动器中当前的任何磁盘都将被弹出。
+    <value>XCP-ng VM Tools DVD 现在将插入每个选定 VM 的 DVD 驱动器中。驱动器中当前的任何磁盘都将被弹出。
 
 您将需要导航到每个选定 VM 上的控制台才能完成安装。</value>
   </data>
   <data name="XS_TOOLS_MESSAGE_ONE_VM" xml:space="preserve">
-    <value>是否希望 [XenCenter] 将 [Citrix VM Tools] DVD 插入 VM 的 DVD 驱动器中并将您引导至 VM 的控制台?
+    <value>是否希望 XCP-ng Center 将 XCP-ng VM Tools DVD 插入 VM 的 DVD 驱动器中并将您引导至 VM 的控制台?
 
-安装 [Citrix VM Tools] 时将弹出 VM 的 DVD 驱动器中的任何磁盘。</value>
+安装 XCP-ng VM Tools 时将弹出 VM 的 DVD 驱动器中的任何磁盘。</value>
   </data>
   <data name="XS_TOOLS_SR_NOT_FOUND" xml:space="preserve">
-    <value>找不到 [Citrix VM Tools] SR。</value>
+    <value>找不到 XCP-ng VM Tools SR。</value>
   </data>
   <data name="X_HIDDEN" xml:space="preserve">
     <value>{0} (隐藏)</value>

@@ -39,9 +39,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("xva_verify")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("[Citrix]")]
-[assembly: AssemblyProduct("[XenCenter]")]
-[assembly: AssemblyCopyright("Copyright © [BRANDING_COMPANY_NAME_LEGAL]")]
+[assembly: AssemblyCompany("XCP-ng")]
+[assembly: AssemblyProduct("XCP-ng Center")]
+[assembly: AssemblyCopyright("Copyright © XCP New Generation")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -60,5 +60,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.0.0.0")]
-[assembly: AssemblyFileVersion("0000")]
+[assembly: AssemblyVersion("20.04.00.1")]
+[assembly: AssemblyFileVersion("20.04.00.1")]

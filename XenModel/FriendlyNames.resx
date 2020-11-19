@@ -151,7 +151,7 @@
     <value>Always try to restart VM</value>
   </data>
   <data name="Description-host.system_status-CVSM" xml:space="preserve">
-    <value>The configuration settings of [Citrix] Storagelink</value>
+    <value>The configuration settings of XCP-ng Storagelink</value>
   </data>
   <data name="Description-host.system_status-X11" xml:space="preserve">
     <value>Log files from the X server</value>
@@ -217,7 +217,7 @@
     <value>Collects data specific to your OEM provider.</value>
   </data>
   <data name="Description-host.system_status-pam" xml:space="preserve">
-    <value>Configuration files used by the Pluggable Authentication Modules (PAM) in [XenServer].</value>
+    <value>Configuration files used by the Pluggable Authentication Modules (PAM) in XCP-ng.</value>
   </data>
   <data name="Description-host.system_status-persistent-stats" xml:space="preserve">
     <value>Persistent performance statistics</value>
@@ -244,13 +244,13 @@
     <value>Logs and status information from the WLB server monitoring this pool.</value>
   </data>
   <data name="Description-host.system_status-xapi" xml:space="preserve">
-    <value>[XenServer] daemon internal logs</value>
+    <value>XCP-ng daemon internal logs</value>
   </data>
   <data name="Description-host.system_status-xapi-debug" xml:space="preserve">
-    <value>[XenServer] daemon crash dumps</value>
+    <value>XCP-ng daemon crash dumps</value>
   </data>
   <data name="Description-host.system_status-xapi-subprocess" xml:space="preserve">
-    <value>[XenServer] daemon process details</value>
+    <value>XCP-ng daemon process details</value>
   </data>
   <data name="Description-host.system_status-xen-info" xml:space="preserve">
     <value>Details of the hypervisor version and its current state</value>
@@ -259,7 +259,7 @@
     <value>VM internal diagnostics</value>
   </data>
   <data name="Description-host.system_status-xenserver-config" xml:space="preserve">
-    <value>Details of the [XenServer] such as version and build information, primary hard disk location and pool configuration</value>
+    <value>Details of the XCP-ng such as version and build information, primary hard disk location and pool configuration</value>
   </data>
   <data name="Description-host.system_status-xenserver-databases" xml:space="preserve">
     <value>The database which stores the state of the server</value>
@@ -301,7 +301,7 @@
     <value>You must have the PowerShell installed to use PowerShell Plug-ins. This can be downloaded from the Microsoft website.</value>
   </data>
   <data name="Exception-PowerShellSnapInNotPresent" xml:space="preserve">
-    <value>You must have the XenServerPSModule installed to use [XenServer] PowerShell Commands. This can be found in the SDK.</value>
+    <value>You must have the XenServerPSModule installed to use XCP-ng PowerShell Commands. This can be found in the SDK.</value>
   </data>
   <data name="Exception-SearchParseFailed" xml:space="preserve">
     <value>Could not parse search '{0}' for plug-in '{1}'.</value>
@@ -544,7 +544,7 @@
     <value>VMs</value>
   </data>
   <data name="Label-host.XenMemory" xml:space="preserve">
-    <value>[XenServer]</value>
+    <value>XCP-ng</value>
   </data>
   <data name="Label-host.address" xml:space="preserve">
     <value>Address</value>
@@ -556,7 +556,7 @@
     <value>License</value>
   </data>
   <data name="Label-host.edition-express" xml:space="preserve">
-    <value>[XenServer product] Express</value>
+    <value>XCP-ng Express</value>
   </data>
   <data name="Label-host.enabled" xml:space="preserve">
     <value>Enabled</value>
@@ -607,7 +607,7 @@
     <value>Version</value>
   </data>
   <data name="Label-host.system_status-CVSM" xml:space="preserve">
-    <value>[Citrix] StorageLink configuration</value>
+    <value>XCP-ng StorageLink configuration</value>
   </data>
   <data name="Label-host.system_status-X11" xml:space="preserve">
     <value>X server logs</value>
@@ -622,7 +622,7 @@
     <value>Boot loader configuration</value>
   </data>
   <data name="Label-host.system_status-client-logs" xml:space="preserve">
-    <value>[XenCenter] logs</value>
+    <value>XCP-ng Center logs</value>
   </data>
   <data name="Label-host.system_status-device-model" xml:space="preserve">
     <value>Device model</value>
@@ -700,13 +700,13 @@
     <value>Workload Balancing status</value>
   </data>
   <data name="Label-host.system_status-xapi" xml:space="preserve">
-    <value>[XenServer] daemon internal logs</value>
+    <value>XCP-ng daemon internal logs</value>
   </data>
   <data name="Label-host.system_status-xapi-debug" xml:space="preserve">
-    <value>[XenServer] daemon crash dumps</value>
+    <value>XCP-ng daemon crash dumps</value>
   </data>
   <data name="Label-host.system_status-xapi-subprocess" xml:space="preserve">
-    <value>[XenServer] daemon subprocesses</value>
+    <value>XCP-ng daemon subprocesses</value>
   </data>
   <data name="Label-host.system_status-xen-info" xml:space="preserve">
     <value>Hypervisor configuration</value>
@@ -715,19 +715,19 @@
     <value>VM internal diagnostics</value>
   </data>
   <data name="Label-host.system_status-xenserver-config" xml:space="preserve">
-    <value>[XenServer] configuration</value>
+    <value>XCP-ng configuration</value>
   </data>
   <data name="Label-host.system_status-xenserver-databases" xml:space="preserve">
-    <value>[XenServer] database</value>
+    <value>XCP-ng database</value>
   </data>
   <data name="Label-host.system_status-xenserver-domains" xml:space="preserve">
-    <value>[XenServer] domains list</value>
+    <value>XCP-ng domains list</value>
   </data>
   <data name="Label-host.system_status-xenserver-install" xml:space="preserve">
-    <value>[XenServer] installation log files</value>
+    <value>XCP-ng installation log files</value>
   </data>
   <data name="Label-host.system_status-xenserver-logs" xml:space="preserve">
-    <value>[XenServer] logs</value>
+    <value>XCP-ng logs</value>
   </data>
   <data name="Label-host.system_status-xha-liveset" xml:space="preserve">
     <value>High availability liveset</value>
@@ -904,7 +904,7 @@
     <value>Agent Memory Free</value>
   </data>
   <data name="Label-performance.xapi_latency" xml:space="preserve">
-    <value>[XenServer] Healthcheck Latency</value>
+    <value>XCP-ng Healthcheck Latency</value>
   </data>
   <data name="Label-performance.xapi_live_memory_kib" xml:space="preserve">
     <value>Agent Memory Live</value>
@@ -970,10 +970,10 @@
     <value>HA Settings</value>
   </data>
   <data name="Message.action-license_does_not_support_pooling" xml:space="preserve">
-    <value>Buy [XenServer] Online</value>
+    <value>Buy XCP-ng Online</value>
   </data>
   <data name="Message.action-license_expires_soon" xml:space="preserve">
-    <value>Buy [XenServer] Online</value>
+    <value>Buy XCP-ng Online</value>
   </data>
   <data name="Message.action-multipath_periodic_alert" xml:space="preserve">
     <value>View Log Files</value>
@@ -1083,16 +1083,16 @@
     <value>Pool '{0}' successfully accessed the HA metadata disk after a previous failure and can perform a successful recovery in the event of an HA failover.</value>
   </data>
   <data name="Message.body-multipath_periodic_alert" xml:space="preserve">
-    <value>Server '{0}' has experienced a change in multipath status. Currently {1} out of {2} paths are active. See the [XenCenter] logs for the full details.</value>
+    <value>Server '{0}' has experienced a change in multipath status. Currently {1} out of {2} paths are active. See the XCP-ng Center logs for the full details.</value>
   </data>
   <data name="Message.body-multipath_periodic_alert_healthy" xml:space="preserve">
-    <value>Servers in pool '{0}' have experienced a change in multipath status. Currently all paths are active. See the [XenCenter] logs for the full details.</value>
+    <value>Servers in pool '{0}' have experienced a change in multipath status. Currently all paths are active. See the XCP-ng Center logs for the full details.</value>
   </data>
   <data name="Message.body-multipath_periodic_alert_healthy_standalone" xml:space="preserve">
-    <value>Server '{0}' has experienced a change in multipath status. Currently all paths are active. See the [XenCenter] logs for the full details.</value>
+    <value>Server '{0}' has experienced a change in multipath status. Currently all paths are active. See the XCP-ng Center logs for the full details.</value>
   </data>
   <data name="Message.body-multipath_periodic_alert_summary" xml:space="preserve">
-    <value>Servers in pool '{0}' have experienced a change in multipath status. Currently the following servers have inactive paths: {1}. See the [XenCenter] logs for the full details.</value>
+    <value>Servers in pool '{0}' have experienced a change in multipath status. Currently the following servers have inactive paths: {1}. See the XCP-ng Center logs for the full details.</value>
   </data>
   <data name="Message.body-pbd_plug_failed_on_server_start" xml:space="preserve">
     <value>A storage repository could not be attached when server '{0}' started.</value>
@@ -1479,7 +1479,7 @@
     <value>Local storage on {0}</value>
   </data>
   <data name="SR.name_description-xenserver-tools" xml:space="preserve">
-    <value>[Citrix VM Tools] ISOs</value>
+    <value>XCP-ng VM Tools ISOs</value>
   </data>
   <data name="SR.name_label-ebs" xml:space="preserve">
     <value>EBS</value>
@@ -1506,7 +1506,7 @@
     <value>Local storage on {0}</value>
   </data>
   <data name="SR.name_label-xenserver-tools" xml:space="preserve">
-    <value>[Citrix VM Tools]</value>
+    <value>XCP-ng VM Tools</value>
   </data>
   <data name="VM.TemplateDescription-Demo Linux VM" xml:space="preserve">
     <value>This template can be used to create a Linux VM with a built-in Linux distribution for testing and demonstration purposes. It is not recommended for production use.</value>
@@ -1515,7 +1515,7 @@
     <value>If the operating system you plan to use is not listed, you may be able to install it by selecting this template.  We recommend that only advanced users attempt to use this template, and you should note that our products have been tested running only the supported distributions and specific versions covered by the standard supplied templates.</value>
   </data>
   <data name="VM.TemplateDescription-Xen API SDK" xml:space="preserve">
-    <value>This template may be used to install the [XenServer] Software Development Kit (SDK) API VM. </value>
+    <value>This template may be used to install the XCP-ng Software Development Kit (SDK) API VM. </value>
   </data>
   <data name="SR.name_description-local-hotplug-disk" xml:space="preserve">
     <value>Physical removable storage</value>
@@ -1572,10 +1572,10 @@
     <value>Potential Reclaimed Memory</value>
   </data>
   <data name="Label-host.edition-per-socket" xml:space="preserve">
-    <value>[XenServer product] Per-Socket</value>
+    <value>XCP-ng Per-Socket</value>
   </data>
   <data name="Label-host.edition-xendesktop" xml:space="preserve">
-    <value>[XenServer product] for [Citrix] Virtual Desktops</value>
+    <value>XCP-ng for XCP-ng Virtual Desktops</value>
   </data>
   <data name="Message.help-extauth_init_in_host_failed" xml:space="preserve">
     <value>Help on AD</value>
@@ -1647,13 +1647,13 @@
     <value>The license server is an out-of-date version.</value>
   </data>
   <data name="Label-host.edition-premium-per-socket" xml:space="preserve">
-    <value>[XenServer product] Premium Per-Socket</value>
+    <value>XCP-ng Premium Per-Socket</value>
   </data>
   <data name="Label-host.edition-premium-per-user" xml:space="preserve">
-    <value>[XenServer product] Premium Per-User</value>
+    <value>XCP-ng Premium Per-User</value>
   </data>
   <data name="Label-host.edition-standard-per-socket" xml:space="preserve">
-    <value>[XenServer product] Standard Per-Socket</value>
+    <value>XCP-ng Standard Per-Socket</value>
   </data>
   <data name="Message.help-license_expired" xml:space="preserve">
     <value>Help on Licensing</value>
@@ -1674,10 +1674,10 @@
     <value>Help on Licensing</value>
   </data>
   <data name="Label-host.edition-desktop" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops</value>
+    <value>XCP-ng Virtual Apps and Desktops</value>
   </data>
   <data name="Label-host.edition-desktop-plus" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops Premium</value>
+    <value>XCP-ng Virtual Apps and Desktops Premium</value>
   </data>
   <data name="Label-Supplemental_packs.installed" xml:space="preserve">
     <value>Installed supplemental packs</value>
@@ -1776,10 +1776,10 @@
     <value>Volume manager logs</value>
   </data>
   <data name="Label-host.edition-premium" xml:space="preserve">
-    <value>[Citrix XenServer] Ultimate Edition</value>
+    <value>XCP-ng Ultimate Edition</value>
   </data>
   <data name="Label-host.edition-basic" xml:space="preserve">
-    <value>[Citrix XenServer] Basic Edition</value>
+    <value>XCP-ng Basic Edition</value>
   </data>
   <data name="Label-host.system_status-xscontainer" xml:space="preserve">
     <value>Container management logs</value>
@@ -1800,7 +1800,7 @@
     <value>Connection test</value>
   </data>
   <data name="Label-host.edition-standard" xml:space="preserve">
-    <value>[Citrix XenServer] Standard Edition</value>
+    <value>XCP-ng Standard Edition</value>
   </data>
   <data name="Label-Pool_patch.required-updates" xml:space="preserve">
     <value>Required Updates</value>
@@ -1887,37 +1887,37 @@
     <value>GFS2</value>
   </data>
   <data name="Label-host.edition-desktop-cloud" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops [Citrix] Cloud</value>
+    <value>XCP-ng Virtual Apps and Desktops XCP-ng Cloud</value>
   </data>
   <data name="Label-host.edition-legacy-basic" xml:space="preserve">
-    <value>[Citrix XenServer] Basic Edition</value>
+    <value>XCP-ng Basic Edition</value>
   </data>
   <data name="Label-host.edition-legacy-desktop" xml:space="preserve">
     <value>XenApp/XenDesktop</value>
   </data>
   <data name="Label-host.edition-legacy-desktop-cloud" xml:space="preserve">
-    <value>XenApp/XenDesktop [Citrix] Cloud</value>
+    <value>XenApp/XenDesktop XCP-ng Cloud</value>
   </data>
   <data name="Label-host.edition-legacy-desktop-plus" xml:space="preserve">
     <value>XenApp/XenDesktop Platinum</value>
   </data>
   <data name="Label-host.edition-legacy-premium" xml:space="preserve">
-    <value>[Citrix XenServer] Ultimate Edition</value>
+    <value>XCP-ng Ultimate Edition</value>
   </data>
   <data name="Label-host.edition-legacy-standard" xml:space="preserve">
-    <value>[Citrix XenServer] Standard Edition</value>
+    <value>XCP-ng Standard Edition</value>
   </data>
   <data name="Description-host.system_status-v6d" xml:space="preserve">
-    <value>[XenServer] licensing daemon logs</value>
+    <value>XCP-ng licensing daemon logs</value>
   </data>
   <data name="Description-host.system_status-xapi-clusterd" xml:space="preserve">
-    <value>Logs generated by the cluster management daemon for the [XenServer] Toolstack.</value>
+    <value>Logs generated by the cluster management daemon for the XCP-ng Toolstack.</value>
   </data>
   <data name="Label-host.system_status-v6d" xml:space="preserve">
-    <value>[XenServer] licensing daemon</value>
+    <value>XCP-ng licensing daemon</value>
   </data>
   <data name="Label-host.system_status-xapi-clusterd" xml:space="preserve">
-    <value>[XenServer] cluster management daemon</value>
+    <value>XCP-ng cluster management daemon</value>
   </data>
   <data name="Message.body-vm_secure_boot_failed" xml:space="preserve">
     <value>Virtual machine '{0}' failed to pass Secure Boot verification.</value>

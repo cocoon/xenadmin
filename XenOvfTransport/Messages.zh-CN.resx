@@ -187,7 +187,7 @@
     <value>通过 iSCSI 导入虚拟磁盘失败。</value>
   </data>
   <data name="ERROR_NOT_CONNECTED" xml:space="preserve">
-    <value>已与 [XenServer] 断开连接。</value>
+    <value>已与 XCP-ng 断开连接。</value>
   </data>
   <data name="ERROR_NO_PASSWORD" xml:space="preserve">
     <value>未提供密码来解密 OVF 包。</value>

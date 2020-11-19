@@ -151,7 +151,7 @@
     <value>始终尝试重新启动 VM</value>
   </data>
   <data name="Description-host.system_status-CVSM" xml:space="preserve">
-    <value>[Citrix] Storagelink 的配置设置</value>
+    <value>XCP-ng Storagelink 的配置设置</value>
   </data>
   <data name="Description-host.system_status-X11" xml:space="preserve">
     <value>来自 X 服务器的日志文件</value>
@@ -217,7 +217,7 @@
     <value>收集特定于 OEM 提供商的数据。</value>
   </data>
   <data name="Description-host.system_status-pam" xml:space="preserve">
-    <value>由 [XenServer] 中的可插拔身份验证模块(PAM)使用的配置文件。</value>
+    <value>由 XCP-ng 中的可插拔身份验证模块(PAM)使用的配置文件。</value>
   </data>
   <data name="Description-host.system_status-persistent-stats" xml:space="preserve">
     <value>持久性能统计信息</value>
@@ -244,13 +244,13 @@
     <value>来自监视该池的 WLB 服务器的日志和状态信息。</value>
   </data>
   <data name="Description-host.system_status-xapi" xml:space="preserve">
-    <value>[XenServer] 守护程序内部日志</value>
+    <value>XCP-ng 守护程序内部日志</value>
   </data>
   <data name="Description-host.system_status-xapi-debug" xml:space="preserve">
-    <value>[XenServer] 守护程序故障转储</value>
+    <value>XCP-ng 守护程序故障转储</value>
   </data>
   <data name="Description-host.system_status-xapi-subprocess" xml:space="preserve">
-    <value>[XenServer] 守护程序进程详细信息</value>
+    <value>XCP-ng 守护程序进程详细信息</value>
   </data>
   <data name="Description-host.system_status-xen-info" xml:space="preserve">
     <value>虚拟机管理程序版本及其当前状态的详细信息</value>
@@ -259,7 +259,7 @@
     <value>VM 内部诊断</value>
   </data>
   <data name="Description-host.system_status-xenserver-config" xml:space="preserve">
-    <value>[XenServer] 的详细信息，例如版本和内部版本信息、主硬盘位置和池配置</value>
+    <value>XCP-ng 的详细信息，例如版本和内部版本信息、主硬盘位置和池配置</value>
   </data>
   <data name="Description-host.system_status-xenserver-databases" xml:space="preserve">
     <value>用于存储服务器状态的数据库</value>
@@ -301,7 +301,7 @@
     <value>必须安装 PowerShell 才能使用 PowerShell 插件。可以从 Microsoft Web 站点下载 PowerShell。</value>
   </data>
   <data name="Exception-PowerShellSnapInNotPresent" xml:space="preserve">
-    <value>必须安装 XenServerPSModule 才能使用 [XenServer] PowerShell 命令。可以在 SDK 中找到 XenServerPSModule。</value>
+    <value>必须安装 XenServerPSModule 才能使用 XCP-ng PowerShell 命令。可以在 SDK 中找到 XenServerPSModule。</value>
   </data>
   <data name="Exception-SearchParseFailed" xml:space="preserve">
     <value>无法解析插件“{1}”的搜索“{0}”。</value>
@@ -544,7 +544,7 @@
     <value>VM</value>
   </data>
   <data name="Label-host.XenMemory" xml:space="preserve">
-    <value>[XenServer]</value>
+    <value>XCP-ng</value>
   </data>
   <data name="Label-host.address" xml:space="preserve">
     <value>地址</value>
@@ -556,7 +556,7 @@
     <value>许可证</value>
   </data>
   <data name="Label-host.edition-express" xml:space="preserve">
-    <value>[XenServer product] Express</value>
+    <value>XCP-ng Express</value>
   </data>
   <data name="Label-host.enabled" xml:space="preserve">
     <value>已启用</value>
@@ -607,7 +607,7 @@
     <value>版本</value>
   </data>
   <data name="Label-host.system_status-CVSM" xml:space="preserve">
-    <value>[Citrix] StorageLink 配置</value>
+    <value>XCP-ng StorageLink 配置</value>
   </data>
   <data name="Label-host.system_status-X11" xml:space="preserve">
     <value>X 服务器日志</value>
@@ -622,7 +622,7 @@
     <value>引导加载程序配置</value>
   </data>
   <data name="Label-host.system_status-client-logs" xml:space="preserve">
-    <value>[XenCenter] 日志</value>
+    <value>XCP-ng Center 日志</value>
   </data>
   <data name="Label-host.system_status-device-model" xml:space="preserve">
     <value>设备型号</value>
@@ -700,13 +700,13 @@
     <value>Workload Balancing 状态</value>
   </data>
   <data name="Label-host.system_status-xapi" xml:space="preserve">
-    <value>[XenServer] 守护程序内部日志</value>
+    <value>XCP-ng 守护程序内部日志</value>
   </data>
   <data name="Label-host.system_status-xapi-debug" xml:space="preserve">
-    <value>[XenServer] 守护程序故障转储</value>
+    <value>XCP-ng 守护程序故障转储</value>
   </data>
   <data name="Label-host.system_status-xapi-subprocess" xml:space="preserve">
-    <value>[XenServer] 守护程序子进程</value>
+    <value>XCP-ng 守护程序子进程</value>
   </data>
   <data name="Label-host.system_status-xen-info" xml:space="preserve">
     <value>虚拟机管理程序配置</value>
@@ -715,19 +715,19 @@
     <value>VM 内部诊断</value>
   </data>
   <data name="Label-host.system_status-xenserver-config" xml:space="preserve">
-    <value>[XenServer] 配置</value>
+    <value>XCP-ng 配置</value>
   </data>
   <data name="Label-host.system_status-xenserver-databases" xml:space="preserve">
-    <value>[XenServer] 数据库</value>
+    <value>XCP-ng 数据库</value>
   </data>
   <data name="Label-host.system_status-xenserver-domains" xml:space="preserve">
-    <value>[XenServer] 域列表</value>
+    <value>XCP-ng 域列表</value>
   </data>
   <data name="Label-host.system_status-xenserver-install" xml:space="preserve">
-    <value>[XenServer] 安装日志文件</value>
+    <value>XCP-ng 安装日志文件</value>
   </data>
   <data name="Label-host.system_status-xenserver-logs" xml:space="preserve">
-    <value>[XenServer] 日志</value>
+    <value>XCP-ng 日志</value>
   </data>
   <data name="Label-host.system_status-xha-liveset" xml:space="preserve">
     <value>高可用性实时集</value>
@@ -904,7 +904,7 @@
     <value>可用代理内存</value>
   </data>
   <data name="Label-performance.xapi_latency" xml:space="preserve">
-    <value>[XenServer] 运行状况检查延迟</value>
+    <value>XCP-ng 运行状况检查延迟</value>
   </data>
   <data name="Label-performance.xapi_live_memory_kib" xml:space="preserve">
     <value>活动代理内存</value>
@@ -970,10 +970,10 @@
     <value>高可用性设置</value>
   </data>
   <data name="Message.action-license_does_not_support_pooling" xml:space="preserve">
-    <value>在线购买 [XenServer]</value>
+    <value>在线购买 XCP-ng</value>
   </data>
   <data name="Message.action-license_expires_soon" xml:space="preserve">
-    <value>在线购买 [XenServer]</value>
+    <value>在线购买 XCP-ng</value>
   </data>
   <data name="Message.action-multipath_periodic_alert" xml:space="preserve">
     <value>查看日志文件</value>
@@ -1083,16 +1083,16 @@
     <value>池“{0}”在上一次故障后已成功访问过高可用性元数据磁盘，如果发生高可用性故障转移，可以成功进行恢复。</value>
   </data>
   <data name="Message.body-multipath_periodic_alert" xml:space="preserve">
-    <value>服务器“{0}”的多路径状态发生变化。在 {2} 条路径中，当前有 {1} 条处于活动状态。有关完整详细信息，请参阅 [XenCenter] 日志。</value>
+    <value>服务器“{0}”的多路径状态发生变化。在 {2} 条路径中，当前有 {1} 条处于活动状态。有关完整详细信息，请参阅 XCP-ng Center 日志。</value>
   </data>
   <data name="Message.body-multipath_periodic_alert_healthy" xml:space="preserve">
-    <value>池“{0}”中服务器的多路径状态发生变化。当前所有路径均处于活动状态。有关完整详细信息，请参阅 [XenCenter] 日志。</value>
+    <value>池“{0}”中服务器的多路径状态发生变化。当前所有路径均处于活动状态。有关完整详细信息，请参阅 XCP-ng Center 日志。</value>
   </data>
   <data name="Message.body-multipath_periodic_alert_healthy_standalone" xml:space="preserve">
-    <value>服务器“{0}”的多路径状态发生变化。当前所有路径均处于活动状态。有关完整详细信息，请参阅 [XenCenter] 日志。</value>
+    <value>服务器“{0}”的多路径状态发生变化。当前所有路径均处于活动状态。有关完整详细信息，请参阅 XCP-ng Center 日志。</value>
   </data>
   <data name="Message.body-multipath_periodic_alert_summary" xml:space="preserve">
-    <value>池“{0}”中服务器的多路径状态发生变化。以下服务器当前具有非活动路径: {1}。有关完整详细信息，请参阅 [XenCenter] 日志。</value>
+    <value>池“{0}”中服务器的多路径状态发生变化。以下服务器当前具有非活动路径: {1}。有关完整详细信息，请参阅 XCP-ng Center 日志。</value>
   </data>
   <data name="Message.body-pbd_plug_failed_on_server_start" xml:space="preserve">
     <value>服务器“{0}”启动时无法附加存储库。</value>
@@ -1479,7 +1479,7 @@
     <value>{0} 上的本地存储</value>
   </data>
   <data name="SR.name_description-xenserver-tools" xml:space="preserve">
-    <value>[Citrix VM Tools] ISO</value>
+    <value>XCP-ng VM Tools ISO</value>
   </data>
   <data name="SR.name_label-ebs" xml:space="preserve">
     <value>EBS</value>
@@ -1506,7 +1506,7 @@
     <value>{0} 上的本地存储</value>
   </data>
   <data name="SR.name_label-xenserver-tools" xml:space="preserve">
-    <value>[Citrix VM Tools]</value>
+    <value>XCP-ng VM Tools</value>
   </data>
   <data name="VM.TemplateDescription-Demo Linux VM" xml:space="preserve">
     <value>此模板可用于通过内置 Linux 发行版创建 Linux VM，以进行测试和演示。建议不要在生产环境中使用。</value>
@@ -1515,7 +1515,7 @@
     <value>如果未列出您要使用的操作系统，或许可以通过选择此模板来进行安装。建议仅由高级用户尝试使用此模板，并且请注意，我们的产品仅在运行标准随附模板所涵盖的受支持发行版和特定版本的情况下经过测试。</value>
   </data>
   <data name="VM.TemplateDescription-Xen API SDK" xml:space="preserve">
-    <value>此模板可用于安装 [XenServer] 软件开发工具包(SDK) API VM。 </value>
+    <value>此模板可用于安装 XCP-ng 软件开发工具包(SDK) API VM。 </value>
   </data>
   <data name="SR.name_description-local-hotplug-disk" xml:space="preserve">
     <value>可移动物理存储</value>
@@ -1572,10 +1572,10 @@
     <value>潜在回收的内存</value>
   </data>
   <data name="Label-host.edition-per-socket" xml:space="preserve">
-    <value>[XenServer product] Per-Socket</value>
+    <value>XCP-ng Per-Socket</value>
   </data>
   <data name="Label-host.edition-xendesktop" xml:space="preserve">
-    <value>[XenServer product] for [Citrix] Virtual Desktops</value>
+    <value>XCP-ng for XCP-ng Virtual Desktops</value>
   </data>
   <data name="Message.help-extauth_init_in_host_failed" xml:space="preserve">
     <value>有关 AD 的帮助</value>
@@ -1647,13 +1647,13 @@
     <value>许可证服务器版本已过时。</value>
   </data>
   <data name="Label-host.edition-premium-per-socket" xml:space="preserve">
-    <value>[XenServer product] Premium Per-Socket</value>
+    <value>XCP-ng Premium Per-Socket</value>
   </data>
   <data name="Label-host.edition-premium-per-user" xml:space="preserve">
-    <value>[XenServer product] Premium Per-User</value>
+    <value>XCP-ng Premium Per-User</value>
   </data>
   <data name="Label-host.edition-standard-per-socket" xml:space="preserve">
-    <value>[XenServer product] Standard Per-Socket</value>
+    <value>XCP-ng Standard Per-Socket</value>
   </data>
   <data name="Message.help-license_expired" xml:space="preserve">
     <value>有关许可的帮助</value>
@@ -1674,10 +1674,10 @@
     <value>有关许可的帮助</value>
   </data>
   <data name="Label-host.edition-desktop" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops</value>
+    <value>XCP-ng Virtual Apps and Desktops</value>
   </data>
   <data name="Label-host.edition-desktop-plus" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops Premium</value>
+    <value>XCP-ng Virtual Apps and Desktops Premium</value>
   </data>
   <data name="Label-Supplemental_packs.installed" xml:space="preserve">
     <value>安装的补充包</value>
@@ -1776,10 +1776,10 @@
     <value>卷管理器日志</value>
   </data>
   <data name="Label-host.edition-premium" xml:space="preserve">
-    <value>[Citrix XenServer] Ultimate Edition</value>
+    <value>XCP-ng Ultimate Edition</value>
   </data>
   <data name="Label-host.edition-basic" xml:space="preserve">
-    <value>[Citrix XenServer] Basic Edition</value>
+    <value>XCP-ng Basic Edition</value>
   </data>
   <data name="Label-host.system_status-xscontainer" xml:space="preserve">
     <value>容器管理日志</value>
@@ -1800,7 +1800,7 @@
     <value>测试连接</value>
   </data>
   <data name="Label-host.edition-standard" xml:space="preserve">
-    <value>[Citrix XenServer] Standard Edition</value>
+    <value>XCP-ng Standard Edition</value>
   </data>
   <data name="Label-Pool_patch.required-updates" xml:space="preserve">
     <value>必需的更新</value>
@@ -1887,37 +1887,37 @@
     <value>GFS2</value>
   </data>
   <data name="Label-host.edition-desktop-cloud" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops [Citrix] Cloud</value>
+    <value>XCP-ng Virtual Apps and Desktops XCP-ng Cloud</value>
   </data>
   <data name="Label-host.edition-legacy-basic" xml:space="preserve">
-    <value>[Citrix XenServer] Basic Edition</value>
+    <value>XCP-ng Basic Edition</value>
   </data>
   <data name="Label-host.edition-legacy-desktop" xml:space="preserve">
     <value>XenApp/XenDesktop</value>
   </data>
   <data name="Label-host.edition-legacy-desktop-cloud" xml:space="preserve">
-    <value>XenApp/XenDesktop [Citrix] Cloud</value>
+    <value>XenApp/XenDesktop XCP-ng Cloud</value>
   </data>
   <data name="Label-host.edition-legacy-desktop-plus" xml:space="preserve">
     <value>XenApp/XenDesktop Platinum</value>
   </data>
   <data name="Label-host.edition-legacy-premium" xml:space="preserve">
-    <value>[Citrix XenServer] Ultimate Edition</value>
+    <value>XCP-ng Ultimate Edition</value>
   </data>
   <data name="Label-host.edition-legacy-standard" xml:space="preserve">
-    <value>[Citrix XenServer] Standard Edition</value>
+    <value>XCP-ng Standard Edition</value>
   </data>
   <data name="Description-host.system_status-v6d" xml:space="preserve">
-    <value>[XenServer] 许可守护程序日志</value>
+    <value>XCP-ng 许可守护程序日志</value>
   </data>
   <data name="Description-host.system_status-xapi-clusterd" xml:space="preserve">
-    <value>由 [XenServer] Toolstack 的群集管理守护程序生成的日志。</value>
+    <value>由 XCP-ng Toolstack 的群集管理守护程序生成的日志。</value>
   </data>
   <data name="Label-host.system_status-v6d" xml:space="preserve">
-    <value>[XenServer] 许可守护程序</value>
+    <value>XCP-ng 许可守护程序</value>
   </data>
   <data name="Label-host.system_status-xapi-clusterd" xml:space="preserve">
-    <value>[XenServer] 群集管理守护程序</value>
+    <value>XCP-ng 群集管理守护程序</value>
   </data>
   <data name="Message.body-vm_secure_boot_failed" xml:space="preserve">
     <value>虚拟机“{0}”无法通过安全启动验证。</value>

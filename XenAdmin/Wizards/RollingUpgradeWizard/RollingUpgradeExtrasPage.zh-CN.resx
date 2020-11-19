@@ -229,7 +229,7 @@
     <value>1</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>系统提示时，需要插入 [XenServer] 安装介质，或指定 PXE 启动服务器进行网络启动，然后重新启动服务器并按服务器串行控制台上的屏幕说明安装升级。</value>
+    <value>系统提示时，需要插入 XCP-ng 安装介质，或指定 PXE 启动服务器进行网络启动，然后重新启动服务器并按服务器串行控制台上的屏幕说明安装升级。</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -289,7 +289,7 @@
     <value>4</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>浏览您的计算机，查找希望 [XenCenter] 在升级选定的服务器后安装的更新或补充包文件。请注意，如果选择了与已升级到的 [XenServer] 版本不兼容的文件，安装将失败。</value>
+    <value>浏览您的计算机，查找希望 XCP-ng Center 在升级选定的服务器后安装的更新或补充包文件。请注意，如果选择了与已升级到的 XCP-ng 版本不兼容的文件，安装将失败。</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>

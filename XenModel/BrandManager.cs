@@ -66,13 +66,13 @@ namespace XenAdmin.Core
         public static string ProductVersion82 => Get("PRODUCT_VERSION_8_2");
 
 
-        public const string PRODUCT_BRAND = "[XenServer product]";
-        public const string COMPANY_NAME_SHORT = "[Citrix]";
-        public const string COMPANY_AND_PRODUCT_BRAND = "[Citrix XenServer]";
-        public const string PRODUCT_VERSION_TEXT = "[BRANDING_PRODUCT_VERSION_TEXT]";
-        public const string XENCENTER_VERSION = "[BRANDING_PRODUCT_VERSION]";
-        public const string COMPANY_NAME_LEGAL = "[BRANDING_COMPANY_NAME_LEGAL]";
-        public const string BRAND_CONSOLE = "[XenCenter]";
+        public const string PRODUCT_BRAND = "XCP-ng";
+        public const string COMPANY_NAME_SHORT = "XCP-ng";
+        public const string COMPANY_AND_PRODUCT_BRAND = "XCP-ng";
+        public const string PRODUCT_VERSION_TEXT = "20.04.00";
+        public const string XENCENTER_VERSION = "20.04.00";
+        public const string COMPANY_NAME_LEGAL = "XCP New Generation";
+        public const string BRAND_CONSOLE = "XCP-ng Center";
 
         /// <summary>
         /// Returns null if no match is found.

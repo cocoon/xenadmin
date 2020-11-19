@@ -139,7 +139,7 @@
     <value>ja-JP</value>
   </data>
   <data name="LOG_FILENAME" xml:space="preserve">
-    <value>[XenCenter].log</value>
+    <value>XCP-ng Center.log</value>
   </data>
   <data name="MAINWINDOW_HOME_PATH" xml:space="preserve">
     <value>Home.htm</value>

@@ -38,11 +38,11 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("XenModel")]
-[assembly: AssemblyDescription("[Citrix] [XenCenter]")]
+[assembly: AssemblyDescription("XCP-ng XCP-ng Center")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("[Citrix]")]
-[assembly: AssemblyProduct("[XenCenter]")]
-[assembly: AssemblyCopyright("Copyright © [BRANDING_COMPANY_NAME_LEGAL]")]
+[assembly: AssemblyCompany("XCP-ng")]
+[assembly: AssemblyProduct("XCP-ng Center")]
+[assembly: AssemblyCopyright("Copyright © XCP New Generation")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -65,7 +65,7 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion("0.0.0.0")]
-[assembly: AssemblyFileVersion("0000")]
-[assembly: XenCenterLib.XSVersion("[BRANDING_PRODUCT_VERSION]")]
+[assembly: AssemblyVersion("20.04.00.1")]
+[assembly: AssemblyFileVersion("20.04.00.1")]
+[assembly: XenCenterLib.XSVersion("20.04.00")]
 [assembly: InternalsVisibleTo("XenAdminTests")]

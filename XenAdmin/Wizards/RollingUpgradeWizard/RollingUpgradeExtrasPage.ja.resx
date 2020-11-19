@@ -229,7 +229,7 @@
     <value>1</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>画面のメッセージに従って、[XenServer] インストール メディアを挿入するか PXE ブート サーバーを指定してからサーバーを再起動してください。後は、シリアル コンソールに表示されるメッセージに従ってアップグレードします。</value>
+    <value>画面のメッセージに従って、XCP-ng インストール メディアを挿入するか PXE ブート サーバーを指定してからサーバーを再起動してください。後は、シリアル コンソールに表示されるメッセージに従ってアップグレードします。</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -289,7 +289,7 @@
     <value>4</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>選択したサーバーのアップグレード後に [XenCenter] でインストールするアップデートまたはサプリメンタルパック ファイルをローカル コンピューターで検索します。アップグレード後の [XenServer] のバージョンと互換性のないファイルを選択すると、インストールは失敗します。</value>
+    <value>選択したサーバーのアップグレード後に XCP-ng Center でインストールするアップデートまたはサプリメンタルパック ファイルをローカル コンピューターで検索します。アップグレード後の XCP-ng のバージョンと互換性のないファイルを選択すると、インストールは失敗します。</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>

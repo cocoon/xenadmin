@@ -1267,7 +1267,7 @@
     <value>12</value>
   </data>
   <data name="rubricLabel.Text" xml:space="preserve">
-    <value>ヘルス チェックでは、[XenServer] プールで設定された事前定義済みのスケジュールに基づいて、サーバーの状態レポートが自動的に [Citrix] Insight Services にアップロードされます。</value>
+    <value>ヘルス チェックでは、XCP-ng プールで設定された事前定義済みのスケジュールに基づいて、サーバーの状態レポートが自動的に XCP-ng Insight Services にアップロードされます。</value>
   </data>
   <data name="&gt;&gt;rubricLabel.Name" xml:space="preserve">
     <value>rubricLabel</value>

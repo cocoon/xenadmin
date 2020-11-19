@@ -262,7 +262,7 @@
     <value>1</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Copyright © [Citrix] Systems, Inc. All rights reserved.</value>
+    <value>Copyright © XCP-ng Systems, Inc. All rights reserved.</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -298,7 +298,7 @@
     <value>19</value>
   </data>
   <data name="licenseDetailsLabel.Text" xml:space="preserve">
-    <value>[XenServer product] licensed to:</value>
+    <value>XCP-ng licensed to:</value>
   </data>
   <data name="&gt;&gt;licenseDetailsLabel.Name" xml:space="preserve">
     <value>licenseDetailsLabel</value>
@@ -334,7 +334,7 @@
     <value>15</value>
   </data>
   <data name="VersionLabel.Text" xml:space="preserve">
-    <value>[XenCenter] version 1.2.3 (build 4567)</value>
+    <value>XCP-ng Center version 1.2.3 (build 4567)</value>
   </data>
   <data name="&gt;&gt;VersionLabel.Name" xml:space="preserve">
     <value>VersionLabel</value>
@@ -370,7 +370,7 @@
     <value>21</value>
   </data>
   <data name="showAgainCheckBox.Text" xml:space="preserve">
-    <value>&amp;Show this dialog when opening [XenCenter]</value>
+    <value>&amp;Show this dialog when opening XCP-ng Center</value>
   </data>
   <data name="showAgainCheckBox.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -472,7 +472,7 @@
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>About [XenCenter]</value>
+    <value>About XCP-ng Center</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>AboutDialog</value>

@@ -175,7 +175,7 @@
     <value>9</value>
   </data>
   <data name="applyUpdatesLabel.Text" xml:space="preserve">
-    <value>Choose whether you want [XenCenter] to automatically download and install all the released updates after the selected pools are upgraded. Please note that internet connection is required for this option.</value>
+    <value>Choose whether you want XCP-ng Center to automatically download and install all the released updates after the selected pools are upgraded. Please note that internet connection is required for this option.</value>
   </data>
   <data name="&gt;&gt;applyUpdatesLabel.Name" xml:space="preserve">
     <value>applyUpdatesLabel</value>
@@ -385,7 +385,7 @@
     <value>4</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Choose whether you want [XenCenter] to install an update or supplemental pack from disk after the selected pools are upgraded. Please note that installation will fail if a file incompatible with the [XenServer] version you have upgraded to is selected.</value>
+    <value>Choose whether you want XCP-ng Center to install an update or supplemental pack from disk after the selected pools are upgraded. Please note that installation will fail if a file incompatible with the XCP-ng version you have upgraded to is selected.</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>

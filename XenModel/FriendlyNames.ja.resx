@@ -151,7 +151,7 @@
     <value>VM の再起動を常に試行します</value>
   </data>
   <data name="Description-host.system_status-CVSM" xml:space="preserve">
-    <value>[Citrix] StorageLink の構成設定</value>
+    <value>XCP-ng StorageLink の構成設定</value>
   </data>
   <data name="Description-host.system_status-X11" xml:space="preserve">
     <value>X サーバーのログ ファイル</value>
@@ -217,7 +217,7 @@
     <value>OEM プロバイダ固有のデータを収集します。</value>
   </data>
   <data name="Description-host.system_status-pam" xml:space="preserve">
-    <value>[XenServer] の PAM (Pluggable Authentication Modules) により使用される構成ファイルです。</value>
+    <value>XCP-ng の PAM (Pluggable Authentication Modules) により使用される構成ファイルです。</value>
   </data>
   <data name="Description-host.system_status-persistent-stats" xml:space="preserve">
     <value>永続的なパフォーマンス統計値</value>
@@ -244,13 +244,13 @@
     <value>このプールを監視している WLB サーバーからのログと状態に関する情報です。</value>
   </data>
   <data name="Description-host.system_status-xapi" xml:space="preserve">
-    <value>[XenServer] デーモンの内部ログ</value>
+    <value>XCP-ng デーモンの内部ログ</value>
   </data>
   <data name="Description-host.system_status-xapi-debug" xml:space="preserve">
-    <value>[XenServer] デーモン クラッシュ ダンプ</value>
+    <value>XCP-ng デーモン クラッシュ ダンプ</value>
   </data>
   <data name="Description-host.system_status-xapi-subprocess" xml:space="preserve">
-    <value>[XenServer] デーモン プロセスの詳細</value>
+    <value>XCP-ng デーモン プロセスの詳細</value>
   </data>
   <data name="Description-host.system_status-xen-info" xml:space="preserve">
     <value>ハイパーバイザーのバージョンと現在の状態</value>
@@ -259,7 +259,7 @@
     <value>VM 内部診断</value>
   </data>
   <data name="Description-host.system_status-xenserver-config" xml:space="preserve">
-    <value>[XenServer] のバージョンとビルドの情報、プライマリ ハード ディスクの場所、プール構成などの詳細</value>
+    <value>XCP-ng のバージョンとビルドの情報、プライマリ ハード ディスクの場所、プール構成などの詳細</value>
   </data>
   <data name="Description-host.system_status-xenserver-databases" xml:space="preserve">
     <value>サーバーの状態に関する情報を格納するデータベース</value>
@@ -301,7 +301,7 @@
     <value>PowerShell プラグインを使用するには、PowerShell をインストールしておく必要があります。PowerShell は、Microsoft 社の Web サイトからダウンロードできます。</value>
   </data>
   <data name="Exception-PowerShellSnapInNotPresent" xml:space="preserve">
-    <value>[XenServer] PowerShell コマンドを使用するには、XenServerPSModule をインストールしておく必要があります。XenServerPSModule は SDK に含まれています。</value>
+    <value>XCP-ng PowerShell コマンドを使用するには、XenServerPSModule をインストールしておく必要があります。XenServerPSModule は SDK に含まれています。</value>
   </data>
   <data name="Exception-SearchParseFailed" xml:space="preserve">
     <value>プラグイン '{1}' の検索 '{0}' を構文解析できません。</value>
@@ -544,7 +544,7 @@
     <value>VM</value>
   </data>
   <data name="Label-host.XenMemory" xml:space="preserve">
-    <value>[XenServer]</value>
+    <value>XCP-ng</value>
   </data>
   <data name="Label-host.address" xml:space="preserve">
     <value>アドレス</value>
@@ -556,7 +556,7 @@
     <value>ライセンス</value>
   </data>
   <data name="Label-host.edition-express" xml:space="preserve">
-    <value>[XenServer product] Express</value>
+    <value>XCP-ng Express</value>
   </data>
   <data name="Label-host.enabled" xml:space="preserve">
     <value>有効</value>
@@ -607,7 +607,7 @@
     <value>バージョン</value>
   </data>
   <data name="Label-host.system_status-CVSM" xml:space="preserve">
-    <value>[Citrix] StorageLink 構成</value>
+    <value>XCP-ng StorageLink 構成</value>
   </data>
   <data name="Label-host.system_status-X11" xml:space="preserve">
     <value>X サーバー ログ</value>
@@ -622,7 +622,7 @@
     <value>ブート ローダー構成</value>
   </data>
   <data name="Label-host.system_status-client-logs" xml:space="preserve">
-    <value>[XenCenter] ログ</value>
+    <value>XCP-ng Center ログ</value>
   </data>
   <data name="Label-host.system_status-device-model" xml:space="preserve">
     <value>デバイスのモデル</value>
@@ -700,13 +700,13 @@
     <value>ワークロード バランスの状態</value>
   </data>
   <data name="Label-host.system_status-xapi" xml:space="preserve">
-    <value>[XenServer] デーモンの内部ログ</value>
+    <value>XCP-ng デーモンの内部ログ</value>
   </data>
   <data name="Label-host.system_status-xapi-debug" xml:space="preserve">
-    <value>[XenServer] デーモン クラッシュ ダンプ</value>
+    <value>XCP-ng デーモン クラッシュ ダンプ</value>
   </data>
   <data name="Label-host.system_status-xapi-subprocess" xml:space="preserve">
-    <value>[XenServer] デーモン サブプロセス</value>
+    <value>XCP-ng デーモン サブプロセス</value>
   </data>
   <data name="Label-host.system_status-xen-info" xml:space="preserve">
     <value>ハイパーバイザー構成</value>
@@ -715,19 +715,19 @@
     <value>VM 内部診断</value>
   </data>
   <data name="Label-host.system_status-xenserver-config" xml:space="preserve">
-    <value>[XenServer] 構成</value>
+    <value>XCP-ng 構成</value>
   </data>
   <data name="Label-host.system_status-xenserver-databases" xml:space="preserve">
-    <value>[XenServer] データベース</value>
+    <value>XCP-ng データベース</value>
   </data>
   <data name="Label-host.system_status-xenserver-domains" xml:space="preserve">
-    <value>[XenServer] ドメイン一覧</value>
+    <value>XCP-ng ドメイン一覧</value>
   </data>
   <data name="Label-host.system_status-xenserver-install" xml:space="preserve">
-    <value>[XenServer] インストール ログ ファイル</value>
+    <value>XCP-ng インストール ログ ファイル</value>
   </data>
   <data name="Label-host.system_status-xenserver-logs" xml:space="preserve">
-    <value>[XenServer] ログ</value>
+    <value>XCP-ng ログ</value>
   </data>
   <data name="Label-host.system_status-xha-liveset" xml:space="preserve">
     <value>高可用性ライブセット</value>
@@ -904,7 +904,7 @@
     <value>空きエージェント メモリ</value>
   </data>
   <data name="Label-performance.xapi_latency" xml:space="preserve">
-    <value>[XenServer] ヘルスチェック遅延</value>
+    <value>XCP-ng ヘルスチェック遅延</value>
   </data>
   <data name="Label-performance.xapi_live_memory_kib" xml:space="preserve">
     <value>エージェント メモリ ライブ</value>
@@ -970,10 +970,10 @@
     <value>高可用性設定</value>
   </data>
   <data name="Message.action-license_does_not_support_pooling" xml:space="preserve">
-    <value>[XenServer] のオンライン購入</value>
+    <value>XCP-ng のオンライン購入</value>
   </data>
   <data name="Message.action-license_expires_soon" xml:space="preserve">
-    <value>[XenServer] のオンライン購入</value>
+    <value>XCP-ng のオンライン購入</value>
   </data>
   <data name="Message.action-multipath_periodic_alert" xml:space="preserve">
     <value>ログ ファイルの表示</value>
@@ -1083,16 +1083,16 @@
     <value>プール '{0}' の高可用性メタデータ ディスクへのアクセスが復元されました。これにより、サーバー障害からの回復が正しく実行されるようになりました。</value>
   </data>
   <data name="Message.body-multipath_periodic_alert" xml:space="preserve">
-    <value>サーバー '{0}' でマルチパスの状態に変更がありました。現在、{2} パス中 {1} パスがアクティブです。詳しくは、[XenCenter] のログを参照してください。</value>
+    <value>サーバー '{0}' でマルチパスの状態に変更がありました。現在、{2} パス中 {1} パスがアクティブです。詳しくは、XCP-ng Center のログを参照してください。</value>
   </data>
   <data name="Message.body-multipath_periodic_alert_healthy" xml:space="preserve">
-    <value>プール '{0}' のサーバーでマルチパスの状態に変更がありました。現在、すべてのパスがアクティブです。詳しくは、[XenCenter] のログを参照してください。</value>
+    <value>プール '{0}' のサーバーでマルチパスの状態に変更がありました。現在、すべてのパスがアクティブです。詳しくは、XCP-ng Center のログを参照してください。</value>
   </data>
   <data name="Message.body-multipath_periodic_alert_healthy_standalone" xml:space="preserve">
-    <value>サーバー '{0}' でマルチパスの状態に変更がありました。現在、すべてのパスがアクティブです。詳しくは、[XenCenter] のログを参照してください。</value>
+    <value>サーバー '{0}' でマルチパスの状態に変更がありました。現在、すべてのパスがアクティブです。詳しくは、XCP-ng Center のログを参照してください。</value>
   </data>
   <data name="Message.body-multipath_periodic_alert_summary" xml:space="preserve">
-    <value>プール '{0}' のサーバーでマルチパスの状態に変更がありました。現在、次のサーバーにアクティブでないパスがあります。{1}。詳しくは、[XenCenter] のログを参照してください。</value>
+    <value>プール '{0}' のサーバーでマルチパスの状態に変更がありました。現在、次のサーバーにアクティブでないパスがあります。{1}。詳しくは、XCP-ng Center のログを参照してください。</value>
   </data>
   <data name="Message.body-pbd_plug_failed_on_server_start" xml:space="preserve">
     <value>サーバー '{0}' の起動時にストレージリポジトリを接続できませんでした。</value>
@@ -1479,7 +1479,7 @@
     <value>{0} のローカル ストレージ</value>
   </data>
   <data name="SR.name_description-xenserver-tools" xml:space="preserve">
-    <value>[Citrix VM Tools] ISO</value>
+    <value>XCP-ng VM Tools ISO</value>
   </data>
   <data name="SR.name_label-ebs" xml:space="preserve">
     <value>EBS</value>
@@ -1506,7 +1506,7 @@
     <value>{0} のローカル ストレージ</value>
   </data>
   <data name="SR.name_label-xenserver-tools" xml:space="preserve">
-    <value>[Citrix VM Tools]</value>
+    <value>XCP-ng VM Tools</value>
   </data>
   <data name="VM.TemplateDescription-Demo Linux VM" xml:space="preserve">
     <value>このテンプレートを使用して、デモ用またはテスト用のビルトイン Linux ディストリビューションが動作する Linux 仮想マシンを作成できます。業務での使用は推奨されません。</value>
@@ -1515,7 +1515,7 @@
     <value>一覧にないオペレーティング システムを使用する場合は、このテンプレートを選択します。このテンプレートは、詳しい知識がある管理者向けです。また、弊社の製品は、標準テンプレートでサポートされる特定のディストリビューションおよびバージョンでのみ、動作テストが実施されていることをご了承ください。</value>
   </data>
   <data name="VM.TemplateDescription-Xen API SDK" xml:space="preserve">
-    <value>このテンプレートを使用して、[XenServer] Software Development Kit (SDK) API VM を作成できます。 </value>
+    <value>このテンプレートを使用して、XCP-ng Software Development Kit (SDK) API VM を作成できます。 </value>
   </data>
   <data name="SR.name_description-local-hotplug-disk" xml:space="preserve">
     <value>物理リムーバブル ストレージ</value>
@@ -1572,10 +1572,10 @@
     <value>解放されるメモリ (概算値)</value>
   </data>
   <data name="Label-host.edition-per-socket" xml:space="preserve">
-    <value>[XenServer product] Per-Socket</value>
+    <value>XCP-ng Per-Socket</value>
   </data>
   <data name="Label-host.edition-xendesktop" xml:space="preserve">
-    <value>[XenServer product] for [Citrix] Virtual Desktops</value>
+    <value>XCP-ng for XCP-ng Virtual Desktops</value>
   </data>
   <data name="Message.help-extauth_init_in_host_failed" xml:space="preserve">
     <value>AD のヘルプ</value>
@@ -1647,13 +1647,13 @@
     <value>ライセンス サーバーのバージョンが古すぎます。</value>
   </data>
   <data name="Label-host.edition-premium-per-socket" xml:space="preserve">
-    <value>[XenServer product] Premium Per-Socket</value>
+    <value>XCP-ng Premium Per-Socket</value>
   </data>
   <data name="Label-host.edition-premium-per-user" xml:space="preserve">
-    <value>[XenServer product] Premium Per-User</value>
+    <value>XCP-ng Premium Per-User</value>
   </data>
   <data name="Label-host.edition-standard-per-socket" xml:space="preserve">
-    <value>[XenServer product] Standard Per-Socket</value>
+    <value>XCP-ng Standard Per-Socket</value>
   </data>
   <data name="Message.help-license_expired" xml:space="preserve">
     <value>ライセンスのヘルプ</value>
@@ -1674,10 +1674,10 @@
     <value>ライセンスのヘルプ</value>
   </data>
   <data name="Label-host.edition-desktop" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops</value>
+    <value>XCP-ng Virtual Apps and Desktops</value>
   </data>
   <data name="Label-host.edition-desktop-plus" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops Premium</value>
+    <value>XCP-ng Virtual Apps and Desktops Premium</value>
   </data>
   <data name="Label-Supplemental_packs.installed" xml:space="preserve">
     <value>インストールされたサプリメンタル パック</value>
@@ -1776,10 +1776,10 @@
     <value>ボリューム マネージャーのログ</value>
   </data>
   <data name="Label-host.edition-premium" xml:space="preserve">
-    <value>[Citrix XenServer] Ultimate Edition</value>
+    <value>XCP-ng Ultimate Edition</value>
   </data>
   <data name="Label-host.edition-basic" xml:space="preserve">
-    <value>[Citrix XenServer] Basic Edition</value>
+    <value>XCP-ng Basic Edition</value>
   </data>
   <data name="Label-host.system_status-xscontainer" xml:space="preserve">
     <value>コンテナー管理のログ</value>
@@ -1800,7 +1800,7 @@
     <value>接続テスト</value>
   </data>
   <data name="Label-host.edition-standard" xml:space="preserve">
-    <value>[Citrix XenServer] Standard Edition</value>
+    <value>XCP-ng Standard Edition</value>
   </data>
   <data name="Label-Pool_patch.required-updates" xml:space="preserve">
     <value>必要なアップデート</value>
@@ -1887,37 +1887,37 @@
     <value>GFS2</value>
   </data>
   <data name="Label-host.edition-desktop-cloud" xml:space="preserve">
-    <value>[Citrix] Virtual Apps and Desktops [Citrix] Cloud</value>
+    <value>XCP-ng Virtual Apps and Desktops XCP-ng Cloud</value>
   </data>
   <data name="Label-host.edition-legacy-basic" xml:space="preserve">
-    <value>[Citrix XenServer] Basic Edition</value>
+    <value>XCP-ng Basic Edition</value>
   </data>
   <data name="Label-host.edition-legacy-desktop" xml:space="preserve">
     <value>XenApp/XenDesktop</value>
   </data>
   <data name="Label-host.edition-legacy-desktop-cloud" xml:space="preserve">
-    <value>XenApp/XenDesktop [Citrix] Cloud</value>
+    <value>XenApp/XenDesktop XCP-ng Cloud</value>
   </data>
   <data name="Label-host.edition-legacy-desktop-plus" xml:space="preserve">
     <value>XenApp/XenDesktop Platinum</value>
   </data>
   <data name="Label-host.edition-legacy-premium" xml:space="preserve">
-    <value>[Citrix XenServer] Ultimate Edition</value>
+    <value>XCP-ng Ultimate Edition</value>
   </data>
   <data name="Label-host.edition-legacy-standard" xml:space="preserve">
-    <value>[Citrix XenServer] Standard Edition</value>
+    <value>XCP-ng Standard Edition</value>
   </data>
   <data name="Description-host.system_status-v6d" xml:space="preserve">
-    <value>[XenServer] ライセンス デーモン ログ</value>
+    <value>XCP-ng ライセンス デーモン ログ</value>
   </data>
   <data name="Description-host.system_status-xapi-clusterd" xml:space="preserve">
-    <value>[XenServer] ツールスタックのクラスター管理デーモンによって生成されたログ。</value>
+    <value>XCP-ng ツールスタックのクラスター管理デーモンによって生成されたログ。</value>
   </data>
   <data name="Label-host.system_status-v6d" xml:space="preserve">
-    <value>[XenServer] ライセンス デーモン</value>
+    <value>XCP-ng ライセンス デーモン</value>
   </data>
   <data name="Label-host.system_status-xapi-clusterd" xml:space="preserve">
-    <value>[XenServer] クラスター管理デーモン</value>
+    <value>XCP-ng クラスター管理デーモン</value>
   </data>
   <data name="Message.body-vm_secure_boot_failed" xml:space="preserve">
     <value>仮想マシン '{0}' はセキュア ブートの検証をパスしませんでした。</value>

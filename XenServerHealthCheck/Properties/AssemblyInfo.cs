@@ -37,11 +37,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("XenServerHealthCheck")]
-[assembly: AssemblyDescription("[Citrix XenServer] Health Check Service")]
+[assembly: AssemblyDescription("XCP-ng Health Check Service")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("[BRANDING_COMPANY_NAME_LEGAL]")]
-[assembly: AssemblyProduct("[XenServer] Health Check Service")]
-[assembly: AssemblyCopyright("Copyright © [BRANDING_COMPANY_NAME_LEGAL]")]
+[assembly: AssemblyCompany("XCP New Generation")]
+[assembly: AssemblyProduct("XCP-ng Health Check Service")]
+[assembly: AssemblyCopyright("Copyright © XCP New Generation")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -63,5 +63,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.0.0.0")]
-[assembly: AssemblyFileVersion("0.0.0.0")]
+[assembly: AssemblyVersion("20.04.00.1")]
+[assembly: AssemblyFileVersion("20.04.00.1")]

@@ -262,7 +262,7 @@
     <value>1</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>版权所有 © [Citrix] Systems, Inc. 保留所有权利。</value>
+    <value>版权所有 © XCP-ng Systems, Inc. 保留所有权利。</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -298,7 +298,7 @@
     <value>19</value>
   </data>
   <data name="licenseDetailsLabel.Text" xml:space="preserve">
-    <value>[XenServer product] 授权给:</value>
+    <value>XCP-ng 授权给:</value>
   </data>
   <data name="&gt;&gt;licenseDetailsLabel.Name" xml:space="preserve">
     <value>licenseDetailsLabel</value>
@@ -334,7 +334,7 @@
     <value>15</value>
   </data>
   <data name="VersionLabel.Text" xml:space="preserve">
-    <value>[XenCenter] 1.2.3 (build 4567)</value>
+    <value>XCP-ng Center 1.2.3 (build 4567)</value>
   </data>
   <data name="&gt;&gt;VersionLabel.Name" xml:space="preserve">
     <value>VersionLabel</value>
@@ -370,7 +370,7 @@
     <value>21</value>
   </data>
   <data name="showAgainCheckBox.Text" xml:space="preserve">
-    <value>打开 [XenCenter] 时显示此对话框(&amp;S)</value>
+    <value>打开 XCP-ng Center 时显示此对话框(&amp;S)</value>
   </data>
   <data name="showAgainCheckBox.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -472,7 +472,7 @@
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>关于 [XenCenter]</value>
+    <value>关于 XCP-ng Center</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>AboutDialog</value>

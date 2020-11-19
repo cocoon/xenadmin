@@ -151,7 +151,7 @@
     <value>0</value>
   </data>
   <data name="SSLLabel.Text" xml:space="preserve">
-    <value>You can configure [XenCenter] to display a warning whenever a new or modified certificate is found on a managed server.</value>
+    <value>You can configure XCP-ng Center to display a warning whenever a new or modified certificate is found on a managed server.</value>
   </data>
   <data name="&gt;&gt;SSLLabel.Name" xml:space="preserve">
     <value>SSLLabel</value>
@@ -247,7 +247,7 @@
     <value>3</value>
   </data>
   <data name="labelReminder.Text" xml:space="preserve">
-    <value>You can configure [XenCenter] to display a reminder for changing the server root password whenever you rotate the pool secret.</value>
+    <value>You can configure XCP-ng Center to display a reminder for changing the server root password whenever you rotate the pool secret.</value>
   </data>
   <data name="&gt;&gt;labelReminder.Name" xml:space="preserve">
     <value>labelReminder</value>

@@ -157,7 +157,7 @@
     <value>0</value>
   </data>
   <data name="AllowXenCenterUpdatesCheckBox.Text" xml:space="preserve">
-    <value>[XenCenter] の新しいバージョンを確認する(&amp;N)</value>
+    <value>XCP-ng Center の新しいバージョンを確認する(&amp;N)</value>
   </data>
   <data name="&gt;&gt;AllowXenCenterUpdatesCheckBox.Name" xml:space="preserve">
     <value>AllowXenCenterUpdatesCheckBox</value>
@@ -190,7 +190,7 @@
     <value>2</value>
   </data>
   <data name="XenCenterGroupBox.Text" xml:space="preserve">
-    <value>[XenCenter] アップデートの自動確認</value>
+    <value>XCP-ng Center アップデートの自動確認</value>
   </data>
   <data name="&gt;&gt;XenCenterGroupBox.Name" xml:space="preserve">
     <value>XenCenterGroupBox</value>
@@ -232,7 +232,7 @@
     <value>0</value>
   </data>
   <data name="AllowXenServerUpdatesCheckBox.Text" xml:space="preserve">
-    <value>[XenServer] の新しいバージョンを確認する(&amp;V)</value>
+    <value>XCP-ng の新しいバージョンを確認する(&amp;V)</value>
   </data>
   <data name="&gt;&gt;AllowXenServerUpdatesCheckBox.Name" xml:space="preserve">
     <value>AllowXenServerUpdatesCheckBox</value>
@@ -268,7 +268,7 @@
     <value>1</value>
   </data>
   <data name="AllowXenServerPatchesCheckBox.Text" xml:space="preserve">
-    <value>[XenServer] のアップデートを確認する(&amp;U)</value>
+    <value>XCP-ng のアップデートを確認する(&amp;U)</value>
   </data>
   <data name="&gt;&gt;AllowXenServerPatchesCheckBox.Name" xml:space="preserve">
     <value>AllowXenServerPatchesCheckBox</value>
@@ -301,7 +301,7 @@
     <value>1</value>
   </data>
   <data name="XenServerGroupBox.Text" xml:space="preserve">
-    <value>[XenServer] アップデートおよび新しいバージョンの自動確認</value>
+    <value>XCP-ng アップデートおよび新しいバージョンの自動確認</value>
   </data>
   <data name="&gt;&gt;XenServerGroupBox.Name" xml:space="preserve">
     <value>XenServerGroupBox</value>
@@ -337,7 +337,7 @@
     <value>3</value>
   </data>
   <data name="UpdatesBlurb.Text" xml:space="preserve">
-    <value>[XenCenter] では、[XenServer] の新しいバージョンやアップデートを定期的にチェックして、ダウンロードが可能になったときにメッセージを表示するように構成できます。</value>
+    <value>XCP-ng Center では、XCP-ng の新しいバージョンやアップデートを定期的にチェックして、ダウンロードが可能になったときにメッセージを表示するように構成できます。</value>
   </data>
   <data name="&gt;&gt;UpdatesBlurb.Name" xml:space="preserve">
     <value>UpdatesBlurb</value>

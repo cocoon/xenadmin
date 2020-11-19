@@ -41,7 +41,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <Prefer32Bit>false</Prefer32Bit>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>

@@ -187,7 +187,7 @@
     <value>Failed to import a virtual disk over iSCSI.</value>
   </data>
   <data name="ERROR_NOT_CONNECTED" xml:space="preserve">
-    <value>Disconnected from [XenServer].</value>
+    <value>Disconnected from XCP-ng.</value>
   </data>
   <data name="ERROR_NO_PASSWORD" xml:space="preserve">
     <value>A password was not provided to decrypt an OVF package.</value>
