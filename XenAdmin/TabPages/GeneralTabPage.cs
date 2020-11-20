@@ -917,6 +917,19 @@ namespace XenAdmin.TabPages
 
             Dictionary<string, string> info = new Dictionary<string, string>(host.license_params);
 
+            // MOD START
+            StringBuilder allEntries = new StringBuilder();
+
+            foreach (KeyValuePair<string,string> kvp in info)
+            {
+                string entry = String.Format("{0}: {1}", kvp.Key, kvp.Value);
+                allEntries.Append(entry + Environment.NewLine);
+            }
+
+            s.AddEntry("License List", allEntries.ToString());
+            // MOD END
+
+
             // This field is now suppressed as it has no meaning under the current license scheme, and was never
             // enforced anyway.
             info.Remove("sockets");
