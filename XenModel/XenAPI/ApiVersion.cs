@@ -179,4 +179,4 @@ namespace XenAPI
             return APIVersionCompare(session, v) >= 0;
         }
     }
-}
+}

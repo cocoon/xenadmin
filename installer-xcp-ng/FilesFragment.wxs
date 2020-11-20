@@ -2,139 +2,136 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
     <Fragment>
         <DirectoryRef Id="INSTALLLOCATION">
-            <Component Id="cmp5A71F4D38C3922EC33C3C4E16207F672" Guid="{5BE5B8BC-FD0C-443E-9F3C-6F0CECD40699}">
+            <Component Id="cmp5A71F4D38C3922EC33C3C4E16207F672" Guid="{E6F8E38B-9A62-4C2C-8DD4-4D2BB1129F7E}">
                 <File Id="filEA405EC897EB9460AD0E8D6E382375E3" KeyPath="yes" Source="SourceDir\ADODB.dll" />
             </Component>
-            <Component Id="cmp7A6B84DF7B3C9CFACB0F508DA263376A" Guid="{14B12F8A-06BB-458C-B26E-F4C38C8E9F2B}">
+            <Component Id="cmp7A6B84DF7B3C9CFACB0F508DA263376A" Guid="{7AB9A773-140F-480B-8F78-6837395F84F1}">
                 <File Id="fil58E4365A2642C0C14D92BD0B185A966C" KeyPath="yes" Source="SourceDir\CommandLib.dll" />
             </Component>
-            <Component Id="cmpD40B9534F3976B5332F6D47DE33AA968" Guid="{125187DB-CFB7-4F0E-9619-5EA624A6EDE0}">
+            <Component Id="cmpD40B9534F3976B5332F6D47DE33AA968" Guid="{E45BA8E8-A1FC-42E9-AD29-B5C9DC1AEABA}">
                 <File Id="fil134CBA1969E0C79D1F567F21C2F81F4B" KeyPath="yes" Source="SourceDir\CookComputing.XmlRpcV2.dll" />
             </Component>
-            <Component Id="cmp4649D51156E3910DB50D48991118DE2D" Guid="{F3664014-8A8E-45D2-BA59-828D3BA091CA}">
+            <Component Id="cmp4649D51156E3910DB50D48991118DE2D" Guid="{CD34B042-95BB-45A0-8C0D-79F93DD7F069}">
                 <File Id="fil5391B97EBC60C1F40A30AC0F977E2CAD" KeyPath="yes" Source="SourceDir\DiscUtils.dll" />
             </Component>
-            <Component Id="cmpF2EE9FBAEA9E1B4656583E5D6E219D12" Guid="{FEA31784-5AE3-414D-BF51-77D3C64EE023}">
+            <Component Id="cmpF2EE9FBAEA9E1B4656583E5D6E219D12" Guid="{B49F9157-B368-4EBF-B1DB-1B340B0F9C55}">
                 <File Id="fil23A26BD85353A1F1A9DD36EE284A7049" KeyPath="yes" Source="SourceDir\HomePage.ja.mht" />
             </Component>
-            <Component Id="cmpEA1B1A35B11FF1A6FFABA7BC4EA1B308" Guid="{CC5299F6-3893-4754-B894-59A6559E58E3}">
+            <Component Id="cmpEA1B1A35B11FF1A6FFABA7BC4EA1B308" Guid="{8378D1CB-12AE-46CD-BF0C-1948A071E8CA}">
                 <File Id="fil53C768226D13161D485305CF1FDCB4F1" KeyPath="yes" Source="SourceDir\HomePage.mht" />
             </Component>
-            <Component Id="cmpC2ECFF8DC5F5D7004666D583E6E32751" Guid="{8A1FA0F7-170C-42DB-BECC-DC5EDEF333CA}">
+            <Component Id="cmpC2ECFF8DC5F5D7004666D583E6E32751" Guid="{4FF0E389-8A90-4396-A969-1B55BD8BB7B9}">
                 <File Id="filBCAAB35294B1600B28E56740E6538ABF" KeyPath="yes" Source="SourceDir\HomePage.zh-CN.mht" />
             </Component>
-            <Component Id="cmp1238296BCB400508C89B9EC1F650B0EC" Guid="{B41B92F2-EDA0-4241-9891-9884C237D4FB}">
+            <Component Id="cmp1238296BCB400508C89B9EC1F650B0EC" Guid="{94359EB9-32FE-45D6-8BD3-B5FFF129FC95}">
                 <File Id="fil63EFADB66B829A5706948768B72650DA" KeyPath="yes" Source="SourceDir\ICSharpCode.SharpZipLib.dll" />
             </Component>
-            <Component Id="cmpFDE10E03DBD59366BF95DF79D08265CF" Guid="{3CBB12D2-947A-4088-A5C6-A349A4E18285}">
+            <Component Id="cmpFDE10E03DBD59366BF95DF79D08265CF" Guid="{4E0E952E-9A9A-48F9-A72E-C9E61BDE68EF}">
                 <File Id="filF10ED696BE59900E1807456A24A9A77D" KeyPath="yes" Source="SourceDir\Ionic.Zip.dll" />
             </Component>
-            <Component Id="cmpE5C01B5677C30D575CC15B4B558A57E0" Guid="{04B144D6-0A08-4C0B-A234-DE030DCF7392}">
+            <Component Id="cmpE5C01B5677C30D575CC15B4B558A57E0" Guid="{26E0CD38-265B-4747-8C62-80DB7DB8D9C1}">
                 <File Id="filD17F9AFAC4DF3D7A44817DFBA8510C1A" KeyPath="yes" Source="SourceDir\log4net.dll" />
             </Component>
-            <Component Id="cmpDF72C56068EC96128ADE5221FB8732A8" Guid="{E95ACA6F-EB49-4F3E-A1CD-029F7FB0E58A}">
+            <Component Id="cmpDF72C56068EC96128ADE5221FB8732A8" Guid="{B23EB232-2B86-4FBD-8908-6A982FC1EEF8}">
                 <File Id="fil6EB8E7288D4728EF0456C353AC19C0F6" KeyPath="yes" Source="SourceDir\Microsoft.Build.Utilities.v3.5.dll" />
             </Component>
-            <Component Id="cmpE3C7010BD8EB75A18BFD17BD58EDFBA9" Guid="{A67DD701-EF30-4024-AEA6-D0B1890566ED}">
+            <Component Id="cmpE3C7010BD8EB75A18BFD17BD58EDFBA9" Guid="{3A6DD051-1B29-44AB-BFDC-9BD3AAFE60DA}">
                 <File Id="filCFEEC265BF56C0E8CE5D5A214AD5773C" KeyPath="yes" Source="SourceDir\Microsoft.ReportViewer.Common.dll" />
             </Component>
-            <Component Id="cmp5DFA3D9381BAC5D4E73C0AE020F3F67D" Guid="{FB53C441-7016-4BE4-924F-59EEF8BD9503}">
+            <Component Id="cmp5DFA3D9381BAC5D4E73C0AE020F3F67D" Guid="{E3C0311B-76FB-4A0A-B753-162ABDFAB0BA}">
                 <File Id="fil5AC36640408F415FB6358684E096B92E" KeyPath="yes" Source="SourceDir\Microsoft.ReportViewer.ProcessingObjectModel.dll" />
             </Component>
-            <Component Id="cmp69E8F846307677FE15131139041BE44C" Guid="{3243F803-B672-4616-8B42-5F0EEF1E04A0}">
+            <Component Id="cmp69E8F846307677FE15131139041BE44C" Guid="{3EAEB97B-7302-4878-AC18-9E43247FCA18}">
                 <File Id="fil08893D9590750EB3D81E60652F956F2C" KeyPath="yes" Source="SourceDir\Microsoft.ReportViewer.WinForms.dll" />
             </Component>
-            <Component Id="cmp8283C4904816E4D3895023159A5113EA" Guid="{1BEDA3DE-5942-48CB-8FD4-97E50231F01D}">
+            <Component Id="cmp8283C4904816E4D3895023159A5113EA" Guid="{9F293D60-1159-4F41-BF4C-B6C0A4F5993D}">
                 <File Id="fil128815AC52A4E6B594944F84EFFC6952" KeyPath="yes" Source="SourceDir\MSTSCLib.dll" />
             </Component>
-            <Component Id="cmp5C8904B078FCDD109DC9AAEEF7C8F307" Guid="{6E8B1B32-6B2A-46A9-A743-6B5473E35FD3}">
+            <Component Id="cmp5C8904B078FCDD109DC9AAEEF7C8F307" Guid="{B9E702C0-C0B7-4AD0-A367-0033878F4DBF}">
                 <File Id="filD5807EB8C069C83A441664CCC0B47243" KeyPath="yes" Source="SourceDir\Newtonsoft.Json.CH.dll" />
             </Component>
-            <Component Id="cmpD4CA91E016E609BAC4B7B3F5B4FBB4C6" Guid="{9A29F4EF-760A-44FC-8B01-7728BABA168F}">
+            <Component Id="cmpD4CA91E016E609BAC4B7B3F5B4FBB4C6" Guid="{DBFBEBCD-22D6-4050-B3E8-2603A1CD27E1}">
                 <File Id="fil5E9D63F7A30EC55C3A38317041DAE0D2" KeyPath="yes" Source="SourceDir\PUTTY.EXE" />
             </Component>
-            <Component Id="cmp12B1874E792E60F1054AEF0CA97B1E6B" Guid="{68B65CEF-E197-4BAA-9462-39196DC075ED}">
+            <Component Id="cmp12B1874E792E60F1054AEF0CA97B1E6B" Guid="{A88B7B1F-E1B1-487B-AA35-BE610608C0D0}">
                 <File Id="filA987BF99CED1ECA251406031B9D43AAE" KeyPath="yes" Source="SourceDir\resource_report.rdlc" />
             </Component>
-            <Component Id="cmpB8DD76E53FC9711CF820219A86C4E0E2" Guid="{E9F328F5-3A82-41CD-94DB-11C087895C52}">
+            <Component Id="cmpB8DD76E53FC9711CF820219A86C4E0E2" Guid="{04A74AF6-193C-49D7-B947-50A91746F2EC}">
                 <File Id="filDD90D1A48CF8F2D9D61038CF2836A6BA" KeyPath="yes" Source="SourceDir\XenCenterLib.dll" />
             </Component>
-            <Component Id="cmpE285E99703D1A6DFC2E17C56234F41BC" Guid="{6B97BF2F-FC63-4CAC-9E5B-FD09E4BC65FC}">
+            <Component Id="cmpE285E99703D1A6DFC2E17C56234F41BC" Guid="{6168B587-3C5A-4363-A11D-DF1FE680425C}">
                 <File Id="fil0187E7C04AC40D5D4A501230205BDF32" KeyPath="yes" Source="SourceDir\XenCenterLib.dll.config" />
             </Component>
-            <Component Id="cmp9AACFEEF27FB2A53A86FA8679FC9A9F6" Guid="{4AA09AB5-DCC8-495D-914F-1DA511FC7870}">
+            <Component Id="cmp9AACFEEF27FB2A53A86FA8679FC9A9F6" Guid="{65E3B119-189D-4868-A8A7-AEBB4196C38A}">
                 <File Id="fil308CB2C95458C08F96E21E1EA84D01FE" KeyPath="yes" Source="SourceDir\XenCenterMain.exe" />
             </Component>
-            <Component Id="cmp78A74F642D202DFE8C5DEDF761D45829" Guid="{1A22C6D5-1C2E-4E23-A85D-1FBCC8E4BFBF}">
+            <Component Id="cmp78A74F642D202DFE8C5DEDF761D45829" Guid="{0E1AB6A7-139C-4D7B-ACDA-108B615729E1}">
                 <File Id="fil7F77EE77A9340504A36F5EAE760ED8FA" KeyPath="yes" Source="SourceDir\XenCenterMain.exe.config" />
             </Component>
-            <Component Id="cmp76F66B74721E1E924829A4C584FD03CB" Guid="{74A8D5D3-17AD-46FD-9070-A5E2E2839B59}">
+            <Component Id="cmp76F66B74721E1E924829A4C584FD03CB" Guid="{4484BE0F-047B-49BE-B7EB-F3CF484CF1FA}">
                 <File Id="filF98E6B55FFC226BD7C4F77EA2A57C8A6" KeyPath="yes" Source="SourceDir\XenModel.dll" />
             </Component>
-            <Component Id="cmpB7DA9D1062FAD8B841B4A5910DB6A0F3" Guid="{C3EFF57F-4A70-4102-9CA2-B6FCC1C57EE4}">
+            <Component Id="cmpB7DA9D1062FAD8B841B4A5910DB6A0F3" Guid="{ED21B7E2-A8C5-4AC6-A48C-AF951098C333}">
                 <File Id="fil570B51580F16943D4AA881FDEC9788A0" KeyPath="yes" Source="SourceDir\XenOvf.dll" />
             </Component>
-            <Component Id="cmpC36DC29E57F64F413CD6BE8BC21F51C1" Guid="{C4E4999A-7AA8-4C8A-88EB-AFEAA625E2E5}">
+            <Component Id="cmpC36DC29E57F64F413CD6BE8BC21F51C1" Guid="{2443D57E-4631-4F62-ACA4-200AC0F0B95F}">
                 <File Id="filD9C113D76888BC3114FFDF62F0BA0ED5" KeyPath="yes" Source="SourceDir\XenOvf.dll.config" />
             </Component>
-            <Component Id="cmp96D2A67FACF9F7B33913B6463DF19C82" Guid="{DBAD39EE-AA26-4847-BB84-1611A64A4C80}">
+            <Component Id="cmp96D2A67FACF9F7B33913B6463DF19C82" Guid="{75B59582-BD27-4304-BC19-93E8C33B0AC1}">
                 <File Id="fil8D6B6C4E2AE732882D3783CF4038EA08" KeyPath="yes" Source="SourceDir\XenOvfTransport.dll" />
             </Component>
-            <Component Id="cmp19A88E768DA12C21DAF02ED446CF1A0B" Guid="{037FB24A-D9ED-467E-9577-32A63C598F8B}">
+            <Component Id="cmp19A88E768DA12C21DAF02ED446CF1A0B" Guid="{80395175-07BC-4BC4-A225-A410673147B4}">
                 <File Id="filE150C3CE577D956824DA4442714B9970" KeyPath="yes" Source="SourceDir\XenOvfTransport.dll.config" />
             </Component>
-            <Component Id="cmp93D654A1684EBF4E5501B63AEA9C8567" Guid="{E0DD7424-CEB5-4BCB-AFC3-8BB67373210F}">
-                <File Id="fil0A125BD817585C3ACA9FF8169C85E6CD" KeyPath="yes" Source="SourceDir\[XenCenter].exe" />
-            </Component>
-            <Component Id="cmp75C648189FE125B841ADD1207BB9FEFA" Guid="{4C0A2ADD-F34F-4FBE-8D28-0189CACB2E86}">
+            <Component Id="cmp75C648189FE125B841ADD1207BB9FEFA" Guid="{80FC7BA5-C72E-401E-A011-4D1B762D9B78}">
                 <File Id="fil677F52482CF71B74E57F6BD9CEEE0F3D" KeyPath="yes" Source="SourceDir\[XenCenter].iobj" />
             </Component>
-            <Component Id="cmp866A6F7A8FB16E464E7DEF30E2403B3F" Guid="{2C83F608-DC1E-47AF-A95E-C958F165463C}">
+            <Component Id="cmp866A6F7A8FB16E464E7DEF30E2403B3F" Guid="{C94E1036-42EA-433A-A536-BD61A673AE3B}">
                 <File Id="fil568126E4A49D648FF3A14B72D6C2A6A6" KeyPath="yes" Source="SourceDir\[XenCenter].ipdb" />
             </Component>
             <Directory Id="dirB27348B57A5DB473BF7C6C7DF00A5DBA" Name="de">
-                <Component Id="cmpAD6D4E2F3420D31F19C0F812CBD3D0AA" Guid="{000AD987-3C1B-4BFF-AA3F-647F20E2D26E}">
+                <Component Id="cmpAD6D4E2F3420D31F19C0F812CBD3D0AA" Guid="{2D9C859A-A96A-47CC-AABE-B35B642D33E1}">
                     <File Id="filDD4365DA7C426D4160AF9C0CC31D0829" KeyPath="yes" Source="SourceDir\de\Microsoft.Build.Utilities.v3.5.resources.dll" />
                 </Component>
             </Directory>
             <Directory Id="dirB62F9DAD68A71E6085D569734691CCBD" Name="Schemas">
-                <Component Id="cmp0374A849715EC79C5B404430801AD235" Guid="{430189DB-5FC1-4B01-BD0E-29B97C61B0C7}">
+                <Component Id="cmp0374A849715EC79C5B404430801AD235" Guid="{A4FE9887-C5F5-4972-9403-1C365E8156C1}">
                     <File Id="fil625585D51EF31276583CFF873F507DD7" KeyPath="yes" Source="SourceDir\Schemas\CIM_OperatingSystem.xml" />
                 </Component>
-                <Component Id="cmp1A1F588728481339C2A29BE3D007E9A4" Guid="{714D8558-8134-4D67-8E09-C75078BCD3F0}">
+                <Component Id="cmp1A1F588728481339C2A29BE3D007E9A4" Guid="{EB8D7466-3F24-4315-A11A-227212F3CE47}">
                     <File Id="fil01CB2FD5DECDC3FD2FAFCA6A7F820B88" KeyPath="yes" Source="SourceDir\Schemas\CIM_ResourceAllocationSettingData.xml" />
                 </Component>
-                <Component Id="cmpBC6567D492911F746E013EE8608D95AD" Guid="{6E74BE70-C220-4202-BCAA-570690B1149B}">
+                <Component Id="cmpBC6567D492911F746E013EE8608D95AD" Guid="{E1F8A535-F365-460A-B483-B47273DC9598}">
                     <File Id="fil35AB69A2E4E4A8BA83F7458F64F1A28F" KeyPath="yes" Source="SourceDir\Schemas\CIM_ResourceAllocationSettingData.xsd" />
                 </Component>
-                <Component Id="cmp0C15430B8EAD794267E37D09F1798785" Guid="{5D27B59F-304D-4921-BFB7-EF2A8E4C9C6F}">
+                <Component Id="cmp0C15430B8EAD794267E37D09F1798785" Guid="{50F2EF95-817E-4866-B95E-A15722CB9D67}">
                     <File Id="fil6D147DC154680E3E05BE9E13B9B9B7F9" KeyPath="yes" Source="SourceDir\Schemas\CIM_VirtualSystemSettingData.xml" />
                 </Component>
-                <Component Id="cmp08703771497A91160A9F0FC63E6FD5A5" Guid="{073BBD48-9ABD-4AEA-8B16-8CA4769678A4}">
+                <Component Id="cmp08703771497A91160A9F0FC63E6FD5A5" Guid="{2F73829E-8532-4E8C-9BEC-892D1DBDE6E4}">
                     <File Id="filC87B77D0BFA6B7B20F88F8F41B602FF0" KeyPath="yes" Source="SourceDir\Schemas\CIM_VirtualSystemSettingData.xsd" />
                 </Component>
-                <Component Id="cmp99AA47FF1894608A0FF1C6109E448577" Guid="{EEC51168-42DF-46DB-BC45-FFF4727026DF}">
+                <Component Id="cmp99AA47FF1894608A0FF1C6109E448577" Guid="{930227B6-D376-4B8D-99D7-FE6A31FC297A}">
                     <File Id="fil78ECC36D8D39660C92EAA8BEB71A6C9F" KeyPath="yes" Source="SourceDir\Schemas\common.xsd" />
                 </Component>
-                <Component Id="cmpFC5789592C81DBCD5CAA1DC645EABD23" Guid="{657E865E-D193-4528-95E4-A883AC373A75}">
+                <Component Id="cmpFC5789592C81DBCD5CAA1DC645EABD23" Guid="{D0FE09D8-90DD-44D8-9A75-75498C992577}">
                     <File Id="filFC6BA99F683DE4BB08624C44ACF9ACF0" KeyPath="yes" Source="SourceDir\Schemas\DSP8023.xsd" />
                 </Component>
-                <Component Id="cmpC13D0BB978DF7505118C264B3931CBF9" Guid="{AF9EE70B-473F-42BA-86B2-C2E46F40C8D1}">
+                <Component Id="cmpC13D0BB978DF7505118C264B3931CBF9" Guid="{2BD5C6B5-DB88-486A-85B8-148D4AC70C5F}">
                     <File Id="fil6309CCEF4FB7D8AAFA60787342F6EB08" KeyPath="yes" Source="SourceDir\Schemas\DSP8027.xsd" />
                 </Component>
-                <Component Id="cmp74B9A3E081670CF4BB0CA0DB4B7EA7AE" Guid="{E5DE4C99-805B-43A7-BB49-851EC965CA39}">
+                <Component Id="cmp74B9A3E081670CF4BB0CA0DB4B7EA7AE" Guid="{56599562-836E-401A-9C6F-6EE67BB96C91}">
                     <File Id="fil585DEA86100441F14B5BD5CD997E58D5" KeyPath="yes" Source="SourceDir\Schemas\secext-1.0.xsd" />
                 </Component>
-                <Component Id="cmpBC884EAC3F3513098707C3D256FC9D52" Guid="{B609412B-E455-4ADD-993E-EC36F806CF7B}">
+                <Component Id="cmpBC884EAC3F3513098707C3D256FC9D52" Guid="{61C6E4F2-A9BB-4667-AD5B-22959DDAECD4}">
                     <File Id="fil37DACC9D9042E87235CD16A4B9B27313" KeyPath="yes" Source="SourceDir\Schemas\wss-utility-1.0.xsd" />
                 </Component>
-                <Component Id="cmpAE8C2734E6802093C1C5152954BD1F48" Guid="{1D8FE15A-AE98-465C-BF80-33A358242E14}">
+                <Component Id="cmpAE8C2734E6802093C1C5152954BD1F48" Guid="{F478D5A0-41D4-4150-BDA0-704162CFAD27}">
                     <File Id="filE49626C4E572C655B1BE3EBD6462808B" KeyPath="yes" Source="SourceDir\Schemas\xenc-schema.xsd" />
                 </Component>
-                <Component Id="cmp9AE7FFA942FF6302461DFF0AE51CC3CF" Guid="{F3436D6D-F705-430E-8190-2632A2E4BD30}">
+                <Component Id="cmp9AE7FFA942FF6302461DFF0AE51CC3CF" Guid="{30DA293D-AAD2-4E60-848A-0E9A14EFC4B7}">
                     <File Id="filAFEC7452C1903F20E27897FD57ABE8F4" KeyPath="yes" Source="SourceDir\Schemas\xml.xsd" />
                 </Component>
-                <Component Id="cmp9D42D718DB98801ED4F5CB97A472CFD2" Guid="{47EE2F21-6E66-4800-B850-A6569F584FA2}">
+                <Component Id="cmp9D42D718DB98801ED4F5CB97A472CFD2" Guid="{E2D23B67-5104-4128-BC9A-EFE451B36B56}">
                     <File Id="fil69736E78361DE23826D0FBCE79CA2F77" KeyPath="yes" Source="SourceDir\Schemas\xmldsig-core-schema.xsd" />
                 </Component>
             </Directory>
@@ -169,7 +166,6 @@
             <ComponentRef Id="cmpC36DC29E57F64F413CD6BE8BC21F51C1" />
             <ComponentRef Id="cmp96D2A67FACF9F7B33913B6463DF19C82" />
             <ComponentRef Id="cmp19A88E768DA12C21DAF02ED446CF1A0B" />
-            <ComponentRef Id="cmp93D654A1684EBF4E5501B63AEA9C8567" />
             <ComponentRef Id="cmp75C648189FE125B841ADD1207BB9FEFA" />
             <ComponentRef Id="cmp866A6F7A8FB16E464E7DEF30E2403B3F" />
             <ComponentRef Id="cmpAD6D4E2F3420D31F19C0F812CBD3D0AA" />
