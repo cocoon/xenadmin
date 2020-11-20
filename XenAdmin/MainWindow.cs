@@ -942,6 +942,7 @@ namespace XenAdmin
             // not required to upgrade, we at least warn them.  // else if (server_max > current_version)
 
             //int server_min = master.XenCenterMin();
+            int server_min_res = master.XenCenterMin();
             int server_min = 20; // XenServer 7.4 (jura)
             int server_max = master.XenCenterMax();
 
