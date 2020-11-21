@@ -37,11 +37,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("XenAdminTests")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("XCP-ng XCP-ng Center")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("[Citrix]")]
-[assembly: AssemblyProduct("[XenCenter]")]
-[assembly: AssemblyCopyright("Copyright © [BRANDING_COMPANY_NAME_LEGAL]")]
+[assembly: AssemblyCompany("XCP-ng")]
+[assembly: AssemblyProduct("XCP-ng Center")]
+[assembly: AssemblyCopyright("Copyright © XCP New Generation")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

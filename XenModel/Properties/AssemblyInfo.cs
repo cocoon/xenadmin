@@ -65,7 +65,7 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion("20.11.00.1")]
-[assembly: AssemblyFileVersion("20.11.00.1")]
+[assembly: AssemblyVersion("20.11.00.3")]
+[assembly: AssemblyFileVersion("20.11.00.3")]
 [assembly: XenCenterLib.XSVersion("20.11.00")]
 [assembly: InternalsVisibleTo("XenAdminTests")]
